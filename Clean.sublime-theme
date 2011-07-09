@@ -48,19 +48,14 @@
         "layer2.opacity": { "target": 0.0, "speed": 1.33, "interpolation": "smoothstep" },
         "layer2.inner_margin": [6, 6],
         "layer3.texture": "Theme - Clean/full_highlight.png",
-        "layer3.opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
+        "layer3.opacity": 0.0,
         "layer3.inner_margin": [6, 6],
         "content_margin": [4, 4]
     },
     {
         "class": "icon_button_control",
-        "attributes": ["hover"],
-        "layer2.opacity": 1.0
-    },
-    {
-        "class": "icon_button_control",
         "attributes": ["pressed"],
-        "layer1.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" }
+        "layer3.opacity": 1.0
     },
     {
         "class": "icon_button_control",
