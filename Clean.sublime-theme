@@ -222,9 +222,9 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8, 3],
-        "indent": 12,
-        "indent_offset": 17,
-        "background_color": [214, 221, 230, 255]
+        "indent": 15,
+        "indent_offset": 15,
+        "background_color": [221, 228, 235, 255]
     },
     {
         "class": "sidebar_heading",
