@@ -444,11 +444,11 @@
         "selected_bg": [156, 185, 223, 255]
     },
 
+//
+// FIND AND REPLACE ICONS
+//
 
-
-
-
-    
+    // First icon group
     {
         "class": "icon_regex",
         "layer0.texture": "Theme - Clean/icons/find_regex.png",
@@ -462,26 +462,15 @@
         "content_margin": [8, 8]
     },
     {
-        "class": "icon_highlight",
-        "layer0.texture": "Theme - Clean/icons/find_highlight.png",
+        "class": "icon_whole_word",
+        "layer0.texture": "Theme - Clean/icons/find_wholeword.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
-    {
-        "class": "icon_in_selection",
-        "layer0.texture": "Theme - Clean/icons/find_inselection.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
-    },
+    // Second icon group
     {
         "class": "icon_reverse",
         "layer0.texture": "Theme - Clean/icons/find_reverse.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
-    },
-    {
-        "class": "icon_whole_word",
-        "layer0.texture": "Theme - Clean/icons/find_wholeword.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
@@ -492,11 +481,26 @@
         "content_margin": [8, 8]
     },
     {
+        "class": "icon_in_selection",
+        "layer0.texture": "Theme - Clean/icons/find_inselection.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    // Lower left icon  
+    {
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - Clean/icons/replace_preserve_case.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+    // Lower right icon
+    {
+        "class": "icon_highlight",
+        "layer0.texture": "Theme - Clean/icons/find_highlight.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    // Unknown icons
     {
         "class": "icon_context",
         "layer0.texture": "Theme - Clean/icons/context.png",
@@ -508,5 +512,6 @@
         "layer0.texture": "Theme - Clean/icons/use_buffer.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
-    }
+    }    
+       
 ]
