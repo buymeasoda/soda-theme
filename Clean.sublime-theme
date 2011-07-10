@@ -353,7 +353,6 @@
         "layer0.inner_margin": 0,
         "layer1.texture": "Theme - Clean/cross_over.png",
         "layer1.opacity": 0.0,
-        "layer1.opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [8, 8]
     },
     {
