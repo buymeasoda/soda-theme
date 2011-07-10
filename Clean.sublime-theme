@@ -1,24 +1,267 @@
 [
+
+//
+// TABS
+//
+
+    // Tab settings
+    {
+        "class": "tabset_control",
+        // Tab bar background
+        "layer0.texture": "Theme - Clean/tabset.png",
+        "layer0.inner_margin": [1, 2],
+        "layer0.opacity": 1.0,
+        "content_margin": [3, 4, 3, 3],
+        // Tab layout
+        "tab_overlap": 17,
+        "tab_width": 180,
+        "tab_min_width": 40,
+        "tab_height": 28
+    },
+    // Tab element
+    {
+        "class": "tab_control",
+        "content_margin": [20, 4, 13, 4],
+        "hit_test_level": 0.5,        
+        // Inactive tab settings
+        "layer0.texture": "Theme - Clean/tab_normal.png",
+        "layer0.inner_margin": [18, 4],
+        "layer0.opacity": 1.0,
+        // Active tab setting
+        "layer1.texture": "Theme - Clean/tab_selected.png",
+        "layer1.inner_margin": [18, 4],
+        "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+        // Hover tab setting
+        //"layer2.texture": "Theme - Clean/tab_glow.png",
+        //"layer2.inner_margin": [18, 4],
+        //"layer2.opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
+    },
+    {
+        // Active tab state
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "layer1.opacity": 1.0
+    },
+    /*
+    {
+        // Hover tab state
+        "class": "tab_control",
+        "attributes": ["hover"],
+        "layer2.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" }
+    },
+    */
+    // Tab labels
+    {
+        // Inactive tab label
+        "class": "tab_label",
+        "fg": [0, 0, 0],
+        "bg": [199, 199, 199]
+    },
+    {
+        // Active tab label
+        "class": "tab_label",
+        "parents":
+        [
+            { "class": "tab_control", "attributes": ["selected"] }
+        ],
+        "fg": [0, 0, 0],
+        "bg": [187, 187, 187]
+    },
+    // Tab close button
+    {
+        "class": "tab_close_button",
+        "content_margin": [8, 8],
+        // Tab close default settings
+        "layer0.texture": "Theme - Clean/cross.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        // Tab close hover settings
+        "layer1.texture": "Theme - Clean/cross_over.png",
+        "layer1.opacity": 0.0
+    },
+    {
+        // Tab close hover action
+        "class": "tab_close_button",
+        "attributes": ["hover"],
+        "layer1.opacity": 1.0
+    },
+
+//
+// SCROLLBARS
+//
+
+    // Vertical scroll bar
+    {
+        "class": "scroll_bar_control",
+        "layer0.texture": "Theme - Clean/scrollbar_track_w0_h6.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [0, 6]
+    },
+    {
+        "class": "puck_control",
+        "layer0.texture": "Theme - Clean/scrollbar_puck_w0_h10.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [0, 10],
+        "content_margin": [8, 12]
+    },
+    // Horizontal scroll bar
+    {
+        "class": "scroll_bar_control",
+        "attributes": ["horizontal"],
+        "layer0.texture": "Theme - Clean/scrollbar_htrack_w6_h0.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [6, 0]
+    },
+    {
+        "class": "puck_control",
+        "attributes": ["horizontal"],
+        "layer0.texture": "Theme - Clean/scrollbar_hpuck_w10_h0.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [10, 0],
+        "content_margin": [12, 8]
+    },
+    // Scroll bar corner
+    {
+        "class": "scroll_corner_control",
+        "layer0.texture": "Theme - Clean/scrollbar_corner.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [1, 1]
+    },
+
+//
+// TOOLTIP
+//
+
+    // Tooltip container
+    {
+        "class": "tool_tip_control",
+        "layer0.texture": "Theme - Clean/tool_tip_background.png",
+        "layer0.inner_margin": [2, 2],
+        "layer0.opacity": 1.0,
+        "content_margin": [3, 3]
+    },
+    // Tooltip content
+    {
+        "class": "tool_tip_label_control",
+        "color": [0, 0, 0, 255]
+    },
+
+
+    // Status bar
     {
         "class": "label_control",
         "color": [0, 0, 0]
     },
+
+//
+// SIDEBAR
+//
+
+    // Sidebar container
+    {
+        "class": "sidebar_tree",
+        "row_padding": [8, 3],
+        "indent": 15,
+        "indent_offset": 15,
+        "background_color": [221, 228, 235, 255]
+    },
+    // Sidebar headings
+    {
+        "class": "sidebar_heading",
+        "color": [113, 129, 147]
+    },
+    // Sidebar labels
+    {
+        "class": "sidebar_label",
+        "color": [0, 0, 0]
+    },
+    // Sidebar rows
+    {
+        "class": "tree_row",
+        // Sidebar row settings
+        "layer0.texture": "Theme - Clean/row_highlight_wide.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [1, 1]
+    },
+    // Sidebar row selected
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "layer0.opacity": 0.5
+    },
+    // Sidebar close
+    {
+        "class": "close_button",
+        // Sidebar close default settings
+        "layer0.texture": "Theme - Clean/cross.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        // Sidebar close hover settings
+        "layer1.texture": "Theme - Clean/cross_over.png",
+        "layer1.opacity": 0.0,
+        "content_margin": [8, 8]
+    },
+    {
+        // Sidebar close hover action
+        "class": "close_button",
+        "attributes": ["hover"],
+        "layer1.opacity": 1.0
+    },
+    // Sidebar Folder and Group icons (show / hide)
+    {
+        "class": "disclosure_button_control",
+        "content_margin": [9, 7, 8, 6],
+        // Folder collapsed settings
+        "layer0.texture": "Theme - Clean/arrow_right.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        // Folder collapsed hover settings
+        "layer1.texture": "Theme - Clean/arrow_right_over.png",
+        "layer1.opacity": 0.0,
+        "layer1.inner_margin": 0
+    },
+    {
+        // Folder collapsed hover action
+        "class": "disclosure_button_control",
+        "attributes": ["hover"],
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0
+    },
+    {
+        // Folder expanded settings
+        "class": "disclosure_button_control",
+        "attributes": ["expanded"],
+        "layer0.texture": "Theme - Clean/arrow_down.png",
+        "layer1.texture": "Theme - Clean/arrow_down_over.png"
+    },
+
+
+
+
+
+
+    // Regular buttons (used for Find / Replace panel)
     {
         "class": "button_control",
+        "content_margin": [6, 5, 6, 6],
+        "min_size": [75, 0],        
+        // Default button state
         "layer0.texture": "Theme - Clean/btn_w6_h6.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 6],
+        // Pressed button setup
         "layer1.texture": "Theme - Clean/btn_down_w6_h6.png",
         "layer1.opacity": 0.0,
-        "layer1.inner_margin": [6, 6],
-        "content_margin": [6, 5, 6, 6],
-        "min_size": [75, 0]
+        "layer1.inner_margin": [6, 6]
     },
     {
+        // Pressed button state
         "class": "button_control",
         "attributes": ["pressed"],
         "layer1.opacity": 1.0
     },
+
+
     {
         "class": "icon_button_control",
         "layer0.texture": "Theme - Clean/mbtn_up_norm_w6_h6.png",
@@ -83,40 +326,12 @@
         "attributes": ["left", "right", "selected"],
         "layer0.texture": "Theme - Clean/lrbtn_down_norm_w6_h6.png"
     },
-    {
-        "class": "scroll_bar_control",
-        "layer0.texture": "Theme - Clean/scrollbar_track_w0_h6.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [0, 6]
-    },
-    {
-        "class": "puck_control",
-        "layer0.texture": "Theme - Clean/scrollbar_puck_w0_h10.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [0, 10],
-        "content_margin": [8, 12]
-    },
-    {
-        "class": "scroll_bar_control",
-        "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Clean/scrollbar_htrack_w6_h0.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [6, 0]
-    },
-    {
-        "class": "puck_control",
-        "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Clean/scrollbar_hpuck_w10_h0.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [10, 0],
-        "content_margin": [12, 8]
-    },
-    {
-        "class": "scroll_corner_control",
-        "layer0.texture": "Theme - Clean/scrollbar_corner.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [1, 1]
-    },
+
+
+
+
+
+    // Find panel and Console panel
     {
         "class": "panel_control",
         "layer0.tint": [170, 170, 170, 255],
@@ -128,39 +343,8 @@
         "layer0.opacity": 1.0,
         "content_margin": [2, 2]
     },
-    {
-        "class": "tool_tip_control",
-        "layer0.texture": "Theme - Clean/tool_tip_background.png",
-        "layer0.inner_margin": [2, 2],
-        "layer0.opacity": 1.0,
-        "content_margin": [3, 3]
-    },
-    {
-        "class": "tool_tip_label_control",
-        "color": [0, 0, 0, 255]
-    },
-    {
-        "class": "disclosure_button_control",
-        "layer0.texture": "Theme - Clean/arrow_right.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Clean/arrow_right_over.png",
-        "layer1.opacity": 0.0,
-        "layer1.inner_margin": 0,
-        "content_margin": [9, 7, 8, 6]
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["hover"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "layer0.texture": "Theme - Clean/arrow_down.png",
-        "layer1.texture": "Theme - Clean/arrow_down_over.png"
-    },
+
+
     {
         "class": "table_row",
         "layer0.texture": "Theme - Clean/row_highlight_wide.png",
@@ -171,46 +355,6 @@
         "class": "table_row",
         "attributes": ["selected"],
         "layer0.opacity": 0.5
-    },
-    {
-        "class": "tree_row",
-        "layer0.texture": "Theme - Clean/row_highlight_wide.png",
-        "layer0.opacity": 0.0,
-        "layer0.inner_margin": [1, 1]
-    },
-    {
-        "class": "tree_row",
-        "attributes": ["selected"],
-        "layer0.opacity": 0.5
-    },
-    {
-        "class": "close_button",
-        "layer0.texture": "Theme - Clean/cross.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Clean/cross_over.png",
-        "layer1.opacity": 0.0,
-        "content_margin": [8, 8]
-    },
-    {
-        "class": "close_button",
-        "attributes": ["hover"],
-        "layer1.opacity": 1.0
-    },
-    {
-        "class": "sidebar_tree",
-        "row_padding": [8, 3],
-        "indent": 15,
-        "indent_offset": 15,
-        "background_color": [221, 228, 235, 255]
-    },
-    {
-        "class": "sidebar_heading",
-        "color": [113, 129, 147]
-    },
-    {
-        "class": "sidebar_label",
-        "color": [0, 0, 0]
     },
     {
         "class": "text_line_control",
@@ -296,71 +440,11 @@
         "selected_bg": [156, 185, 223, 255]
     },
 
-    {
-        "class": "tabset_control",
-        "layer0.texture": "Theme - Clean/tabset.png",
-        "layer0.inner_margin": [1, 2],
-        "layer0.opacity": 1.0,
-        "content_margin": [3, 4, 3, 3],
-        "tab_overlap": 17,
-        "tab_width": 180,
-        "tab_min_width": 40,
-        "tab_height": 28
-    },
-    {
-        "class": "tab_control",
-        "layer0.texture": "Theme - Clean/tab_normal.png",
-        "layer0.inner_margin": [18, 4],
-        "layer0.opacity": 1.0,
-        "layer1.texture": "Theme - Clean/tab_selected.png",
-        "layer1.inner_margin": [18, 4],
-        "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-        //"layer2.texture": "Theme - Clean/tab_glow.png",
-        //"layer2.inner_margin": [18, 4],
-        //"layer2.opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
-        "content_margin": [20, 4, 13, 4],
-        "hit_test_level": 0.5
-    },
-    {
-        "class": "tab_control",
-        "attributes": ["selected"],
-        "layer1.opacity": 1.0
-    },
-    /*
-    {
-        "class": "tab_control",
-        "attributes": ["hover"],
-        "layer2.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" }
-    },
-    */
-    {
-        "class": "tab_label",
-        "fg": [0, 0, 0],
-        "bg": [199, 199, 199]
-    },
-    {
-        "class": "tab_label",
-        "parents":
-        [
-            { "class": "tab_control", "attributes": ["selected"] }
-        ],
-        "fg": [0, 0, 0],
-        "bg": [187, 187, 187]
-    },
-    {
-        "class": "tab_close_button",
-        "layer0.texture": "Theme - Clean/cross.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Clean/cross_over.png",
-        "layer1.opacity": 0.0,
-        "content_margin": [8, 8]
-    },
-    {
-        "class": "tab_close_button",
-        "attributes": ["hover"],
-        "layer1.opacity": 1.0
-    },
+
+
+
+
+    
     {
         "class": "icon_regex",
         "layer0.texture": "Theme - Clean/icons/find_regex.png",
