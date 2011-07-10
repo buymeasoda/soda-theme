@@ -335,8 +335,8 @@
     */
     {
         "class": "tab_label",
-        "fg": [255, 255, 255],
-        "bg": [56, 56, 56]
+        "fg": [0, 0, 0],
+        "bg": [199, 199, 199]
     },
     {
         "class": "tab_label",
@@ -344,7 +344,8 @@
         [
             { "class": "tab_control", "attributes": ["selected"] }
         ],
-        "bg": [68, 68, 68]
+        "fg": [0, 0, 0],
+        "bg": [187, 187, 187]
     },
     {
         "class": "tab_close_button",
@@ -360,7 +361,6 @@
         "attributes": ["hover"],
         "layer1.opacity": 1.0
     },
-
     {
         "class": "icon_regex",
         "layer0.texture": "Theme - Clean/icons/find_regex.png",
