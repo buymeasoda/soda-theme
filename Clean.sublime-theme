@@ -334,7 +334,8 @@
     // Find panel and Console panel
     {
         "class": "panel_control",
-        "layer0.tint": [170, 170, 170, 255],
+        "layer0.texture": "Theme - Clean/panel-background.png",
+        "layer0.inner_margin": [2, 2, 2, 0],
         "layer0.opacity": 1.0
     },
     {
