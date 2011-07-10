@@ -119,7 +119,7 @@
     },
     {
         "class": "panel_control",
-        "layer0.tint": [64, 64, 64, 255],
+        "layer0.tint": [170, 170, 170, 255],
         "layer0.opacity": 1.0
     },
     {
