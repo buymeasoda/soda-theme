@@ -9,33 +9,16 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 6],
         "layer1.texture": "Theme - Clean/btn_down_w6_h6.png",
-        "layer1.opacity": { "target": 0.0, "speed": 2.0, "interpolation": "smoothstep" },
+        "layer1.opacity": 0.0,
         "layer1.inner_margin": [6, 6],
-        "layer2.texture": "Theme - Clean/highlight.png",
-        "layer2.opacity": { "target": 0.0, "speed": 1.33, "interpolation": "smoothstep" },
-        "layer2.inner_margin": [6, 6],
-        "layer3.texture": "Theme - Clean/full_highlight.png",
-        "layer3.opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
-        "layer3.inner_margin": [6, 6],
         "content_margin": [6, 5, 6, 6],
         "min_size": [75, 0]
     },
     {
         "class": "button_control",
-        "attributes": ["hover"],
-        "layer2.opacity": 1.0
-    },
-    {
-        "class": "button_control",
         "attributes": ["pressed"],
-        "layer1.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" }
+        "layer1.opacity": 1.0
     },
-    {
-        "class": "button_control",
-        "attributes": ["clicked"],
-        "layer3.opacity": 0.75
-    },
-
     {
         "class": "icon_button_control",
         "layer0.texture": "Theme - Clean/mbtn_up_norm_w6_h6.png",
