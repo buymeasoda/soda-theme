@@ -1,7 +1,7 @@
 [
     {
         "class": "label_control",
-        "color": [255, 255, 255]
+        "color": [0, 0, 0]
     },
     {
         "class": "button_control",
