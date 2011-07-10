@@ -369,7 +369,7 @@
 
     {
         "class": "status_bar",
-        "layer0.texture": "Theme - Clean/status_bar.png",
+        "layer0.texture": "Theme - Clean/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [4, 3, 4, 3]
