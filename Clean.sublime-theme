@@ -93,13 +93,14 @@
     // Vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.texture": "Theme - Clean/scrollbar_track_w0_h6.png",
+        "layer0.texture": "Theme - Clean/scrollbar-vertical-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 6]
     },
+    // Vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.texture": "Theme - Clean/scrollbar_puck_w0_h10.png",
+        "layer0.texture": "Theme - Clean/scrollbar-vertical-puck.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12]
@@ -108,14 +109,15 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Clean/scrollbar_htrack_w6_h0.png",
+        "layer0.texture": "Theme - Clean/scrollbar-horizontal-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 0]
     },
+    // Horizontal scroll puck
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Clean/scrollbar_hpuck_w10_h0.png",
+        "layer0.texture": "Theme - Clean/scrollbar-horizontal-puck.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8]
@@ -123,7 +125,7 @@
     // Scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Theme - Clean/scrollbar_corner.png",
+        "layer0.texture": "Theme - Clean/scrollbar-corner-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },
