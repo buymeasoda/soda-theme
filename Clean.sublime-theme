@@ -264,70 +264,7 @@
     },
 
 
-    {
-        "class": "icon_button_control",
-        "layer0.texture": "Theme - Clean/mbtn_up_norm_w6_h6.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [6, 6],
-        "layer1.texture": "Theme - Clean/mbtn_down_norm_w6_h6.png",
-        "layer1.opacity": { "target": 0.0, "speed": 2.0, "interpolation": "smoothstep" },
-        "layer1.inner_margin": [6, 6],
-        "layer2.texture": "Theme - Clean/highlight.png",
-        "layer2.opacity": { "target": 0.0, "speed": 1.33, "interpolation": "smoothstep" },
-        "layer2.inner_margin": [6, 6],
-        "layer3.texture": "Theme - Clean/full_highlight.png",
-        "layer3.opacity": 0.0,
-        "layer3.inner_margin": [6, 6],
-        "content_margin": [4, 4]
-    },
-    {
-        "class": "icon_button_control",
-        "attributes": ["pressed"],
-        "layer3.opacity": 1.0
-    },
-    {
-        "class": "icon_button_control",
-        "attributes": ["clicked"],
-        "layer3.opacity": 0.75
-    },
-    {
-        "class": "icon_button_control",
-        "attributes": ["selected"],
-        "layer0.texture": "Theme - Clean/mbtn_down_norm_w6_h6.png"
-    },
-    {
-        "class": "icon_button_control",
-        "attributes": ["left"],
-        "layer0.texture": "Theme - Clean/lbtn_up_norm_w6_h6.png",
-        "layer1.texture": "Theme - Clean/lbtn_down_norm_w6_h6.png"
-    },
-    {
-        "class": "icon_button_control",
-        "attributes": ["left", "selected"],
-        "layer0.texture": "Theme - Clean/lbtn_down_norm_w6_h6.png"
-    },
-    {
-        "class": "icon_button_control",
-        "attributes": ["right"],
-        "layer0.texture": "Theme - Clean/rbtn_up_norm_w6_h6.png",
-        "layer1.texture": "Theme - Clean/rbtn_down_norm_w6_h6.png"
-    },
-    {
-        "class": "icon_button_control",
-        "attributes": ["right", "selected"],
-        "layer0.texture": "Theme - Clean/rbtn_down_norm_w6_h6.png"
-    },
-    {
-        "class": "icon_button_control",
-        "attributes": ["left", "right"],
-        "layer0.texture": "Theme - Clean/lrbtn_up_norm_w6_h6.png",
-        "layer1.texture": "Theme - Clean/lrbtn_down_norm_w6_h6.png"
-    },
-    {
-        "class": "icon_button_control",
-        "attributes": ["left", "right", "selected"],
-        "layer0.texture": "Theme - Clean/lrbtn_down_norm_w6_h6.png"
-    },
+
 
 
 
@@ -450,70 +387,149 @@
 // FIND AND REPLACE ICONS
 //
 
-    // First icon group
+    {
+        "class": "icon_button_control",
+        "layer0.texture": "Theme - Clean/btn-group-middle.png",
+        "layer0.inner_margin": [6, 6],
+        "layer0.opacity": 1.0,
+        "content_margin": [4, 4]
+    },
+    {
+        "class": "icon_button_control",
+        "attributes": ["left"],
+        "layer0.texture": "Theme - Clean/btn-group-left.png",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "icon_button_control",
+        "attributes": ["right"],
+        "layer0.texture": "Theme - Clean/btn-group-right.png",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "icon_button_control",
+        "attributes": ["left", "right"],
+        "layer0.texture": "Theme - Clean/btn-sm.png",
+        "layer0.opacity": 1.0
+    },
+    // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Clean/icons/find_regex.png",
+        "layer0.texture": "Theme - Clean/icon-regex-off.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_regex",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/icon-regex-on.png"
+    },
+    // Case sensitive search button
+    {
+        "class": "icon_case",
+        "layer0.texture": "Theme - Clean/icon-case-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Clean/icons/find_case.png",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/icon-case-on.png"
+    },
+    // Match whole word search button
+    {
+        "class": "icon_whole_word",
+        "layer0.texture": "Theme - Clean/icon-word-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Clean/icons/find_wholeword.png",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/icon-word-on.png"
+    },      
+    // Reverse search direction button
+    {
+        "class": "icon_reverse",
+        "layer0.texture": "Theme - Clean/icon-reverse-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
-    // Second icon group
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Clean/icons/find_reverse.png",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/icon-reverse-on.png"
+    },
+    // Search wrap button
+    {
+        "class": "icon_wrap",
+        "layer0.texture": "Theme - Clean/icon-wrap-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Clean/icons/find_wrap.png",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/icon-wrap-on.png"
+    },
+    // Search in selection button
+    {
+        "class": "icon_in_selection",
+        "layer0.texture": "Theme - Clean/icon-selection-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Clean/icons/find_inselection.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/icon-selection-on.png"
     },
-    // Lower left icon  
+    // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Clean/icons/replace_preserve_case.png",
+        "layer0.texture": "Theme - Clean/icon-preserve-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
-    // Lower right icon
+    {
+        "class": "icon_preserve_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/icon-preserve-on.png"
+    },    
+    // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Clean/icons/find_highlight.png",
+        "layer0.texture": "Theme - Clean/icon-highlight-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
-    // Unknown icons
+    {
+        "class": "icon_highlight",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/icon-highlight-on.png"
+    },
+    // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Clean/icons/context.png",
+        "layer0.texture": "Theme - Clean/icon-context-off.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/icon-context-on.png"
+    },
+    // Use search buffer
+    {
+        "class": "icon_use_buffer",
+        "layer0.texture": "Theme - Clean/icon-buffer-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Clean/icons/use_buffer.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
-    }    
-       
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/icon-buffer-on.png"
+    }
 ]
