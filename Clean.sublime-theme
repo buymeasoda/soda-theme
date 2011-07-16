@@ -210,7 +210,7 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [255, 255, 255]
     },
-    // Sidebar close
+    // Sidebar entry close
     {
         "class": "close_button",
         // Sidebar close default settings
@@ -222,39 +222,37 @@
         "layer1.opacity": 0.0,
         "content_margin": [8, 8]
     },
+    // Sidebar entry close hover
     {
-        // Sidebar close hover action
         "class": "close_button",
         "attributes": ["hover"],
         "layer1.opacity": 1.0
     },
-    // Sidebar Folder and Group icons (show / hide)
+    // Sidebar group closed
     {
         "class": "disclosure_button_control",
         "content_margin": [9, 7, 8, 6],
-        // Folder collapsed settings
-        "layer0.texture": "Theme - Clean/arrow_right.png",
+        "layer0.texture": "Theme - Clean/group-closed.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": 0,
-        // Folder collapsed hover settings
-        "layer1.texture": "Theme - Clean/arrow_right_over.png",
-        "layer1.opacity": 0.0,
-        "layer1.inner_margin": 0
+        "layer0.inner_margin": 0
     },
     {
-        // Folder collapsed hover action
         "class": "disclosure_button_control",
-        "attributes": ["hover"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
-    },
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/group-closed-selected.png"
+    },    
+    // Sidebar group open
     {
-        // Folder expanded settings
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Clean/arrow_down.png",
-        "layer1.texture": "Theme - Clean/arrow_down_over.png"
+        "layer0.texture": "Theme - Clean/group-open.png"
     },
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["expanded"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/group-open-selected.png"
+    },        
 
 
 
