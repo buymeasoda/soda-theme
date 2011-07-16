@@ -101,7 +101,7 @@
     {
         "class": "puck_control",
         "layer0.texture": "Theme - Clean/scrollbar-vertical-puck.png",
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12]
     },
@@ -118,10 +118,17 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.texture": "Theme - Clean/scrollbar-horizontal-puck.png",
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8]
     },
+    /*
+    {
+        "class": "puck_control",
+        "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
+        "layer0.opacity": 1.0
+    },
+    */
     // Scroll bar corner
     {
         "class": "scroll_corner_control",
