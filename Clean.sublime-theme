@@ -220,20 +220,21 @@
     // Sidebar entry close
     {
         "class": "close_button",
-        // Sidebar close default settings
         "layer0.texture": "Theme - Clean/cross.png",
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
-        // Sidebar close hover settings
-        "layer1.texture": "Theme - Clean/cross_over.png",
-        "layer1.opacity": 0.0,
         "content_margin": [8, 8]
     },
+    {
+        "class": "close_button",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.opacity": 1.0
+    },    
     // Sidebar entry close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer1.opacity": 1.0
+        "layer0.texture": "Theme - Clean/cross_over.png"
     },
     // Sidebar group closed
     {
