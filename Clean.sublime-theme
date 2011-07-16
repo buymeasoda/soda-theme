@@ -148,6 +148,9 @@
         "color": [0, 0, 0, 255]
     },
 
+//
+// STATUS BAR
+//
 
     // Status bar
     {
@@ -293,10 +296,10 @@
         "content_margin": [2, 2]
     },
 
-
+    // Table Row (Not sure where this is used)
     {
         "class": "table_row",
-        "layer0.texture": "Theme - Clean/row_highlight_wide.png",
+        "layer0.texture": "Theme - Clean/sidebar-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -306,13 +309,13 @@
         "layer0.opacity": 0.5
     },
 
-    // Text fields (Find / Replace and Quick Search)
+    // Text fields
     {
         "class": "text_line_control",
         "layer0.texture": "Theme - Clean/text-field.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [11, 11, 11, 11],
-        "content_margin": [10, 2, 10, 2]
+        "layer0.inner_margin": [2, 4, 4, 2],
+        "content_margin": [4, 4, 4, 2]
     },
 
     {
