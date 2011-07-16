@@ -97,14 +97,6 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 6]
     },
-    // Vertical scroll puck
-    {
-        "class": "puck_control",
-        "layer0.texture": "Theme - Clean/scrollbar-vertical-puck.png",
-        "layer0.opacity": 0.5,
-        "layer0.inner_margin": [0, 10],
-        "content_margin": [8, 12]
-    },
     // Horizontal scroll bar
     {
         "class": "scroll_bar_control",
@@ -112,6 +104,21 @@
         "layer0.texture": "Theme - Clean/scrollbar-horizontal-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 0]
+    },
+    // Scroll bar corner
+    {
+        "class": "scroll_corner_control",
+        "layer0.texture": "Theme - Clean/scrollbar-corner-background.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [1, 1]
+    },    
+    // Vertical scroll puck
+    {
+        "class": "puck_control",
+        "layer0.texture": "Theme - Clean/scrollbar-vertical-puck.png",
+        "layer0.opacity": 0.5,
+        "layer0.inner_margin": [0, 10],
+        "content_margin": [8, 12]
     },
     // Horizontal scroll puck
     {
@@ -122,6 +129,7 @@
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8]
     },
+    // Hover scroll bar puck
     /*
     {
         "class": "puck_control",
@@ -129,13 +137,6 @@
         "layer0.opacity": 1.0
     },
     */
-    // Scroll bar corner
-    {
-        "class": "scroll_corner_control",
-        "layer0.texture": "Theme - Clean/scrollbar-corner-background.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [1, 1]
-    },
 
 //
 // TOOLTIP
@@ -158,18 +159,18 @@
 //
 // STATUS BAR
 //
-
-    // Status bar
-    {
-        "class": "label_control",
-        "color": [0, 0, 0]
-    },
+    // Status bar container
     {
         "class": "status_bar",
         "layer0.texture": "Theme - Clean/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [4, 3, 4, 3]
+    },
+    // Status bar content
+    {
+        "class": "label_control",
+        "color": [0, 0, 0]
     },
 
 //
@@ -262,10 +263,9 @@
         "layer0.texture": "Theme - Clean/group-open-selected.png"
     },        
 
-
-
-
-
+//
+// STANDARD TEXT BUTTONS
+//
 
     // Regular buttons (used for Find / Replace panel)
     {
@@ -288,45 +288,11 @@
         "layer1.opacity": 1.0
     },
 
-
-
-
-
-
-
-
-    // Find panel and Console panel
-    {
-        "class": "panel_control",
-        "layer0.texture": "Theme - Clean/panel-background.png",
-        "layer0.inner_margin": [2, 2, 2, 0],
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "popup_control",
-        "layer0.tint": [64, 64, 64, 255],
-        "layer0.opacity": 1.0,
-        "content_margin": [2, 2]
-    },
-
-    // Table Row (Not sure where this is used)
-    {
-        "class": "table_row",
-        "layer0.texture": "Theme - Clean/sidebar-row-selected.png",
-        "layer0.opacity": 0.0,
-        "layer0.inner_margin": [1, 1]
-    },
-    {
-        "class": "table_row",
-        "attributes": ["selected"],
-        "layer0.opacity": 0.5
-    },
-
 //
-// TEXT FIELDS
+// TEXT INPUT FIELD
 //
 
-    // Text fields
+    // Text input field item
     {
         "class": "text_line_control",
         "layer0.texture": "Theme - Clean/text-field.png",
@@ -334,8 +300,6 @@
         "layer0.inner_margin": [2, 4, 4, 2],
         "content_margin": [4, 4, 4, 2]
     },
-
-
 
 //
 // QUICK PANEL
@@ -411,9 +375,22 @@
     },
 
 //
-// SEARCH ICONS
+// BOTTOM PANEL
 //
 
+    // Bottom panel container
+    {
+        "class": "panel_control",
+        "layer0.texture": "Theme - Clean/panel-background.png",
+        "layer0.inner_margin": [2, 2, 2, 0],
+        "layer0.opacity": 1.0
+    },
+
+//
+// BOTTOM PANEL BUTTONS
+//
+
+    // Button group middle
     {
         "class": "icon_button_control",
         "layer0.texture": "Theme - Clean/btn-group-middle.png",
@@ -421,24 +398,32 @@
         "layer0.opacity": 1.0,
         "content_margin": [4, 4]
     },
+    // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"],
         "layer0.texture": "Theme - Clean/btn-group-left.png",
         "layer0.opacity": 1.0
     },
+    // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
         "layer0.texture": "Theme - Clean/btn-group-right.png",
         "layer0.opacity": 1.0
     },
+    // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
         "layer0.texture": "Theme - Clean/btn-sm.png",
         "layer0.opacity": 1.0
     },
+
+//
+// BOTTOM PANEL ICONS - GROUP 1
+//
+
     // Regex search button
     {
         "class": "icon_regex",
@@ -474,7 +459,41 @@
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Clean/icon-word-on.png"
-    },      
+    },
+
+//
+// BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
+//
+
+    // Show search context button
+    {
+        "class": "icon_context",
+        "layer0.texture": "Theme - Clean/icon-context-off.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/icon-context-on.png"
+    },
+    // Use search buffer
+    {
+        "class": "icon_use_buffer",
+        "layer0.texture": "Theme - Clean/icon-buffer-off.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_use_buffer",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Clean/icon-buffer-on.png"
+    },    
+
+//
+// BOTTOM PANEL ICONS - GROUP 2
+//
+
     // Reverse search direction button
     {
         "class": "icon_reverse",
@@ -511,6 +530,11 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Clean/icon-selection-on.png"
     },
+
+//
+// BOTTOM PANEL ICONS - GROUP 3
+//
+
     // Preserve case button
     {
         "class": "icon_preserve_case",
@@ -522,7 +546,12 @@
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Clean/icon-preserve-on.png"
-    },    
+    },
+
+//
+// BOTTOM PANEL ICONS - GROUP 4
+//
+
     // Highlight results button
     {
         "class": "icon_highlight",
@@ -535,28 +564,30 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Clean/icon-highlight-on.png"
     },
-    // Show search context button
+
+//
+// UNKNOWN CONTROLS
+//
+
+    // Popup Control
     {
-        "class": "icon_context",
-        "layer0.texture": "Theme - Clean/icon-context-off.png",
+        "class": "popup_control",
+        "layer0.tint": [64, 64, 64, 255],
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [2, 2]
+    },
+
+    // Table Row
+    {
+        "class": "table_row",
+        "layer0.texture": "Theme - Clean/sidebar-row-selected.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [1, 1]
     },
     {
-        "class": "icon_context",
-        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Clean/icon-context-on.png"
-    },
-    // Use search buffer
-    {
-        "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Clean/icon-buffer-off.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
-    },
-    {
-        "class": "icon_use_buffer",
-        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Clean/icon-buffer-on.png"
-    }
+        "class": "table_row",
+        "attributes": ["selected"],
+        "layer0.opacity": 0.5
+    }    
+
 ]
