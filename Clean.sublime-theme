@@ -116,7 +116,7 @@
     {
         "class": "puck_control",
         "layer0.texture": "Theme - Clean/scrollbar-vertical-puck.png",
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 0.75,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12]
     },
@@ -125,7 +125,7 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.texture": "Theme - Clean/scrollbar-horizontal-puck.png",
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 0.75,
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8]
     },
