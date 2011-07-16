@@ -217,7 +217,7 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [255, 255, 255]
     },
-    // Sidebar entry close
+    // Sidebar file close
     {
         "class": "close_button",
         "layer0.texture": "Theme - Clean/cross.png",
@@ -230,7 +230,7 @@
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },    
-    // Sidebar entry close hover
+    // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
@@ -337,7 +337,9 @@
 
 
 
-
+//
+// QUICK PANEL
+//
     {
         "class": "quick_panel",
         "row_padding": [2, 1],
