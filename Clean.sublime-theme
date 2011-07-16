@@ -157,6 +157,13 @@
         "class": "label_control",
         "color": [0, 0, 0]
     },
+    {
+        "class": "status_bar",
+        "layer0.texture": "Theme - Clean/status-bar-background.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [2, 2],
+        "content_margin": [4, 3, 4, 3]
+    },
 
 //
 // SIDEBAR
@@ -309,6 +316,10 @@
         "layer0.opacity": 0.5
     },
 
+//
+// TEXT FIELDS
+//
+
     // Text fields
     {
         "class": "text_line_control",
@@ -318,13 +329,9 @@
         "content_margin": [4, 4, 4, 2]
     },
 
-    {
-        "class": "status_bar",
-        "layer0.texture": "Theme - Clean/status-bar-background.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [2, 2],
-        "content_margin": [4, 3, 4, 3]
-    },
+
+
+
     {
         "class": "quick_panel",
         "row_padding": [2, 1],
@@ -396,7 +403,7 @@
     },
 
 //
-// FIND AND REPLACE ICONS
+// SEARCH ICONS
 //
 
     {
