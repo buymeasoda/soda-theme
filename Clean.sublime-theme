@@ -144,15 +144,15 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "Theme - Clean/tool_tip_background.png",
-        "layer0.inner_margin": [2, 2],
-        "layer0.opacity": 1.0,
+        "layer0.texture": "Theme - Clean/tooltip.png",
+        "layer0.inner_margin": [1, 1],
+        "layer0.opacity": 0.95,
         "content_margin": [3, 3]
     },
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [0, 0, 0, 255]
+        "color": [0, 0, 0]
     },
 
 //
