@@ -306,6 +306,18 @@
     },
 
 //
+// STANDARD PANEL BACKGROUND
+//
+
+    // Panel container (Used for bottom panel and quick panel)
+    {
+        "class": "panel_control",
+        "layer0.texture": "Theme - Soda/panel-background.png",
+        "layer0.inner_margin": [2, 2, 2, 2],
+        "layer0.opacity": 1.0
+    },
+
+//
 // QUICK PANEL
 //
 
@@ -362,30 +374,33 @@
         "layer0.opacity": 1.0
     },
 
+//
+// CODE COMPLETION DROPDOWN
+//
+
     {
         "class": "auto_complete",
-        "row_padding": [2, 1],
-        "background_color": [255, 255, 255, 255]
+        "row_padding": [2, 2],
+        "background_color": [255, 255, 255]
     },
     {
         "class": "auto_complete_label",
-        "fg": [72, 72, 72, 255],
-        "match_fg": [0, 0, 0, 255],
-        "bg": [255, 255, 255, 255],
-        "selected_fg": [72, 72, 72, 255],
-        "selected_match_fg": [0, 0, 0, 255],
-        "selected_bg": [156, 185, 223, 255]
+        "fg": [72, 72, 72],
+        "match_fg": [0, 0, 0],
+        "bg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255],
+        "selected_bg": [72, 139, 211]
     },
-
-//
-// BOTTOM PANEL
-//
-
-    // Bottom panel container
     {
-        "class": "panel_control",
-        "layer0.texture": "Theme - Soda/panel-background.png",
-        "layer0.inner_margin": [2, 2, 2, 2],
+        "class": "table_row",
+        "layer0.texture": "Theme - Soda/sidebar-row-selected.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [1, 1]
+    },
+    {
+        "class": "table_row",
+        "attributes": ["selected"],
         "layer0.opacity": 1.0
     },
 
@@ -579,19 +594,6 @@
         "layer0.tint": [64, 64, 64, 255],
         "layer0.opacity": 1.0,
         "content_margin": [2, 2]
-    },
-
-    // Table Row
-    {
-        "class": "table_row",
-        "layer0.texture": "Theme - Soda/sidebar-row-selected.png",
-        "layer0.opacity": 0.0,
-        "layer0.inner_margin": [1, 1]
-    },
-    {
-        "class": "table_row",
-        "attributes": ["selected"],
-        "layer0.opacity": 0.5
-    }    
+    }
 
 ]
