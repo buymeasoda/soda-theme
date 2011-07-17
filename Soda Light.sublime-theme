@@ -7,7 +7,7 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.texture": "User/Theme - Soda/tabset-background.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/tabset-background.png",
         "layer0.inner_margin": [1, 2],
         "layer0.opacity": 1.0,
         "content_margin": [3, 4, 3, 3],
@@ -22,15 +22,15 @@
         "content_margin": [22, 6, 15, 4],
         "hit_test_level": 0.5,
         // Inactive tab settings
-        "layer0.texture": "User/Theme - Soda/tab-inactive.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/tab-inactive.png",
         "layer0.inner_margin": [18, 4],
         "layer0.opacity": 1.0,
         // Active tab setting
-        "layer1.texture": "User/Theme - Soda/tab-active.png",
+        "layer1.texture": "User/Theme - Soda/Soda Light/tab-active.png",
         "layer1.inner_margin": [18, 4],
         "layer1.opacity": 0.0,
         // Hover tab setting
-        "layer2.texture": "User/Theme - Soda/tab-hover.png",
+        "layer2.texture": "User/Theme - Soda/Soda Light/tab-hover.png",
         "layer2.inner_margin": [18, 4],
         "layer2.opacity": 0.0
         // "layer2.opacity": {"target": 0.0, "speed": 4.0, "interpolation": "smoothstep"}
@@ -76,11 +76,11 @@
         "class": "tab_close_button",
         "content_margin": [8, 8],
         // Tab close default settings
-        "layer0.texture": "User/Theme - Soda/tab-close.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/tab-close.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         // Tab close hover settings
-        "layer1.texture": "User/Theme - Soda/tab-close-hover.png",
+        "layer1.texture": "User/Theme - Soda/Soda Light/tab-close-hover.png",
         "layer1.opacity": 0.0
     },
     {
@@ -98,7 +98,7 @@
     // Vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.texture": "User/Theme - Soda/scrollbar-vertical-background.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/scrollbar-vertical-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 6]
     },
@@ -106,21 +106,21 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "User/Theme - Soda/scrollbar-horizontal-background.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/scrollbar-horizontal-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 0]
     },
     // Scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "User/Theme - Soda/scrollbar-corner-background.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/scrollbar-corner-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },    
     // Vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.texture": "User/Theme - Soda/scrollbar-vertical-puck.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/scrollbar-vertical-puck.png",
         "layer0.opacity": 0.8,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12]
@@ -129,7 +129,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "User/Theme - Soda/scrollbar-horizontal-puck.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/scrollbar-horizontal-puck.png",
         "layer0.opacity": 0.8,
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8]
@@ -149,7 +149,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "User/Theme - Soda/tooltip.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/tooltip.png",
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 0.95,
         "content_margin": [3, 3]
@@ -166,7 +166,7 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.texture": "User/Theme - Soda/status-bar-background.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [4, 3, 4, 3]
@@ -192,7 +192,7 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "User/Theme - Soda/sidebar-row-selected.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/sidebar-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -225,10 +225,10 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "User/Theme - Soda/file-close.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/file-close.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "User/Theme - Soda/file-close-selected.png",
+        "layer1.texture": "User/Theme - Soda/Soda Light/file-close-selected.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,        
         "content_margin": [8, 8]
@@ -249,42 +249,42 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "User/Theme - Soda/file-close-hover.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/file-close-hover.png"
     },
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "User/Theme - Soda/group-closed.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/group-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["pressed"],
-        "layer0.texture": "User/Theme - Soda/group-closed-pressed.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/group-closed-pressed.png"
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "User/Theme - Soda/group-closed-selected.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/group-closed-selected.png"
     },    
     // Sidebar group open
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "User/Theme - Soda/group-open.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/group-open.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded", "pressed"],
-        "layer0.texture": "User/Theme - Soda/group-open-pressed.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/group-open-pressed.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "User/Theme - Soda/group-open-selected.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/group-open-selected.png"
     },        
 
 //
@@ -297,11 +297,11 @@
         "content_margin": [6, 5, 6, 6],
         "min_size": [75, 0],        
         // Default button state
-        "layer0.texture": "User/Theme - Soda/btn-large.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/btn-large.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 6],
         // Pressed button setup
-        "layer1.texture": "User/Theme - Soda/btn-large-on.png",
+        "layer1.texture": "User/Theme - Soda/Soda Light/btn-large-on.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": [6, 6]
     },
@@ -319,7 +319,7 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.texture": "User/Theme - Soda/text-field.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 4, 4, 2],
         "content_margin": [4, 4, 4, 2]
@@ -332,7 +332,7 @@
     // Panel container (Used for bottom panel and quick panel)
     {
         "class": "panel_control",
-        "layer0.texture": "User/Theme - Soda/panel-background.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
@@ -348,7 +348,7 @@
     },
     {
         "class": "quick_panel_row",
-        "layer0.texture": "User/Theme - Soda/quick-panel-row.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
@@ -356,7 +356,7 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.inner_margin": [2, 2, 2, 2],
-        "layer0.texture": "User/Theme - Soda/quick-panel-row-selected.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/quick-panel-row-selected.png"
     },
     {
         "class": "quick_panel_label",
@@ -414,7 +414,7 @@
     },
     {
         "class": "table_row",
-        "layer0.texture": "User/Theme - Soda/sidebar-row-selected.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/sidebar-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -431,7 +431,7 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer0.texture": "User/Theme - Soda/btn-group-middle.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/btn-group-middle.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
         "content_margin": [4, 4]
@@ -440,21 +440,21 @@
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "User/Theme - Soda/btn-group-left.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/btn-group-left.png",
         "layer0.opacity": 1.0
     },
     // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "User/Theme - Soda/btn-group-right.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/btn-group-right.png",
         "layer0.opacity": 1.0
     },
     // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.texture": "User/Theme - Soda/btn-small.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/btn-small.png",
         "layer0.opacity": 1.0,
         "layer0.draw_center": false
     },
@@ -466,38 +466,38 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "User/Theme - Soda/icon-regex-off.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-regex-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "User/Theme - Soda/icon-regex-on.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-regex-on.png"
     },
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "User/Theme - Soda/icon-case-off.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-case-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "User/Theme - Soda/icon-case-on.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-case-on.png"
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "User/Theme - Soda/icon-word-off.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-word-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "User/Theme - Soda/icon-word-on.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-word-on.png"
     },
 
 //
@@ -507,26 +507,26 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "User/Theme - Soda/icon-context-off.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-context-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "User/Theme - Soda/icon-context-on.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-context-on.png"
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "User/Theme - Soda/icon-buffer-off.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-buffer-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "User/Theme - Soda/icon-buffer-on.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-buffer-on.png"
     },    
 
 //
@@ -536,38 +536,38 @@
     // Reverse search direction button
     {
         "class": "icon_reverse",
-        "layer0.texture": "User/Theme - Soda/icon-reverse-off.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-reverse-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "User/Theme - Soda/icon-reverse-on.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-reverse-on.png"
     },
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "User/Theme - Soda/icon-wrap-off.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-wrap-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "User/Theme - Soda/icon-wrap-on.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-wrap-on.png"
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "User/Theme - Soda/icon-selection-off.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-selection-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "User/Theme - Soda/icon-selection-on.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-selection-on.png"
     },
 
 //
@@ -577,14 +577,14 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "User/Theme - Soda/icon-preserve-off.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-preserve-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "User/Theme - Soda/icon-preserve-on.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-preserve-on.png"
     },
 
 //
@@ -594,14 +594,14 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "User/Theme - Soda/icon-highlight-off.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-highlight-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "User/Theme - Soda/icon-highlight-on.png"
+        "layer0.texture": "User/Theme - Soda/Soda Light/icon-highlight-on.png"
     },
 
 //
