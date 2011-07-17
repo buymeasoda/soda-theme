@@ -284,7 +284,15 @@
         "layer1.texture": "Theme - Soda/btn-large-on.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": [6, 6]
-    },  
+    },
+    /*
+    {
+        // Pressed button state
+        "class": "button_control",
+        "attributes": ["hover"],
+        "layer1.opacity": 1.0
+    },
+    */
     {
         // Pressed button state
         "class": "button_control",
