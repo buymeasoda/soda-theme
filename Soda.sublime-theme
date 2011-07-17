@@ -261,6 +261,11 @@
     },
     {
         "class": "disclosure_button_control",
+        "attributes": ["pressed"],
+        "layer0.texture": "Theme - Soda/group-closed-pressed.png"
+    },
+    {
+        "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/group-closed-selected.png"
     },    
@@ -269,6 +274,11 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "layer0.texture": "Theme - Soda/group-open.png"
+    },
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["expanded", "pressed"],
+        "layer0.texture": "Theme - Soda/group-open-pressed.png"
     },
     {
         "class": "disclosure_button_control",
