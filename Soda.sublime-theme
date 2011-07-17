@@ -385,7 +385,7 @@
     {
         "class": "panel_control",
         "layer0.texture": "Theme - Soda/panel-background.png",
-        "layer0.inner_margin": [2, 2, 2, 0],
+        "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
 
