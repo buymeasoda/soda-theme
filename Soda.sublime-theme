@@ -308,49 +308,48 @@
 //
 // QUICK PANEL
 //
+
     {
         "class": "quick_panel",
         "row_padding": [2, 1],
-        "background_color": [39, 40, 34, 255]
+        "background_color": [248, 248, 248, 255]
     },
     {
         "class": "quick_panel_row",
-        "layer0.texture": "Theme - Soda/quick_panel_row.png",
-        "layer0.inner_margin": [0, 0, 0, 3],
-        "layer0.opacity": 1.0,
-        "layer0.draw_center": false
+        "layer0.texture": "Theme - Soda/quick-panel-row.png",
+        "layer0.inner_margin": [2, 2, 2, 2],
+        "layer0.opacity": 1.0
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.inner_margin": [1, 1, 1, 3],
-        "layer0.texture": "Theme - Soda/quick_panel_selected_row.png",
-        "layer0.draw_center": true
+        "layer0.inner_margin": [2, 2, 2, 2],
+        "layer0.texture": "Theme - Soda/quick-panel-row-selected.png"
     },
     {
         "class": "quick_panel_label",
-        "fg": [184, 184, 184, 255],
-        "match_fg": [255, 255, 255, 255],
-        "bg": [39, 40, 34, 255],
-        "selected_fg": [192, 192, 192, 255],
-        "selected_match_fg": [255, 255, 255, 255],
-        "selected_bg": [59, 61, 52, 255]
+        "fg": [0, 0, 0, 255],
+        "match_fg": [0, 0, 0, 255],
+        "bg": [248, 248, 248, 255],
+        "selected_fg": [0, 0, 0, 255],
+        "selected_match_fg": [0, 0, 0, 255],
+        "selected_bg": [238, 238, 238, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [134, 134, 134, 255],
-        "match_fg": [255, 255, 255, 255],
-        "bg": [39, 40, 34, 255],
-        "selected_fg": [142, 142, 142, 255],
-        "selected_match_fg": [255, 255, 255, 255],
-        "selected_bg": [59, 61, 52, 255]
+        "fg": [150, 150, 150, 255],
+        "match_fg": [120, 120, 120, 255],
+        "bg": [248, 248, 248, 255],
+        "selected_fg": [150, 150, 150, 255],
+        "selected_match_fg": [120, 120, 120, 255],
+        "selected_bg": [238, 238, 238, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [134, 134, 134, 255],
-        "bg": [39, 40, 34, 255],
-        "selected_fg": [142, 142, 142, 255],
-        "selected_bg": [59, 61, 52, 255]
+        "fg": [72, 139, 211, 255],
+        "bg": [248, 248, 248, 255],
+        "selected_fg": [72, 139, 211, 255],
+        "selected_bg": [238, 238, 238, 255]
     },
     {
         "class": "mini_quick_panel_row",
