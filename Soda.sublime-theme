@@ -120,7 +120,7 @@
     {
         "class": "puck_control",
         "layer0.texture": "Theme - Soda/scrollbar-vertical-puck.png",
-        "layer0.opacity": 0.75,
+        "layer0.opacity": 0.8,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12]
     },
@@ -129,18 +129,17 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.texture": "Theme - Soda/scrollbar-horizontal-puck.png",
-        "layer0.opacity": 0.75,
+        "layer0.opacity": 0.8,
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8]
     },
     // Hover scroll bar puck
-    /*
     {
         "class": "puck_control",
-        "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
+        "attributes": ["hover"],
+        // "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
-    */
 
 //
 // TOOLTIP
