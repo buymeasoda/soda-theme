@@ -18,4 +18,6 @@ A light coloured theme for Sublime Text 2.
 
 ## Notes
 
-There are some aspects of the theme design that aren't yet complete such as the Find / Replace button text colour.
+There are some aspects of the theme design that aren't yet complete such as the Find / Replace button text colour. There are also other areas I would like to improve such as the overall quickpanel design.
+
+At this stage, access to styling those features is either unvailable, limited, or I haven't figured out the correct rules.
