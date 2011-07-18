@@ -4,6 +4,17 @@ A light coloured theme for Sublime Text 2.
 
 ## Installation
 
+If you are a git user, the best way to install the theme and keep up to date is to clone the repo directly into your `/Packages/User` directory in the Sublime Text 2 application settings area.
+
+### Using Git
+
+* Go to your Sublime Text 2 `Packages/User` directory
+* Clone the theme repository uing the command below
+
+    git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
+
+### Download Manually
+
 * Download the files using the .zip download option
 * Unzip the files and rename the folder to `Theme - Soda`
 * Copy the folder to your Sublime Text 2 `Packages/User` directory
