@@ -27,3 +27,7 @@ There are some aspects of the theme design that aren't yet complete such as the 
 At this stage, access to styling those features is either unvailable, limited, or I haven't figured out the correct rules.
 
 A summary of these areas can be found at the project wiki page [Theme Challenges and ideas](https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges-and-ideas).
+
+## Legals
+
+The theme contains some icons from the excellent [Pictos](http://pictos.drewwilson.com/) series by Drew Wilson which I have a license for. Any use of these icons, other than for the purpose of the theme itself, would need to comply with Drew's [icon licensing agreement](http://stockart.drewwilson.com/license/).
