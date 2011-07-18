@@ -10,6 +10,12 @@ A light coloured theme for Sublime Text 2.
 * Open your Sublime Text 2 User Global Preferences file `Sublime Text 2 -> Preferences -> User Global Settings`
 * Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"`
 
+## Design
+
+Soda Light (see notes on current [theme challenges](https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges) for areas that aren't complete)
+
+![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png)
+
 ## Example User Global Settings
 
     {
