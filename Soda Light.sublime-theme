@@ -355,7 +355,6 @@
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.texture": "User/Theme - Soda/Soda Light/quick-panel-row-selected.png"
     },
     {
