@@ -8,8 +8,7 @@ If you are a git user, the best way to install the theme and keep up to date is 
 
 ### Using Git
 
-* Go to your Sublime Text 2 `Packages/User` directory
-* Clone the theme repository uing the command below
+Go to your Sublime Text 2 `Packages/User` directory and clone the theme repository using the command below:
 
     git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
 
