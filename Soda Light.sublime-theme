@@ -404,22 +404,26 @@
 //
 
     {
+        "class": "popup_control",
+        "content_margin": [0, 0]
+    },
+    {
         "class": "auto_complete",
         "row_padding": [2, 2],
         "background_color": [255, 255, 255]
     },
     {
         "class": "auto_complete_label",
-        "fg": [72, 72, 72],
+        "fg": [0, 0, 0],
         "match_fg": [0, 0, 0],
         "bg": [255, 255, 255],
         "selected_fg": [255, 255, 255],
         "selected_match_fg": [255, 255, 255],
-        "selected_bg": [72, 139, 211]
+        "selected_bg": [60, 131, 206]
     },
     {
         "class": "table_row",
-        "layer0.texture": "User/Theme - Soda/Soda Light/sidebar-row-selected.png",
+        "layer0.texture": "User/Theme - Soda/Soda Light/code-completion-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -607,18 +611,6 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "User/Theme - Soda/Soda Light/icon-highlight-on.png"
-    },
-
-//
-// UNKNOWN CONTROLS
-//
-
-    // Popup Control
-    {
-        "class": "popup_control",
-        "layer0.tint": [64, 64, 64, 255],
-        "layer0.opacity": 1.0,
-        "content_margin": [2, 2]
     }
 
 ]
