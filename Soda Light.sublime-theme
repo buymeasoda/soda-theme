@@ -382,15 +382,21 @@
         "selected_fg": [72, 139, 211, 255],
         "selected_bg": [238, 238, 238, 255]
     },
+
+//
+// MINI QUICK PANEL
+//
+
     {
         "class": "mini_quick_panel_row",
-        "layer0.opacity": 0.0
+        "layer0.texture": "User/Theme - Soda/Soda Light/quick-panel-row.png",
+        "layer0.inner_margin": [2, 2, 2, 2],
+        "layer0.opacity": 1.0
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint": [59, 61, 52, 255],
-        "layer0.opacity": 1.0
+        "layer0.texture": "User/Theme - Soda/Soda Light/quick-panel-row-selected.png"
     },
 
 //
