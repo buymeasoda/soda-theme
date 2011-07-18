@@ -419,7 +419,7 @@
         "bg": [255, 255, 255],
         "selected_fg": [255, 255, 255],
         "selected_match_fg": [255, 255, 255],
-        "selected_bg": [60, 131, 206]
+        "selected_bg": [56, 117, 215]
     },
     {
         "class": "table_row",
