@@ -36,15 +36,8 @@ The code highlighting colour scheme shown in the screenshot is [Espresso tutti c
 
 ### To use the colour scheme
 
-* Download (or git clone) the `tmtheme` file from Martin's repo to a folder inside the Sublime Text 2 `Packages` folder (for example: `Packages/User/Color Scheme`).
-* Open your Sublime Text 2 User File Settings configuration file `Sublime Text 2 -> Preferences -> User File Settings`
-* Add (or update) your colour scheme entry to reference the colour scheme file
-
-### Example User File Settings
-
-    {
-        "color_scheme": "Packages/User/Color Scheme/Espresso tutti colori.tmTheme"
-    }
+* Download the `tmtheme` file from Martin's repo to the Sublime Text 2 `Packages/User` folder.
+* Enable the colour scheme via `Preferences -> Color Scheme -> User`.
 
 ## Code Font
 
