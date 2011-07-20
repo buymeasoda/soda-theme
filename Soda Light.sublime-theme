@@ -74,7 +74,7 @@
     // Tab close button
     {
         "class": "tab_close_button",
-        "content_margin": [8, 8],
+        "content_margin": [0, 0],
         // Tab close default settings
         "layer0.texture": "User/Theme - Soda/Soda Light/tab-close.png",
         "layer0.opacity": 1.0,
@@ -82,6 +82,11 @@
         // Tab close hover settings
         "layer1.texture": "User/Theme - Soda/Soda Light/tab-close-hover.png",
         "layer1.opacity": 0.0
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons"],
+        "content_margin": [8, 8]    
     },
     {
         // Tab close hover action
