@@ -60,6 +60,7 @@
     {
         // Inactive tab label
         "class": "tab_label",
+        "fade": true,
         "fg": [0, 0, 0],
         "bg": [220, 220, 220]
         // "bg": {"target": [220, 220, 220], "speed": 4.0, "interpolation": "smoothstep"}
