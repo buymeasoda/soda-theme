@@ -28,14 +28,18 @@ Go to your Sublime Text 2 `Packages/User` directory and clone the theme reposito
 
 ### Code Highlight Colour Scheme
 
-The included code highlighting colour scheme is [Espresso tutti colori.tmTheme](https://github.com/mkhl/espresso-tutti-colori.tmtheme), which was originally based on the Espresso Editor default colour scheme and ported to TextMate by [Martin Kühl](https://github.com/mkhl).
+The code highlighting colour scheme shown in the screenshot is [Espresso tutti colori.tmTheme](https://github.com/mkhl/espresso-tutti-colori.tmtheme), which was originally based on the Espresso Editor default colour scheme and ported to TextMate by [Martin Kühl](https://github.com/mkhl). 
+
+To use the colour scheme:
+
+* Download (or git clone) the `tmtheme` file from Martin's repo to a folder inside the Sublime Text 2 `Packages` folder (for example: `Packages/User/Color Scheme`).
+* Open your Sublime Text 2 User File Settings configuration file `Sublime Text 2 -> Preferences -> User File Settings`
+* Add (or update) your colour scheme entry to reference the colour scheme file
 
 ### Example User File Settings
 
-To use the code highlighting colour scheme, edit your `Sublime Text 2 -> Preferences -> User File Settings` configuration file to reference the colour scheme file location:
-
     {
-        "color_scheme": "Packages/User/Theme - Soda/Color Scheme/Espresso tutti colori.tmTheme"
+        "color_scheme": "Packages/User/Color Scheme/Espresso tutti colori.tmTheme"
     }
 
 ## Design
