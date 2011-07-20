@@ -45,6 +45,7 @@
         // Hover tab state
         "class": "tab_control",
         "attributes": ["hover"],
+        "content_margin": [22, 6, 15, 4],
         "layer2.opacity": 1.0
         // "layer2.opacity": {"target": 1.0, "speed": 4.0, "interpolation": "smoothstep"}
     },
@@ -93,7 +94,12 @@
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [8, 8]    
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        "content_margin": [8, 8]
     },
     {
         // Tab close hover action
