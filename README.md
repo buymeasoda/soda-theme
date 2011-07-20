@@ -26,11 +26,15 @@ Go to your Sublime Text 2 `Packages/User` directory and clone the theme reposito
         "theme": "Soda Light.sublime-theme"
     }
 
-### Code Highlight Colour Scheme
+## Design
+
+![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png)
+
+## Code Highlight Colour Scheme
 
 The code highlighting colour scheme shown in the screenshot is [Espresso tutti colori.tmTheme](https://github.com/mkhl/espresso-tutti-colori.tmtheme), which was originally based on the Espresso Editor default colour scheme and ported to TextMate by [Martin Kühl](https://github.com/mkhl). 
 
-To use the colour scheme:
+### To use the colour scheme
 
 * Download (or git clone) the `tmtheme` file from Martin's repo to a folder inside the Sublime Text 2 `Packages` folder (for example: `Packages/User/Color Scheme`).
 * Open your Sublime Text 2 User File Settings configuration file `Sublime Text 2 -> Preferences -> User File Settings`
@@ -42,9 +46,9 @@ To use the colour scheme:
         "color_scheme": "Packages/User/Color Scheme/Espresso tutti colori.tmTheme"
     }
 
-## Design
+## Code Font
 
-![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png)
+The code font shown in the screenshot is [Meslo](https://github.com/andreberg/Meslo-Font), which is a modified version of Menlo.
 
 ## Notes
 
