@@ -223,7 +223,8 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [113, 129, 147]
+        "color": [113, 129, 147],
+        "font.bold": true
     },
     {
         "class": "sidebar_heading",
