@@ -28,7 +28,7 @@ Go to your Sublime Text 2 `Packages/User` directory and clone the theme reposito
 
 ## Design
 
-![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png)
+![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png?v=1)
 
 ## Code Highlight Colour Scheme
 
