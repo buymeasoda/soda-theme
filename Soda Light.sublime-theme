@@ -139,7 +139,7 @@
     {
         "class": "puck_control",
         "layer0.texture": "User/Theme - Soda/Soda Light/scrollbar-vertical-puck.png",
-        "layer0.opacity": 0.8,
+        "layer0.opacity": 0.7,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12]
     },
@@ -148,7 +148,7 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.texture": "User/Theme - Soda/Soda Light/scrollbar-horizontal-puck.png",
-        "layer0.opacity": 0.8,
+        "layer0.opacity": 0.7,
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8]
     },
@@ -205,7 +205,7 @@
         "row_padding": [8, 3],
         "indent": 15,
         "indent_offset": 15,
-        "background_color": [221, 228, 235, 255]
+        "background_color": [222, 227, 233]
     },
     // Sidebar rows
     {
@@ -223,7 +223,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [113, 129, 147],
+        "color": [110, 126, 141],
         "font.bold": true
     },
     {
