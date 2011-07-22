@@ -45,9 +45,7 @@ The code font shown in the screenshot is [Meslo](https://github.com/andreberg/Me
 
 ## Notes
 
-There are some aspects of the theme design that aren't yet complete such as the Find / Replace button text colour. There are also other areas I would like to improve such as the overall quickpanel design.
-
-At this stage, access to styling those features is either unvailable, limited, or I haven't figured out the correct rules.
+There are some aspects of the Soda theme design I would like to improve such as the overall quickpanel design. It might be that I haven't figured out the correct rules yet, or that the theme system doesn't expose certain features as being editable.
 
 A summary of these areas can be found at the project wiki page [Theme Challenges and ideas](https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges-and-ideas).
 
