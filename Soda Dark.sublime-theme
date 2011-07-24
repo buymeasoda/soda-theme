@@ -205,7 +205,7 @@
         "row_padding": [8, 3],
         "indent": 15,
         "indent_offset": 15,
-        "background_color": [33, 33, 33]
+        "background_color": [32, 32, 32]
     },
     // Sidebar rows
     {
@@ -223,23 +223,23 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [204, 204, 204],
+        "color": [210, 210, 210],
         "font.bold": true
     },
     {
         "class": "sidebar_heading",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [204, 204, 204]
+        "color": [210, 210, 210]
     },    
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [153, 153, 153]
+        "color": [125, 125, 125]
     },    
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [204, 204, 204]
+        "color": [210, 210, 210]
     },
     // Sidebar file close
     {
