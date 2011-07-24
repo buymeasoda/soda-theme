@@ -375,7 +375,7 @@
     {
         "class": "quick_panel",
         "row_padding": [2, 1],
-        "background_color": [248, 248, 248, 255]
+        "background_color": [33, 33, 33, 255]
     },
     {
         "class": "quick_panel_row",
@@ -390,28 +390,28 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [0, 0, 0, 255],
-        "match_fg": [0, 0, 0, 255],
-        "bg": [248, 248, 248, 255],
-        "selected_fg": [0, 0, 0, 255],
-        "selected_match_fg": [0, 0, 0, 255],
-        "selected_bg": [238, 238, 238, 255]
+        "fg": [204, 204, 204, 255],
+        "match_fg": [204, 204, 204, 255],
+        "bg": [33, 33, 33, 255],
+        "selected_fg": [204, 204, 204, 255],
+        "selected_match_fg": [204, 204, 204, 255],
+        "selected_bg": [30, 30, 30, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [150, 150, 150, 255],
-        "match_fg": [120, 120, 120, 255],
-        "bg": [248, 248, 248, 255],
-        "selected_fg": [150, 150, 150, 255],
-        "selected_match_fg": [120, 120, 120, 255],
-        "selected_bg": [238, 238, 238, 255]
+        "fg": [102, 102, 102, 255],
+        "match_fg": [102, 102, 102, 255],
+        "bg": [33, 33, 33, 255],
+        "selected_fg": [102, 102, 102, 255],
+        "selected_match_fg": [102, 102, 102, 255],
+        "selected_bg": [30, 30, 30, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [72, 139, 211, 255],
-        "bg": [248, 248, 248, 255],
-        "selected_fg": [72, 139, 211, 255],
-        "selected_bg": [238, 238, 238, 255]
+        "fg": [137, 208, 244, 255],
+        "bg": [33, 33, 33, 255],
+        "selected_fg": [137, 208, 244, 255],
+        "selected_bg": [30, 30, 30, 255]
     },
 
 //
