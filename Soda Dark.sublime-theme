@@ -62,22 +62,22 @@
         // Inactive tab label
         "class": "tab_label",
         "fade": true,
-        "fg": [0, 0, 0],
-        "bg": [220, 220, 220]
+        "fg": [204, 204, 204],
+        "bg": [65, 65, 65]
         // "bg": {"target": [220, 220, 220], "speed": 4.0, "interpolation": "smoothstep"}
     },
     {
         // Inactive tab label hover
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "bg": [234, 234, 234]
+        "bg": [73, 73, 73]
         // "bg": {"target": [234, 234, 234], "speed": 4.0, "interpolation": "smoothstep"}
     },
     {
         // Active tab label
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "bg": [239, 239, 239]
+        "bg": [76, 76, 76]
     },  
     // Tab close button
     {
