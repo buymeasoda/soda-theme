@@ -1,10 +1,12 @@
 # Soda Theme
 
-A light coloured theme for Sublime Text 2.
+Dark and light custom UI themes for Sublime Text 2.
 
 ## Design
 
 ![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png?v=2)
+
+![Soda Dark Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-dark-theme.png)
 
 ## Installation
 
@@ -22,7 +24,7 @@ Go to your Sublime Text 2 `Packages/User` directory and clone the theme reposito
 * Unzip the files and rename the folder to `Theme - Soda`
 * Copy the folder to your Sublime Text 2 `Packages/User` directory
 * Open your Sublime Text 2 User Global Preferences file `Sublime Text 2 -> Preferences -> User Global Settings`
-* Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"`
+* Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
 
 ### Example User Global Settings
 
@@ -32,9 +34,11 @@ Go to your Sublime Text 2 `Packages/User` directory and clone the theme reposito
 
 ## Bonus Options
 
-### Code Highlight Colour Scheme
+### Code Highlighting Colour Schemes
 
-The code highlighting colour scheme shown in the screenshot is [Espresso tutti colori.tmTheme](https://github.com/mkhl/espresso-tutti-colori.tmtheme), which was originally based on the Espresso Editor default colour scheme and ported to TextMate by [Martin Kühl](https://github.com/mkhl). 
+The code highlighting colour scheme shown in the Soda Light screenshot is [Espresso tutti colori.tmTheme](https://github.com/mkhl/espresso-tutti-colori.tmtheme), which was originally based on the Espresso Editor default colour scheme and ported to TextMate by [Martin Kühl](https://github.com/mkhl).
+
+The code highlighting colour scheme shown in the Soda Dark screenshot is an ever so slightly tweaked version of Monokai that I created.
 
 #### To use the colour scheme
 
