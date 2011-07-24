@@ -287,6 +287,12 @@
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "User/Theme - Soda/Soda Dark/group-closed-selected.png"
+    },
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["pressed"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "User/Theme - Soda/Soda Dark/group-closed.png"
     },    
     // Sidebar group open
     {
@@ -304,7 +310,13 @@
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "User/Theme - Soda/Soda Dark/group-open-selected.png"
-    },        
+    },
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["expanded", "pressed"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "User/Theme - Soda/Soda Dark/group-open.png"
+    },    
 
 //
 // STANDARD TEXT BUTTONS
