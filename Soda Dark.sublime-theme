@@ -205,7 +205,7 @@
         "row_padding": [8, 3],
         "indent": 15,
         "indent_offset": 15,
-        "background_color": [32, 32, 32]
+        "background_color": [30, 30, 30]
     },
     // Sidebar rows
     {
