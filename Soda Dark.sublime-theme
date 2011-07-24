@@ -223,23 +223,23 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [110, 126, 141],
+        "color": [204, 204, 204],
         "font.bold": true
     },
     {
         "class": "sidebar_heading",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 255, 255]
+        "color": [204, 204, 204]
     },    
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [0, 0, 0]
+        "color": [153, 153, 153]
     },    
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 255, 255]
+        "color": [204, 204, 204]
     },
     // Sidebar file close
     {
