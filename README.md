@@ -53,6 +53,8 @@ The code font shown in the screenshot is [Meslo](https://github.com/andreberg/Me
 
 There are some aspects of the Soda theme design I would like to improve such as the overall quickpanel design. It might be that I haven't figured out the correct rules yet, or that the theme system doesn't expose certain features as being editable.
 
+One area that needs to be addressed with both themes is removing the rendering of the background colour taken from the syntax highlighting scheme in the input fields of the UI.
+
 A summary of these areas can be found at the project wiki page [Theme Challenges and ideas](https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges-and-ideas).
 
 ## Legals
