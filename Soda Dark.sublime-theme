@@ -189,7 +189,7 @@
         "layer0.inner_margin": [2, 2],
         "content_margin": [4, 3, 4, 3]
     },
-    // Status bar content
+    // Status bar content and panel content
     {
         "class": "label_control",
         "color": [191, 191, 191]
