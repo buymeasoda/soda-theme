@@ -111,7 +111,18 @@
 
 //
 // SCROLLBARS
-//
+//  
+
+    {
+        "class": "scroll_area_control",
+        "settings": ["overlay_scroll_bars"],
+        "overlay": true
+    },
+    {
+        "class": "scroll_area_control",
+        "settings": ["!overlay_scroll_bars"],
+        "overlay": false
+    },
 
     // Vertical scroll bar
     {
