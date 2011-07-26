@@ -34,7 +34,6 @@
         "layer2.texture": "User/Theme - Soda/Soda Light/tab-hover.png",
         "layer2.inner_margin": [18, 4],
         "layer2.opacity": 0.0
-        // "layer2.opacity": {"target": 0.0, "speed": 4.0, "interpolation": "smoothstep"}
     },
     {
         "class": "tab_control",
@@ -47,7 +46,6 @@
         "attributes": ["hover"],
         "content_margin": [22, 6, 15, 4],
         "layer2.opacity": 1.0
-        // "layer2.opacity": {"target": 1.0, "speed": 4.0, "interpolation": "smoothstep"}
     },
     {
         // Active tab state
@@ -64,14 +62,12 @@
         "fade": true,
         "fg": [0, 0, 0],
         "bg": [220, 220, 220]
-        // "bg": {"target": [220, 220, 220], "speed": 4.0, "interpolation": "smoothstep"}
     },
     {
         // Inactive tab label hover
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "bg": [234, 234, 234]
-        // "bg": {"target": [234, 234, 234], "speed": 4.0, "interpolation": "smoothstep"}
     },
     {
         // Active tab label
