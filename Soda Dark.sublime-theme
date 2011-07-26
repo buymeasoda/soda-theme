@@ -214,7 +214,9 @@
     {
         "class": "sidebar_heading",
         "color": [210, 210, 210],
-        "font.bold": true
+        "font.bold": true,
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 1]
     },
     {
         "class": "sidebar_heading",
@@ -224,12 +226,15 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [125, 125, 125]
+        "color": [125, 125, 125],
+        "shadow_offset": [0, 0]        
     },    
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [210, 210, 210]
+        "color": [210, 210, 210],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 1]        
     },
     // Sidebar file close
     {
