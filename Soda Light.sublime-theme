@@ -374,20 +374,20 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [0, 0, 0, 255],
+        "fg": [50, 50, 50, 255],
         "match_fg": [0, 0, 0, 255],
         "bg": [248, 248, 248, 255],
-        "selected_fg": [0, 0, 0, 255],
+        "selected_fg": [50, 50, 50, 255],
         "selected_match_fg": [0, 0, 0, 255],
         "selected_bg": [238, 238, 238, 255]
     },
     {
         "class": "quick_panel_path_label",
         "fg": [150, 150, 150, 255],
-        "match_fg": [120, 120, 120, 255],
+        "match_fg": [90, 90, 90, 255],
         "bg": [248, 248, 248, 255],
         "selected_fg": [150, 150, 150, 255],
-        "selected_match_fg": [120, 120, 120, 255],
+        "selected_match_fg": [90, 90, 90, 255],
         "selected_bg": [238, 238, 238, 255]
     },
     {
