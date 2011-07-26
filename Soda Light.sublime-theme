@@ -19,7 +19,7 @@
     // Tab element
     {
         "class": "tab_control",
-        "content_margin": [22, 6, 18, 4],
+        "content_margin": [22, 6, 22, 4],
         "max_margin_trim": 0,
         "hit_test_level": 0.5,
         // Inactive tab settings
@@ -34,7 +34,6 @@
         "layer2.texture": "User/Theme - Soda/Soda Light/tab-hover.png",
         "layer2.inner_margin": [18, 4],
         "layer2.opacity": 0.0
-        // "layer2.opacity": {"target": 0.0, "speed": 4.0, "interpolation": "smoothstep"}
     },
     {
         "class": "tab_control",
@@ -45,9 +44,7 @@
         // Hover tab state
         "class": "tab_control",
         "attributes": ["hover"],
-        "content_margin": [22, 6, 15, 4],
         "layer2.opacity": 1.0
-        // "layer2.opacity": {"target": 1.0, "speed": 4.0, "interpolation": "smoothstep"}
     },
     {
         // Active tab state
@@ -63,21 +60,19 @@
         "class": "tab_label",
         "fade": true,
         "fg": [0, 0, 0],
-        "bg": [220, 220, 220]
-        // "bg": {"target": [220, 220, 220], "speed": 4.0, "interpolation": "smoothstep"}
+        "bg": [222, 222, 222]
     },
     {
         // Inactive tab label hover
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "bg": [234, 234, 234]
-        // "bg": {"target": [234, 234, 234], "speed": 4.0, "interpolation": "smoothstep"}
     },
     {
         // Active tab label
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "bg": [239, 239, 239]
+        "bg": [242, 242, 242]
     },  
     // Tab close button
     {
@@ -94,11 +89,6 @@
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [8, 8]
-    },
-    {
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "content_margin": [8, 8]
     },
     {
@@ -235,22 +225,28 @@
     {
         "class": "sidebar_heading",
         "color": [110, 126, 141],
-        "font.bold": true
+        "font.bold": true,
+        "shadow_color": [241, 244, 247],
+        "shadow_offset": [0, 1]        
     },
     {
         "class": "sidebar_heading",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 255, 255]
+        "color": [255, 255, 255],
+        "shadow_color": [34, 94, 145]
     },    
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [0, 0, 0]
+        "color": [0, 0, 0],
+        "shadow_offset": [0, 0]
     },    
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 255, 255]
+        "color": [255, 255, 255],
+        "shadow_color": [34, 94, 145],
+        "shadow_offset": [0, 1]
     },
     // Sidebar file close
     {
@@ -389,20 +385,20 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [0, 0, 0, 255],
+        "fg": [50, 50, 50, 255],
         "match_fg": [0, 0, 0, 255],
         "bg": [248, 248, 248, 255],
-        "selected_fg": [0, 0, 0, 255],
+        "selected_fg": [50, 50, 50, 255],
         "selected_match_fg": [0, 0, 0, 255],
         "selected_bg": [238, 238, 238, 255]
     },
     {
         "class": "quick_panel_path_label",
         "fg": [150, 150, 150, 255],
-        "match_fg": [120, 120, 120, 255],
+        "match_fg": [90, 90, 90, 255],
         "bg": [248, 248, 248, 255],
         "selected_fg": [150, 150, 150, 255],
-        "selected_match_fg": [120, 120, 120, 255],
+        "selected_match_fg": [90, 90, 90, 255],
         "selected_bg": [238, 238, 238, 255]
     },
     {
