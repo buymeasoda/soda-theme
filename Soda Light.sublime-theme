@@ -239,7 +239,8 @@
     {
         "class": "sidebar_label",
         "color": [0, 0, 0],
-        "shadow_offset": [0, 0]
+        "shadow_color": [239, 242, 244],
+        "shadow_offset": [0, 1]
     },    
     {
         "class": "sidebar_label",
