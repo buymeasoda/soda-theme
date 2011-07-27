@@ -151,6 +151,37 @@
     },
 
 //
+// LABELS
+//
+
+    // General labels
+    {
+        "class": "label_control",
+        "color": [0, 0, 0]
+    },
+    // Text field labels
+    {
+        "class": "label_control",
+        "parents": [{"class": "panel_control"}],
+        "shadow_color": [250, 250, 250],
+        "shadow_offset": [0, 1]
+    },
+    // Button labels
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control"}],
+        "shadow_color": [245, 245, 245],
+        "shadow_offset": [0, 1]
+    },
+    // Status bar label
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "shadow_color": [210, 210, 210],
+        "shadow_offset": [0, 1]
+    },
+
+//
 // TOOLTIP
 //
 
@@ -171,6 +202,7 @@
 //
 // STATUS BAR
 //
+
     // Status bar container
     {
         "class": "status_bar",
@@ -178,11 +210,6 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [4, 3, 4, 3]
-    },
-    // Status bar content
-    {
-        "class": "label_control",
-        "color": [0, 0, 0]
     },
 
 //

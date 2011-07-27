@@ -151,6 +151,39 @@
     },
 
 //
+// LABELS
+//
+
+    // General labels
+    {
+        "class": "label_control",
+        "color": [204, 204, 204]
+    },
+    // Text field labels
+    {
+        "class": "label_control",
+        "parents": [{"class": "panel_control"}],
+        "shadow_color": [55, 55, 55],
+        "shadow_offset": [0, 1]
+    },
+    // Button labels
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control"}],
+        "color": [218, 218, 218],
+        "shadow_color": [40, 40, 40],
+        "shadow_offset": [0, 1]
+    },
+    // Status bar label
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [185, 185, 185],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 1]
+    },
+
+//
 // TOOLTIP
 //
 
@@ -178,11 +211,6 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [4, 3, 4, 3]
-    },
-    // Status bar content and panel content
-    {
-        "class": "label_control",
-        "color": [191, 191, 191]
     },
 
 //
