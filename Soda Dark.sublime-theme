@@ -73,7 +73,7 @@
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "bg": [78, 78, 78]
-    },  
+    },
     // Tab close button
     {
         "class": "tab_close_button",
@@ -124,7 +124,7 @@
         "layer0.texture": "Theme - Soda/Soda Dark/scrollbar-corner-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
-    },    
+    },
     // Vertical scroll puck
     {
         "class": "puck_control",
@@ -148,6 +148,49 @@
         "attributes": ["hover"],
         // "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
+    },
+
+//
+// EMPTY WINDOW BACKGROUND
+//
+
+    {
+        "class": "sheet_container_control",
+        "layer0.tint": [25, 25, 25],
+        "layer0.opacity": 1.0
+    },
+
+//
+// LABELS
+//
+
+    // General labels
+    {
+        "class": "label_control",
+        "color": [204, 204, 204]
+    },
+    // Text field labels
+    {
+        "class": "label_control",
+        "parents": [{"class": "panel_control"}],
+        "shadow_color": [55, 55, 55],
+        "shadow_offset": [0, 1]
+    },
+    // Button labels
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control"}],
+        "color": [218, 218, 218],
+        "shadow_color": [40, 40, 40],
+        "shadow_offset": [0, 1]
+    },
+    // Status bar label
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [185, 185, 185],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 1]
     },
 
 //
@@ -179,11 +222,6 @@
         "layer0.inner_margin": [2, 2],
         "content_margin": [4, 3, 4, 3]
     },
-    // Status bar content and panel content
-    {
-        "class": "label_control",
-        "color": [191, 191, 191]
-    },
 
 //
 // SIDEBAR
@@ -209,7 +247,7 @@
         "class": "tree_row",
         "attributes": ["selected"],
         "layer0.opacity": 1.0
-    },    
+    },
     // Sidebar heading
     {
         "class": "sidebar_heading",
@@ -222,19 +260,19 @@
         "class": "sidebar_heading",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [210, 210, 210]
-    },    
+    },
     // Sidebar entry
     {
         "class": "sidebar_label",
         "color": [125, 125, 125],
-        "shadow_offset": [0, 0]        
-    },    
+        "shadow_offset": [0, 0]
+    },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [210, 210, 210],
         "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 1]        
+        "shadow_offset": [0, 1]
     },
     // Sidebar file close
     {
@@ -278,7 +316,7 @@
         "attributes": ["pressed"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Dark/group-closed.png"
-    },    
+    },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
@@ -301,7 +339,7 @@
         "attributes": ["expanded", "pressed"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Dark/group-open.png"
-    },    
+    },
 
 //
 // STANDARD TEXT BUTTONS
@@ -311,7 +349,7 @@
     {
         "class": "button_control",
         "content_margin": [6, 5, 6, 6],
-        "min_size": [75, 0],        
+        "min_size": [75, 0],
         // Default button state
         "layer0.texture": "Theme - Soda/Soda Dark/btn-large.png",
         "layer0.opacity": 1.0,
@@ -337,7 +375,7 @@
         "class": "text_line_control",
         "layer0.texture": "Theme - Soda/Soda Dark/text-field.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [2, 4, 4, 2],
+        "layer0.inner_margin": [5, 5, 3, 3],
         "content_margin": [4, 4, 4, 2]
     },
 
@@ -380,7 +418,7 @@
         "bg": [33, 33, 33, 255],
         "selected_fg": [192, 192, 192, 255],
         "selected_match_fg": [255, 255, 255, 255],
-        "selected_bg": [30, 30, 30, 255]
+        "selected_bg": [20, 20, 20, 255]
     },
     {
         "class": "quick_panel_path_label",
@@ -389,14 +427,14 @@
         "bg": [33, 33, 33, 255],
         "selected_fg": [102, 102, 102, 255],
         "selected_match_fg": [180, 180, 180, 255],
-        "selected_bg": [30, 30, 30, 255]
+        "selected_bg": [20, 20, 20, 255]
     },
     {
         "class": "quick_panel_score_label",
         "fg": [137, 208, 244, 255],
         "bg": [33, 33, 33, 255],
         "selected_fg": [137, 208, 244, 255],
-        "selected_bg": [30, 30, 30, 255]
+        "selected_bg": [20, 20, 20, 255]
     },
 
 //
@@ -552,7 +590,7 @@
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Dark/icon-buffer-on.png"
-    },    
+    },
 
 //
 // BOTTOM PANEL ICONS - GROUP 2
