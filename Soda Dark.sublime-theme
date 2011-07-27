@@ -151,6 +151,16 @@
     },
 
 //
+// EMPTY WINDOW BACKGROUND
+//
+
+    {
+        "class": "sheet_container_control",
+        "layer0.tint": [25, 25, 25],
+        "layer0.opacity": 1.0
+    },
+
+//
 // LABELS
 //
 
