@@ -655,6 +655,16 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Dark/icon-highlight-on.png"
+    },
+
+//
+// SHEET CONTAINER
+//
+
+    {
+        "class": "sheet_container_control",
+        "layer0.tint": [20, 20, 20],
+        "layer0.opacity": 1.0
     }
 
 ]
