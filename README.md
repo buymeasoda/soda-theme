@@ -2,6 +2,12 @@
 
 Dark and light custom UI themes for Sublime Text 2.
 
+## PLEASE NOTE: Theme folder location has now been relocated from "Packages/User" to "Packages" in the latest update
+
+The theme has now been updated to work when placed inside the **Packages** folder instead of inside **Packages/User**. If you have cloned the theme into the User folder, you will see a broken theme (with red backgrounds) on the next git pull. To correct this issue, move the Theme - Soda folder from inside User to inside Packages.
+
+See [GitHub: Theme location issue](https://github.com/buymeasoda/soda-theme/issues/10) and [Sublime Forum: Theme location discussion](http://www.sublimetext.com/forum/viewtopic.php?f=2&t=2471&start=50#p11550) for more details.
+
 ## Design
 
 ![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png?v=2)
@@ -10,11 +16,11 @@ Dark and light custom UI themes for Sublime Text 2.
 
 ## Installation
 
-If you are a git user, the best way to install the theme and keep up to date is to clone the repo directly into your `/Packages/User` directory in the Sublime Text 2 application settings area.
+If you are a git user, the best way to install the theme and keep up to date is to clone the repo directly into your `Packages` directory in the Sublime Text 2 application settings area.
 
 ### Using Git
 
-Go to your Sublime Text 2 `Packages/User` directory and clone the theme repository using the command below:
+Go to your Sublime Text 2 `Packages` directory and clone the theme repository using the command below:
 
     git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
 
@@ -22,7 +28,7 @@ Go to your Sublime Text 2 `Packages/User` directory and clone the theme reposito
 
 * Download the files using the .zip download option
 * Unzip the files and rename the folder to `Theme - Soda`
-* Copy the folder to your Sublime Text 2 `Packages/User` directory
+* Copy the folder to your Sublime Text 2 `Packages` directory
 * Open your Sublime Text 2 User Global Preferences file `Sublime Text 2 -> Preferences -> User Global Settings`
 * Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
 
