@@ -239,11 +239,20 @@
 
     // Sidebar container
     {
+        "class": "sidebar_container",
+        "layer0.tint": [177, 177, 177],
+        "layer0.opacity": 1.0,
+        "layer0.draw_center": false,
+        "layer0.inner_margin": [0, 0, 1, 0],
+        "content_margin": [0, 0, 1, 0]
+    },
+    {
         "class": "sidebar_tree",
         "row_padding": [8, 3],
         "indent": 15,
         "indent_offset": 15,
-        "background_color": [222, 227, 233]
+        "layer0.tint": [222, 227, 233],
+        "layer0.opacity": 1
     },
     // Sidebar rows
     {
@@ -408,7 +417,8 @@
     {
         "class": "quick_panel",
         "row_padding": [2, 1],
-        "background_color": [248, 248, 248, 255]
+        "layer0.tint": [248, 248, 248, 255],
+        "layer0.opacity": 1
     },
     {
         "class": "quick_panel_row",
@@ -474,7 +484,8 @@
     {
         "class": "auto_complete",
         "row_padding": [2, 2],
-        "background_color": [255, 255, 255]
+        "layer0.tint": [255, 255, 255],
+        "layer0.opacity": 1
     },
     {
         "class": "auto_complete_label",
@@ -675,6 +686,14 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Light/icon-highlight-on.png"
-    }
+    },
 
+//
+// MINIMAP
+//
+
+    {
+        "class": "minimap_control",
+        "viewport_color": [117, 117, 117, 20]
+    }
 ]
