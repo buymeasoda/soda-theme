@@ -73,7 +73,7 @@
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "bg": [242, 242, 242]
-    },  
+    },
     // Tab close button
     {
         "class": "tab_close_button",
@@ -124,7 +124,7 @@
         "layer0.texture": "Theme - Soda/Soda Light/scrollbar-corner-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
-    },    
+    },
     // Vertical scroll puck
     {
         "class": "puck_control",
@@ -209,27 +209,27 @@
         "class": "tree_row",
         "attributes": ["selected"],
         "layer0.opacity": 1.0
-    },    
+    },
     // Sidebar heading
     {
         "class": "sidebar_heading",
         "color": [110, 126, 141],
         "font.bold": true,
         "shadow_color": [241, 244, 247],
-        "shadow_offset": [0, 1]        
+        "shadow_offset": [0, 1]
     },
     {
         "class": "sidebar_heading",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [255, 255, 255],
         "shadow_color": [34, 94, 145]
-    },    
+    },
     // Sidebar entry
     {
         "class": "sidebar_label",
         "color": [0, 0, 0],
         "shadow_offset": [0, 0]
-    },    
+    },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
@@ -245,7 +245,7 @@
         "layer0.inner_margin": 0,
         "layer1.texture": "Theme - Soda/Soda Light/file-close-selected.png",
         "layer1.opacity": 0.0,
-        "layer1.inner_margin": 0,        
+        "layer1.inner_margin": 0,
         "content_margin": [8, 8]
     },
     {
@@ -259,7 +259,7 @@
         "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
-    },    
+    },
     // Sidebar file close hover
     {
         "class": "close_button",
@@ -283,7 +283,7 @@
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Light/group-closed-selected.png"
-    },    
+    },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
@@ -300,7 +300,7 @@
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Light/group-open-selected.png"
-    },        
+    },
 
 //
 // STANDARD TEXT BUTTONS
@@ -310,7 +310,7 @@
     {
         "class": "button_control",
         "content_margin": [6, 5, 6, 6],
-        "min_size": [75, 0],        
+        "min_size": [75, 0],
         // Default button state
         "layer0.texture": "Theme - Soda/Soda Light/btn-large.png",
         "layer0.opacity": 1.0,
@@ -336,7 +336,7 @@
         "class": "text_line_control",
         "layer0.texture": "Theme - Soda/Soda Light/text-field.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [2, 4, 4, 2],
+        "layer0.inner_margin": [5, 5, 3, 3],
         "content_margin": [4, 4, 4, 2]
     },
 
@@ -551,7 +551,7 @@
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Light/icon-buffer-on.png"
-    },    
+    },
 
 //
 // BOTTOM PANEL ICONS - GROUP 2
