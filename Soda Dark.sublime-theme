@@ -474,12 +474,12 @@
     {
         "class": "auto_complete",
         "row_padding": [2, 2],
-        "layer0.tint": [26, 26, 26],
+        "layer0.tint": [30, 30, 30],
         "layer0.opacity": 1.0
     },
     {
         "class": "auto_complete_label",
-        "fg": [125, 125, 125],
+        "fg": [140, 140, 140],
         "match_fg": [255, 255, 255],
         "bg": [26, 26, 26],
         "selected_fg": [255, 255, 255],
