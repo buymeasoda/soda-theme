@@ -474,13 +474,14 @@
     {
         "class": "auto_complete",
         "row_padding": [2, 2],
-        "background_color": [255, 255, 255]
+        "layer0.tint": [26, 26, 26],
+        "layer0.opacity": 1.0
     },
     {
         "class": "auto_complete_label",
-        "fg": [0, 0, 0],
-        "match_fg": [0, 0, 0],
-        "bg": [255, 255, 255],
+        "fg": [125, 125, 125],
+        "match_fg": [255, 255, 255],
+        "bg": [26, 26, 26],
         "selected_fg": [255, 255, 255],
         "selected_match_fg": [255, 255, 255],
         "selected_bg": [56, 117, 215]
