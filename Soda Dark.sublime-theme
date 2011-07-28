@@ -390,15 +390,22 @@
     },
 
 //
-// STANDARD PANEL BACKGROUND
+// PANEL BACKGROUNDS
 //
 
-    // Panel container (Used for bottom panel and quick panel)
+    // Bottom panel background
     {
         "class": "panel_control",
         "layer0.texture": "Theme - Soda/Soda Dark/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
+    },
+    // Quick panel background
+    {
+        "class": "overlay_control",
+        "layer0.tint": [75, 75, 75],
+        "layer0.opacity": 1.0,
+        "content_margin": [4, 4]
     },
 
 //
@@ -484,7 +491,7 @@
         "bg": [26, 26, 26],
         "selected_fg": [255, 255, 255],
         "selected_match_fg": [255, 255, 255],
-        "selected_bg": [56, 117, 215]
+        "selected_bg": [86, 86, 86]
     },
     {
         "class": "table_row",
