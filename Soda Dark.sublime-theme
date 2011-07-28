@@ -229,11 +229,21 @@
 
     // Sidebar container
     {
+        "class": "sidebar_container",
+        "layer0.tint": [0, 0, 0],
+        "layer0.opacity": 1.0,
+        "layer0.draw_center": false,
+        "layer0.inner_margin": [0, 0, 1, 0],
+        "content_margin": [0, 0, 1, 0]
+    },
+    // Sidebar tree
+    {
         "class": "sidebar_tree",
         "row_padding": [8, 3],
         "indent": 15,
         "indent_offset": 15,
-        "background_color": [30, 30, 30]
+        "layer0.tint": [30, 30, 30],
+        "layer0.opacity": 1.0
     },
     // Sidebar rows
     {
@@ -413,21 +423,21 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [185, 185, 185, 255],
+        "fg": [200, 200, 200, 255],
         "match_fg": [255, 255, 255, 255],
-        "bg": [33, 33, 33, 255],
-        "selected_fg": [192, 192, 192, 255],
+        "bg": [40, 40, 40, 255],
+        "selected_fg": [200, 200, 200, 255],
         "selected_match_fg": [255, 255, 255, 255],
-        "selected_bg": [20, 20, 20, 255]
+        "selected_bg": [15, 15, 15, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [102, 102, 102, 255],
-        "match_fg": [180, 180, 180, 255],
-        "bg": [33, 33, 33, 255],
-        "selected_fg": [102, 102, 102, 255],
-        "selected_match_fg": [180, 180, 180, 255],
-        "selected_bg": [20, 20, 20, 255]
+        "fg": [120, 120, 120, 255],
+        "match_fg": [200, 200, 200, 255],
+        "bg": [40, 40, 40, 255],
+        "selected_fg": [120, 120, 120, 255],
+        "selected_match_fg": [200, 200, 200, 255],
+        "selected_bg": [15, 15, 15, 255]
     },
     {
         "class": "quick_panel_score_label",
@@ -464,13 +474,14 @@
     {
         "class": "auto_complete",
         "row_padding": [2, 2],
-        "background_color": [255, 255, 255]
+        "layer0.tint": [30, 30, 30],
+        "layer0.opacity": 1.0
     },
     {
         "class": "auto_complete_label",
-        "fg": [0, 0, 0],
-        "match_fg": [0, 0, 0],
-        "bg": [255, 255, 255],
+        "fg": [140, 140, 140],
+        "match_fg": [255, 255, 255],
+        "bg": [26, 26, 26],
         "selected_fg": [255, 255, 255],
         "selected_match_fg": [255, 255, 255],
         "selected_bg": [56, 117, 215]
