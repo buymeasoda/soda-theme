@@ -387,15 +387,22 @@
     },
 
 //
-// STANDARD PANEL BACKGROUND
+// PANEL BACKGROUNDS
 //
 
-    // Panel container (Used for bottom panel and quick panel)
+    // Bottom panel background
     {
         "class": "panel_control",
         "layer0.texture": "Theme - Soda/Soda Light/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
+    },
+    // Quick panel background
+    {
+        "class": "overlay_control",
+        "layer0.tint": [240, 240, 240],
+        "layer0.opacity": 1.0,
+        "content_margin": [4, 4]
     },
 
 //
