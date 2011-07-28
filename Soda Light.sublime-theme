@@ -241,8 +241,7 @@
         "indent": 15,
         "indent_offset": 15,
         "layer0.tint": [222, 227, 233],
-        "layer0.opacity": 1.0,
-        "dark_content": false
+        "layer0.opacity": 1.0
     },
     // Sidebar rows
     {
@@ -473,8 +472,7 @@
         "class": "auto_complete",
         "row_padding": [2, 2],
         "layer0.tint": [255, 255, 255],
-        "layer0.opacity": 1.0,
-        "dark_content": false
+        "layer0.opacity": 1.0
     },
     {
         "class": "auto_complete_label",
