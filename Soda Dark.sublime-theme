@@ -230,7 +230,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [25, 25, 25],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": [0, 0, 1, 0],
