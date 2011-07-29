@@ -411,8 +411,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [2, 1],
-        "background_color": [248, 248, 248, 255]
+        "row_padding": [2, 1]
     },
     {
         "class": "quick_panel_row",
