@@ -161,6 +161,15 @@
     },
 
 //
+// Mini Map
+//
+
+    {
+        "class": "minimap_control",
+        "viewport_color": [255, 255, 255, 20]
+    },
+
+//
 // LABELS
 //
 
@@ -230,7 +239,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [25, 25, 25],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": [0, 0, 1, 0],
@@ -414,8 +423,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [2, 1],
-        "background_color": [33, 33, 33, 255]
+        "row_padding": [2, 1]
     },
     {
         "class": "quick_panel_row",

@@ -2,17 +2,11 @@
 
 Dark and light custom UI themes for Sublime Text 2.
 
-## PLEASE NOTE: In the latest update, the theme folder location has been relocated to "Packages"
-
-The theme has now been updated to work when placed inside the **Packages** folder instead of inside **Packages/User**. If you have cloned the theme into the User folder, you will see a [broken theme (with red backgrounds)](https://github.com/buymeasoda/soda-theme/wiki/I-See-Red) on the next git pull. To correct this issue, move the "Theme - Soda" folder from inside User to inside Packages.
-
-See [GitHub: Theme location issue](https://github.com/buymeasoda/soda-theme/issues/10) and [Sublime Forum: Theme location discussion](http://www.sublimetext.com/forum/viewtopic.php?f=2&t=2471&start=50#p11550) for more details.
-
 ## Design
 
-![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png)
+![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png?v=3)
 
-![Soda Dark Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-dark-theme.png)
+![Soda Dark Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-dark-theme.png?v=3)
 
 ## Installation
 
@@ -55,13 +49,24 @@ The code highlighting colour scheme shown in the Soda Dark screenshot is an ever
 
 The code font shown in the screenshot is [Meslo](https://github.com/andreberg/Meslo-Font), which is a modified version of Menlo.
 
-## Notes
+## Release Notes
+
+Soda theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2. ST2 dev builds move quickly and changes can occur with the theme API between releases, so there may be occassions where the theme doesn't quite work with a brand new dev release.
+
+PLEASE NOTE: In a recent update, the Soda theme folder location was moved to "Packages".
+
+The theme has now been updated to work when placed inside the **Packages** folder instead of inside **Packages/User**. If you have cloned the theme into the User folder, you will see a [broken theme (with red backgrounds)](https://github.com/buymeasoda/soda-theme/wiki/I-See-Red) on the next git pull. To correct this issue, move the "Theme - Soda" folder from inside User to inside Packages.
+
+See [GitHub: Theme location issue](https://github.com/buymeasoda/soda-theme/issues/10) and [Sublime Forum: Theme location discussion](http://www.sublimetext.com/forum/viewtopic.php?f=2&t=2471&start=50#p11550) for more details.
+
+## Development
 
 There are some aspects of the Soda theme design I would like to improve such as the overall quickpanel design. It might be that I haven't figured out the correct rules yet, or that the theme system doesn't expose certain features as being editable.
 
 One area that needs to be addressed with both themes is removing the rendering of the background colour taken from the syntax highlighting scheme in the input fields of the UI.
 
-A summary of these areas can be found at the project wiki page [Theme Challenges and ideas](https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges-and-ideas).
+While developing the theme, I have documented some [theme challenges and ideas](https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges-and-ideas) encountered along the way.
+
 
 ## Legals
 
