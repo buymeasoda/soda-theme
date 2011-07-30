@@ -102,10 +102,21 @@
 //
 // SCROLLBARS
 //
-
+    // Optional scroll bars so it works with Lion
+    {
+        "class": "scroll_area_control",
+        "settings": ["overlay_scroll_bars"],
+        "overlay": true
+    },
+    {
+        "class": "scroll_area_control",
+        "settings": ["!overlay_scroll_bars"],
+        "overlay": false
+    },
     // Vertical scroll bar
     {
         "class": "scroll_bar_control",
+        "settings": ["overlay_scroll_bars"],
         "layer0.texture": "Theme - Soda/Soda Light/scrollbar-vertical-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 6]
@@ -114,6 +125,7 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
+        "settings": ["overlay_scroll_bars"],
         "layer0.texture": "Theme - Soda/Soda Light/scrollbar-horizontal-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 0]
