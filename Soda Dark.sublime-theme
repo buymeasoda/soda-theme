@@ -100,54 +100,117 @@
     },
 
 //
-// SCROLLBARS
+// STANDARD SCROLLBARS
 //
 
-    // Vertical scroll bar
+    // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.texture": "Theme - Soda/Soda Dark/scrollbar-vertical-background.png",
+        "layer0.texture": "Theme - Soda/Soda Dark/standard-scrollbar-vertical.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [0, 6]
+        "layer0.inner_margin": [0, 6],
+        "blur": false
     },
-    // Horizontal scroll bar
+    // Standard horizontal scroll bar
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Soda/Soda Dark/scrollbar-horizontal-background.png",
+        "layer0.texture": "Theme - Soda/Soda Dark/standard-scrollbar-horizontal.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [6, 0]
+        "layer0.inner_margin": [6, 0],
+        "blur": false
     },
-    // Scroll bar corner
+    // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Theme - Soda/Soda Dark/scrollbar-corner-background.png",
+        "layer0.texture": "Theme - Soda/Soda Dark/standard-scrollbar-corner.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },
-    // Vertical scroll puck
+    // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.texture": "Theme - Soda/Soda Dark/scrollbar-vertical-puck.png",
-        "layer0.opacity": 0.7,
+        "layer0.texture": "Theme - Soda/Soda Dark/standard-puck-vertical.png",
+        "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
-        "content_margin": [8, 12]
+        "content_margin": [8, 12],
+        "blur": false
     },
-    // Horizontal scroll puck
+    // Standard horizontal scroll puck
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Soda/Soda Dark/scrollbar-horizontal-puck.png",
-        "layer0.opacity": 0.7,
+        "layer0.texture": "Theme - Soda/Soda Dark/standard-puck-horizontal.png",
+        "layer0.opacity": 1.0,
         "layer0.inner_margin": [10, 0],
-        "content_margin": [12, 8]
+        "content_margin": [12, 8],
+        "blur": false
     },
-    // Hover scroll bar puck
+
+//
+// OVERLAY SCROLLBARS
+//
+
+    // Overlay toggle scroll bar
+    {
+        "class": "scroll_area_control",
+        "settings": ["overlay_scroll_bars"],
+        "overlay": true
+    },
+    {
+        "class": "scroll_area_control",
+        "settings": ["!overlay_scroll_bars"],
+        "overlay": false
+    },
+    // Overlay vertical scroll bar
+    {
+        "class": "scroll_bar_control",
+        "settings": ["overlay_scroll_bars"],
+        "layer0.texture": "Theme - Soda/Soda Dark/overlay-scrollbar-vertical.png",
+        "layer0.inner_margin": [0, 5],
+        "blur": true
+    },
+    // Overlay horizontal scroll bar
+    {
+        "class": "scroll_bar_control",
+        "settings": ["overlay_scroll_bars"],
+        "attributes": ["horizontal"],
+        "layer0.texture": "Theme - Soda/Soda Dark/overlay-scrollbar-horizontal.png",
+        "layer0.inner_margin": [5, 0],
+        "blur": true
+    },
+    // Overlay vertical puck
     {
         "class": "puck_control",
-        "attributes": ["hover"],
-        // "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
-        "layer0.opacity": 1.0
+        "settings": ["overlay_scroll_bars"],
+        "layer0.texture": "Theme - Soda/Soda Dark/overlay-puck-vertical.png",
+        "layer0.inner_margin": [0, 5],
+        "content_margin": [5, 20],
+        "blur": true
+    },
+    // Overlay horizontal puck
+    {
+        "class": "puck_control",
+        "settings": ["overlay_scroll_bars"],
+        "attributes": ["horizontal"],
+        "layer0.texture": "Theme - Soda/Soda Dark/overlay-puck-horizontal.png",
+        "layer0.inner_margin": [5, 0],
+        "content_margin": [20, 5],
+        "blur": true
+    },
+    // Overlay light puck (for dark content)
+    {
+        "class": "puck_control",
+        "settings": ["overlay_scroll_bars"],
+        "attributes": ["dark"],
+        "layer0.texture": "Theme - Soda/Soda Dark/overlay-dark-puck-vertical.png"
+    },
+    // Overlay light horizontal puck (for dark content)
+    {
+        "class": "puck_control",
+        "settings": ["overlay_scroll_bars"],
+        "attributes": ["horizontal", "dark"],
+        "layer0.texture": "Theme - Soda/Soda Dark/overlay-dark-puck-horizontal.png"
     },
 
 //
@@ -252,7 +315,8 @@
         "indent": 15,
         "indent_offset": 15,
         "layer0.tint": [30, 30, 30],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "dark_content": true
     },
     // Sidebar rows
     {
@@ -423,7 +487,8 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [2, 1]
+        "row_padding": [2, 1],
+        "dark_content": true
     },
     {
         "class": "quick_panel_row",
@@ -438,28 +503,28 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [200, 200, 200, 255],
-        "match_fg": [255, 255, 255, 255],
-        "bg": [40, 40, 40, 255],
-        "selected_fg": [200, 200, 200, 255],
+        "fg": [150, 150, 150, 255],
+        "match_fg": [225, 225, 225, 255],
+        "bg": [25, 25, 25, 255],
+        "selected_fg": [170, 170, 170, 255],
         "selected_match_fg": [255, 255, 255, 255],
-        "selected_bg": [15, 15, 15, 255]
+        "selected_bg": [40, 40, 40, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [120, 120, 120, 255],
-        "match_fg": [200, 200, 200, 255],
-        "bg": [40, 40, 40, 255],
-        "selected_fg": [120, 120, 120, 255],
-        "selected_match_fg": [200, 200, 200, 255],
-        "selected_bg": [15, 15, 15, 255]
+        "fg": [85, 85, 85, 255],
+        "match_fg": [185, 185, 185, 255],
+        "bg": [25, 25, 25, 255],
+        "selected_fg": [100, 100, 100, 255],
+        "selected_match_fg": [220, 220, 220, 255],
+        "selected_bg": [40, 40, 40, 255]
     },
     {
         "class": "quick_panel_score_label",
         "fg": [137, 208, 244, 255],
-        "bg": [33, 33, 33, 255],
+        "bg": [25, 25, 25, 255],
         "selected_fg": [137, 208, 244, 255],
-        "selected_bg": [20, 20, 20, 255]
+        "selected_bg": [40, 40, 40, 255]
     },
 
 //
@@ -490,7 +555,8 @@
         "class": "auto_complete",
         "row_padding": [2, 2],
         "layer0.tint": [30, 30, 30],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "dark_content": true
     },
     {
         "class": "auto_complete_label",
