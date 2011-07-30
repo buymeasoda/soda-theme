@@ -106,7 +106,7 @@
     // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.texture": "Theme - Soda/Soda Light/scrollbar-vertical-background.png",
+        "layer0.texture": "Theme - Soda/Soda Light/standard-scrollbar-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 6],
         "blur": false
@@ -115,7 +115,7 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Soda/Soda Light/scrollbar-horizontal-background.png",
+        "layer0.texture": "Theme - Soda/Soda Light/standard-scrollbar-horizontal.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 0],
         "blur": false
@@ -123,14 +123,14 @@
     // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Theme - Soda/Soda Light/scrollbar-corner-background.png",
+        "layer0.texture": "Theme - Soda/Soda Light/standard-scrollbar-corner.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.texture": "Theme - Soda/Soda Light/scrollbar-vertical-puck.png",
+        "layer0.texture": "Theme - Soda/Soda Light/standard-puck-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12],
@@ -140,7 +140,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Soda/Soda Light/scrollbar-horizontal-puck.png",
+        "layer0.texture": "Theme - Soda/Soda Light/standard-puck-horizontal.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8],
@@ -166,7 +166,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - Soda/Soda Light/overlay-scrollbar-vertical-background.png",
+        "layer0.texture": "Theme - Soda/Soda Light/overlay-scrollbar-vertical.png",
         "layer0.inner_margin": [0, 5],
         "blur": true
     },
@@ -175,7 +175,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Soda/Soda Light/overlay-scrollbar-horizontal-background.png",
+        "layer0.texture": "Theme - Soda/Soda Light/overlay-scrollbar-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "blur": true
     },
@@ -183,7 +183,7 @@
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - Soda/Soda Light/overlay-scrollbar-vertical-puck.png",
+        "layer0.texture": "Theme - Soda/Soda Light/overlay-puck-vertical.png",
         "layer0.inner_margin": [0, 5],
         "content_margin": [5, 20],
         "blur": true
@@ -193,7 +193,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Soda/Soda Light/overlay-scrollbar-horizontal-puck.png",
+        "layer0.texture": "Theme - Soda/Soda Light/overlay-puck-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "content_margin": [20, 5],
         "blur": true
@@ -203,14 +203,14 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        "layer0.texture": "Theme - Soda/Soda Light/overlay-scrollbar-vertical-puck-dark.png"
+        "layer0.texture": "Theme - Soda/Soda Light/overlay-dark-puck-vertical.png"
     },
     // Overlay light horizontal puck (for dark content)
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal", "dark"],
-        "layer0.texture": "Theme - Soda/Soda Light/overlay-scrollbar-horizontal-puck-dark.png"
+        "layer0.texture": "Theme - Soda/Soda Light/overlay-dark-puck-horizontal.png"
     },
 
 //
