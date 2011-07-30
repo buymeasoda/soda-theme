@@ -100,47 +100,52 @@
     },
 
 //
-// SCROLLBARS
+// STANDARD SCROLLBARS
 //
 
-    // Vertical scroll bar
+    // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.texture": "Theme - Soda/Soda Dark/scrollbar-vertical-background.png",
+        "layer0.texture": "Theme - Soda/Soda Dark/standard-scrollbar-vertical.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [0, 6]
+        "layer0.inner_margin": [0, 6],
+        "blur": false
     },
-    // Horizontal scroll bar
+    // Standard horizontal scroll bar
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Soda/Soda Dark/scrollbar-horizontal-background.png",
+        "layer0.texture": "Theme - Soda/Soda Dark/standard-scrollbar-horizontal.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [6, 0]
+        "layer0.inner_margin": [6, 0],
+        "blur": false
     },
-    // Scroll bar corner
+    // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Theme - Soda/Soda Dark/scrollbar-corner-background.png",
+        "layer0.texture": "Theme - Soda/Soda Dark/standard-scrollbar-corner.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },
-    // Vertical scroll puck
+    // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.texture": "Theme - Soda/Soda Dark/scrollbar-vertical-puck.png",
-        "layer0.opacity": 0.7,
+        "layer0.texture": "Theme - Soda/Soda Dark/standard-puck-vertical.png",
+        "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
-        "content_margin": [8, 12]
+        "content_margin": [8, 12],
+        "blur": false
     },
-    // Horizontal scroll puck
+    // Standard horizontal scroll puck
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Soda/Soda Dark/scrollbar-horizontal-puck.png",
-        "layer0.opacity": 0.7,
+        "layer0.texture": "Theme - Soda/Soda Dark/standard-puck-horizontal.png",
+        "layer0.opacity": 1.0,
         "layer0.inner_margin": [10, 0],
-        "content_margin": [12, 8]
+        "content_margin": [12, 8],
+        "blur": false
+    },
     },
     // Hover scroll bar puck
     {
