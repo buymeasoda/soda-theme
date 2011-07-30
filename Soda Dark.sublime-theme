@@ -315,7 +315,8 @@
         "indent": 15,
         "indent_offset": 15,
         "layer0.tint": [30, 30, 30],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "dark_content": true
     },
     // Sidebar rows
     {
@@ -486,7 +487,8 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [2, 1]
+        "row_padding": [2, 1],
+        "dark_content": true
     },
     {
         "class": "quick_panel_row",
@@ -553,7 +555,8 @@
         "class": "auto_complete",
         "row_padding": [2, 2],
         "layer0.tint": [30, 30, 30],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "dark_content": true
     },
     {
         "class": "auto_complete_label",
