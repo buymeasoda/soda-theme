@@ -473,7 +473,7 @@
     {
         "class": "overlay_control",
         "layer0.texture": "Theme - Soda/Soda Light/overlay-background.png",
-        "layer0.inner_margin": [12, 12, 12, 14],
+        "layer0.inner_margin": [12, 6, 12, 15],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Soda/Soda Light/quick-panel-background.png",
         "layer1.inner_margin": [12, 36, 12, 18],
@@ -488,7 +488,7 @@
     {
         "class": "quick_panel",
         "row_padding": [2, 1],
-        "layer0.tint": [191, 191, 191],
+        "layer0.tint": [252, 252, 252],
         "layer0.opacity": 1.0
     },
     {
