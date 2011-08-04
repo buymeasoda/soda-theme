@@ -483,7 +483,9 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [2, 1]
+        "row_padding": [2, 1],
+        "layer0.tint": [248, 248, 248],
+        "layer0.opacity": 1.0
     },
     {
         "class": "quick_panel_row",
