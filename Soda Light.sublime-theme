@@ -476,7 +476,7 @@
         "layer0.inner_margin": [12, 6, 12, 15],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Soda/Soda Light/quick-panel-background.png",
-        "layer1.inner_margin": [12, 36, 12, 18],
+        "layer1.inner_margin": [12, 37, 12, 19],
         "layer1.opacity": 1.0,
         "content_margin": [11, 8, 11, 17]
     },
@@ -487,7 +487,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [2, 2],
+        "row_padding": [2, 1],
         "layer0.tint": [252, 252, 252],
         "layer0.opacity": 1.0
     },
