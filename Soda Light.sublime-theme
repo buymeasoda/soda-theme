@@ -454,8 +454,8 @@
         "class": "text_line_control",
         "layer0.texture": "Theme - Soda/Soda Light/text-field.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [5, 5, 3, 3],
-        "content_margin": [4, 4, 4, 2]
+        "layer0.inner_margin": [4, 5, 4, 4],
+        "content_margin": [3, 4]
     },
 
 //
