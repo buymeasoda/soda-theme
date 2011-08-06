@@ -4,9 +4,9 @@ Dark and light custom UI themes for Sublime Text 2.
 
 ## Design
 
-![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png?v=3)
+![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png?v=4)
 
-![Soda Dark Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-dark-theme.png?v=3)
+![Soda Dark Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-dark-theme.png?v=4)
 
 ## Installation
 
@@ -61,12 +61,7 @@ See [GitHub: Theme location issue](https://github.com/buymeasoda/soda-theme/issu
 
 ## Development
 
-There are some aspects of the Soda theme design I would like to improve such as the overall quickpanel design. It might be that I haven't figured out the correct rules yet, or that the theme system doesn't expose certain features as being editable.
-
-One area that needs to be addressed with both themes is removing the rendering of the background colour taken from the syntax highlighting scheme in the input fields of the UI.
-
 While developing the theme, I have documented some [theme challenges and ideas](https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges-and-ideas) encountered along the way.
-
 
 ## Legals
 
