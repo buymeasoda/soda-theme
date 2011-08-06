@@ -297,6 +297,7 @@
 //
 // SIDEBAR
 //
+
     // Sidebar container
     {
         "class": "sidebar_container",
@@ -507,7 +508,7 @@
         "fg": [50, 50, 50, 255],
         "match_fg": [0, 0, 0, 255],
         "bg": [245, 245, 245, 255],
-        "selected_fg": [50, 50, 50, 255],
+        "selected_fg": [25, 25, 25, 255],
         "selected_match_fg": [0, 0, 0, 255],
         "selected_bg": [225, 225, 225, 255]
     },
@@ -516,7 +517,7 @@
         "fg": [150, 150, 150, 255],
         "match_fg": [90, 90, 90, 255],
         "bg": [245, 245, 245, 255],
-        "selected_fg": [150, 150, 150, 255],
+        "selected_fg": [120, 120, 120, 255],
         "selected_match_fg": [90, 90, 90, 255],
         "selected_bg": [225, 225, 225, 255]
     },
