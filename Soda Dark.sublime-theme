@@ -617,8 +617,7 @@
         "class": "icon_button_control",
         "attributes": ["left", "right"],
         "layer0.texture": "Theme - Soda/Soda Dark/btn-small.png",
-        "layer0.opacity": 1.0,
-        "layer0.draw_center": false
+        "layer0.opacity": 1.0
     },
 
 //
