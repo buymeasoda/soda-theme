@@ -293,6 +293,10 @@
         "layer0.inner_margin": [2, 2],
         "content_margin": [4, 3, 4, 3]
     },
+    {
+        "class": "status_button",
+        "min_size": [100, 0]
+    },
 
 //
 // SIDEBAR
