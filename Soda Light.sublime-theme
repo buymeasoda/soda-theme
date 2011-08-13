@@ -229,7 +229,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [0, 0, 0, 25]
+        "viewport_color": [0, 0, 0, 30]
     },
 
 //
@@ -293,10 +293,15 @@
         "layer0.inner_margin": [2, 2],
         "content_margin": [4, 3, 4, 3]
     },
+    {
+        "class": "status_button",
+        "min_size": [100, 0]
+    },
 
 //
 // SIDEBAR
 //
+
     // Sidebar container
     {
         "class": "sidebar_container",
@@ -454,8 +459,8 @@
         "class": "text_line_control",
         "layer0.texture": "Theme - Soda/Soda Light/text-field.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [5, 5, 3, 3],
-        "content_margin": [4, 4, 4, 2]
+        "layer0.inner_margin": [4, 5, 4, 4],
+        "content_margin": [3, 4, 3, 3]
     },
 
 //
@@ -472,9 +477,13 @@
     // Quick panel background
     {
         "class": "overlay_control",
-        "layer0.tint": [240, 240, 240],
+        "layer0.texture": "Theme - Soda/Soda Light/overlay-background.png",
+        "layer0.inner_margin": [12, 6, 12, 15],
         "layer0.opacity": 1.0,
-        "content_margin": [4, 4]
+        "layer1.texture": "Theme - Soda/Soda Light/quick-panel-background.png",
+        "layer1.inner_margin": [12, 37, 12, 19],
+        "layer1.opacity": 1.0,
+        "content_margin": [11, 8, 11, 17]
     },
 
 //
@@ -483,8 +492,8 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [2, 1],
-        "layer0.tint": [248, 248, 248],
+        "row_padding": [5, 2],
+        "layer0.tint": [252, 252, 252],
         "layer0.opacity": 1.0
     },
     {
@@ -502,26 +511,26 @@
         "class": "quick_panel_label",
         "fg": [50, 50, 50, 255],
         "match_fg": [0, 0, 0, 255],
-        "bg": [248, 248, 248, 255],
-        "selected_fg": [50, 50, 50, 255],
+        "bg": [245, 245, 245, 255],
+        "selected_fg": [25, 25, 25, 255],
         "selected_match_fg": [0, 0, 0, 255],
-        "selected_bg": [238, 238, 238, 255]
+        "selected_bg": [225, 225, 225, 255]
     },
     {
         "class": "quick_panel_path_label",
         "fg": [150, 150, 150, 255],
         "match_fg": [90, 90, 90, 255],
-        "bg": [248, 248, 248, 255],
-        "selected_fg": [150, 150, 150, 255],
+        "bg": [245, 245, 245, 255],
+        "selected_fg": [120, 120, 120, 255],
         "selected_match_fg": [90, 90, 90, 255],
-        "selected_bg": [238, 238, 238, 255]
+        "selected_bg": [225, 225, 225, 255]
     },
     {
         "class": "quick_panel_score_label",
         "fg": [72, 139, 211, 255],
-        "bg": [248, 248, 248, 255],
+        "bg": [245, 245, 245, 255],
         "selected_fg": [72, 139, 211, 255],
-        "selected_bg": [238, 238, 238, 255]
+        "selected_bg": [225, 225, 225, 255]
     },
 
 //
@@ -606,8 +615,7 @@
         "class": "icon_button_control",
         "attributes": ["left", "right"],
         "layer0.texture": "Theme - Soda/Soda Light/btn-small.png",
-        "layer0.opacity": 1.0,
-        "layer0.draw_center": false
+        "layer0.opacity": 1.0
     },
 
 //
