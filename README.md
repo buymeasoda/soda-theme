@@ -20,9 +20,14 @@ Go to your Sublime Text 2 `Packages` directory and clone the theme repository us
 
 ### Download Manually
 
-* Download the files using the .zip download option
+* Download the files using the GitHub .zip download option
 * Unzip the files and rename the folder to `Theme - Soda`
 * Copy the folder to your Sublime Text 2 `Packages` directory
+
+## Activating the theme
+
+To configure Sublime Text 2 to use the theme:
+
 * Open your Sublime Text 2 User Global Preferences file `Sublime Text 2 -> Preferences -> User Global Settings`
 * Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
 
