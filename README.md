@@ -53,12 +53,6 @@ The code font shown in the screenshot is [Meslo](https://github.com/andreberg/Me
 
 Soda theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2. ST2 dev builds move quickly and changes can occur with the theme API between releases, so there may be occassions where the theme doesn't quite work with a brand new dev release.
 
-PLEASE NOTE: In a recent update, the Soda theme folder location was moved to "Packages".
-
-The theme has now been updated to work when placed inside the **Packages** folder instead of inside **Packages/User**. If you have cloned the theme into the User folder, you will see a [broken theme (with red backgrounds)](https://github.com/buymeasoda/soda-theme/wiki/I-See-Red) on the next git pull. To correct this issue, move the "Theme - Soda" folder from inside User to inside Packages.
-
-See [GitHub: Theme location issue](https://github.com/buymeasoda/soda-theme/issues/10) and [Sublime Forum: Theme location discussion](http://www.sublimetext.com/forum/viewtopic.php?f=2&t=2471&start=50#p11550) for more details.
-
 ## Development
 
 While developing the theme, I have documented some [theme challenges and ideas](https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges-and-ideas) encountered along the way.
