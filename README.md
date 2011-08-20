@@ -39,16 +39,15 @@ To configure Sublime Text 2 to use the theme:
 
 ## Bonus Options
 
-### Code Highlighting Colour Schemes
+### Syntax Highlighting Colour Schemes
 
-The code highlighting colour scheme shown in the Soda Light screenshot is [Espresso tutti colori.tmTheme](https://github.com/mkhl/espresso-tutti-colori.tmtheme), which was originally based on the Espresso Editor default colour scheme and ported to TextMate by [Martin Kühl](https://github.com/mkhl).
+The Soda Light screenshot uses a modified version of Espresso Tutti Colori and the Soda Dark screenshot uses a modified version of Monokai.
 
-The code highlighting colour scheme shown in the Soda Dark screenshot is an ever so slightly tweaked version of Monokai that I created.
+If you'd like to use the syntax highlighting schemes shown in the screenshots: 
 
-#### To use the colour scheme
-
-* Download the `tmtheme` file from Martin's repo to the Sublime Text 2 `Packages/User` folder.
-* Enable the colour scheme via `Preferences -> Color Scheme -> User`.
+* Download [colour-schemes.zip](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip)
+* Unzip and place the extracted `tmtheme` files in the Sublime Text 2 `Packages/User` folder
+* Enable the colour scheme via `Preferences -> Color Scheme -> User`
 
 ### Code Font
 
