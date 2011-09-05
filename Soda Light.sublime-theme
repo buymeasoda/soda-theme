@@ -315,8 +315,8 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8, 3],
-        "indent": 15,
-        "indent_offset": 15,
+        "indent": 14,
+        "indent_offset": -1,
         "layer0.tint": [222, 227, 233],
         "layer0.opacity": 1.0
     },
