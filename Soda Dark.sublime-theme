@@ -319,6 +319,7 @@
         "row_padding": [8, 3],
         "indent": 15,
         "indent_offset": 15,
+        "indent_top_level": false,
         "layer0.tint": [30, 30, 30],
         "layer0.opacity": 1.0,
         "dark_content": true
