@@ -28,7 +28,7 @@ Go to your Sublime Text 2 `Packages` directory and clone the theme repository us
 
 To configure Sublime Text 2 to use the theme:
 
-* Open your Sublime Text 2 User Global Preferences file `Sublime Text 2 -> Preferences -> User Global Settings`
+* Open your Sublime Text 2 User Global Preferences file `Sublime Text 2 -> Preferences -> Global Settings - User`
 * Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
 
 ### Example User Global Settings
