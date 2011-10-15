@@ -14,7 +14,13 @@
         "tab_overlap": 24,
         "tab_width": 180,
         "tab_min_width": 40,
-        "tab_height": 28
+        "tab_height": 28,
+        "mouse_wheel_switch": false
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["mouse_wheel_switches_tabs"],
+        "mouse_wheel_switch": true
     },
     // Tab element
     {
