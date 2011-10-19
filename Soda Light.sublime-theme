@@ -111,10 +111,10 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Soda/Soda Light/group-closed.png",
+        "layer0.texture": "Theme - Soda/Soda Light/fold-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Soda/Soda Light/group-closed-pressed.png",
+        "layer1.texture": "Theme - Soda/Soda Light/fold-closed-pressed.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
         "content_margin": [9, 7, 8, 6]
@@ -123,13 +123,19 @@
         "class": "fold_button_control",
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
+        "layer1.opacity": 0.75
     },
     {
         "class": "fold_button_control",
+        "attributes": ["pressed"],
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0
+    },    
+    {
+        "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Soda/Soda Light/group-open.png",
-        "layer1.texture": "Theme - Soda/Soda Light/group-open-pressed.png"
+        "layer0.texture": "Theme - Soda/Soda Light/fold-open.png",
+        "layer1.texture": "Theme - Soda/Soda Light/fold-open-pressed.png"
     },
 
 //
