@@ -263,7 +263,7 @@
     },
 
 //
-// Mini Map
+// MINI MAP
 //
 
     {
@@ -431,19 +431,8 @@
     },
     {
         "class": "disclosure_button_control",
-        "attributes": ["pressed"],
-        "layer0.texture": "Theme - Soda/Soda Dark/group-closed-pressed.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda/Soda Dark/group-closed-selected.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["pressed"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda/Soda Dark/group-closed.png"
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": "Theme - Soda/Soda Dark/group-closed-hover.png"
     },
     // Sidebar group open
     {
@@ -453,20 +442,9 @@
     },
     {
         "class": "disclosure_button_control",
-        "attributes": ["expanded", "pressed"],
-        "layer0.texture": "Theme - Soda/Soda Dark/group-open-pressed.png"
-    },
-    {
-        "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda/Soda Dark/group-open-selected.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded", "pressed"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda/Soda Dark/group-open.png"
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": "Theme - Soda/Soda Dark/group-open-hover.png"
     },
 
 //
