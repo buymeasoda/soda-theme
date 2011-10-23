@@ -480,6 +480,11 @@
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.texture": "Theme - Soda/Soda Light/group-closed-hover.png"
     },
+    {
+        "class": "disclosure_button_control",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Soda/Soda Light/group-closed-selected.png"
+    },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
@@ -491,6 +496,12 @@
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.texture": "Theme - Soda/Soda Light/group-open-hover.png"
+    },
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["expanded"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Soda/Soda Light/group-open-selected.png"
     },
 
 //
