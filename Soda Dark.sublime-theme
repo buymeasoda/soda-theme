@@ -120,7 +120,7 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "content_margin": [8, 8],
         "layer0.texture": "Theme - Soda/Soda Dark/tab-dirty.png",
-        "layer0.opacity": 1.0, 
+        "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
     {
@@ -168,7 +168,7 @@
         "attributes": ["pressed"],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
-    },    
+    },
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
@@ -408,6 +408,12 @@
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
+    // Sidebar row hover
+    {
+        "class": "tree_row",
+        "attributes": ["hover"],
+        "layer0.opacity": 0.4
+    },
     // Sidebar row selected
     {
         "class": "tree_row",
@@ -432,6 +438,13 @@
         "class": "sidebar_label",
         "color": [125, 125, 125],
         "shadow_offset": [0, 0]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "color": [210, 210, 210],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 1]
     },
     {
         "class": "sidebar_label",
