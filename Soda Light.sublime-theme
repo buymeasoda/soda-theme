@@ -471,6 +471,12 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Soda/Soda Light/file-dirty-selected.png"
+    },
+    { 
+        "class": "close_button",
+        "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.texture": "Theme - Soda/Soda Light/file-close.png"
     },
