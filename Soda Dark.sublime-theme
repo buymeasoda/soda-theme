@@ -453,6 +453,19 @@
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
+    // Sidebar file dirty
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Soda/Soda Dark/file-dirty.png",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": "Theme - Soda/Soda Dark/file-close.png"
+    },
     // Sidebar file close hover
     {
         "class": "close_button",
