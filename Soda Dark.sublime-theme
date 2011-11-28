@@ -441,17 +441,27 @@
         "shadow_offset": [0, 1]
     },
     // Sidebar file close
-    {
+    { 
         "class": "close_button",
         "layer0.texture": "Theme - Soda/Soda Dark/file-close.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
+        "layer1.texture": "Theme - Soda/Soda Dark/file-close-selected.png",
+        "layer1.opacity": 0.0,
+        "layer1.inner_margin": 0,
         "content_margin": [8, 8]
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0
+    },
+    {
+        "class": "close_button",
+        "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0
     },
     // Sidebar file dirty
     {
@@ -459,6 +469,12 @@
         "attributes": ["dirty"],
         "layer0.texture": "Theme - Soda/Soda Dark/file-dirty.png",
         "layer0.opacity": 1.0
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Soda/Soda Dark/file-dirty-selected.png"
     },
     {
         "class": "close_button",
