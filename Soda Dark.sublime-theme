@@ -48,12 +48,6 @@
         "content_margin": [22, 6, 15, 4]
     },
     {
-        // Tab dirty state
-        "class": "tab_control",
-        "attributes": ["dirty"],
-        "content_margin": [22, 6, 15, 4]
-    },
-    {
         // Hover tab state
         "class": "tab_control",
         "attributes": ["hover"],
@@ -116,7 +110,6 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "content_margin": [8, 8],
         "layer0.texture": "Theme - Soda/Soda Dark/tab-dirty.png",
         "layer0.opacity": 1.0, 
         "layer1.opacity": 0.0
@@ -128,15 +121,6 @@
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
-    },
-    {
-        // Tab dirty button hover (close button hidden)
-        "class": "tab_close_button",
-        "settings": ["!show_tab_close_buttons"],
-        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "attributes": ["hover"],
-        "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0
     },
 
 //
