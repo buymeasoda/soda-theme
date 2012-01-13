@@ -50,7 +50,6 @@
     {
         // Tab dirty state
         "class": "tab_control",
-        "settings": ["highlight_modified_tabs"],
         "attributes": ["dirty"],
         "content_margin": [22, 6, 15, 4]
     },
@@ -116,17 +115,15 @@
     // Tab dirty button
     {
         "class": "tab_close_button",
-        "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "content_margin": [8, 8],
         "layer0.texture": "Theme - Soda/Soda Light/tab-dirty.png",
-        "layer0.opacity": 1.0, 
+        "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
     {
         // Tab dirty button hover
         "class": "tab_close_button",
-        "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
@@ -135,7 +132,6 @@
     {
         // Tab dirty button hover (close button hidden)
         "class": "tab_close_button",
-        "settings": ["highlight_modified_tabs"],
         "settings": ["!show_tab_close_buttons"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "attributes": ["hover"],
