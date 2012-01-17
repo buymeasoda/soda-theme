@@ -66,20 +66,7 @@
         // Inactive tab label
         "class": "tab_label",
         "fade": true,
-        "fg": [0, 0, 0],
-        "bg": [222, 222, 222]
-    },
-    {
-        // Inactive tab label hover
-        "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "bg": [234, 234, 234]
-    },
-    {
-        // Active tab label
-        "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "bg": [242, 242, 242]
+        "fg": [0, 0, 0]
     },
     // Tab close button
     {
