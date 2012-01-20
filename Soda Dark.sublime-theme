@@ -113,8 +113,8 @@
     // Grid
     {
         "class": "grid_layout_control",
-        "border_size": 1,
-        "border_color": [100, 100, 100]
+        "border_size": 3,
+        "border_color": [80, 80, 80]
     },
 
 //

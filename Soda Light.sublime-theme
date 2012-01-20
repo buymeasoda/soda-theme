@@ -109,7 +109,12 @@
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
     },
-
+    // Grid
+    {
+        "class": "grid_layout_control",
+        "border_size": 3,
+        "border_color": [230, 230, 230]
+    },
 //
 // FOLD BUTTONS
 //
