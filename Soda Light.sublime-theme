@@ -48,6 +48,13 @@
         "content_margin": [22, 6, 15, 4]
     },
     {
+        // Tab dirty state
+        "class": "tab_control",
+        "settings": ["highlight_modified_tabs"],
+        "attributes": ["dirty"],
+        "content_margin": [22, 6, 15, 4]
+    },
+    {
         // Hover tab state
         "class": "tab_control",
         "attributes": ["hover"],
@@ -92,11 +99,13 @@
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
-    },   
+    },
     // Tab dirty button
     {
         "class": "tab_close_button",
+        "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "content_margin": [8, 8],
         "layer0.texture": "Theme - Soda/Soda Light/tab-dirty.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
@@ -104,10 +113,20 @@
     {
         // Tab dirty button hover
         "class": "tab_close_button",
+        "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
+    },
+    {
+        // Tab dirty button hover (close button hidden)
+        "class": "tab_close_button",
+        "settings": ["highlight_modified_tabs", "!show_tab_close_buttons"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "attributes": ["hover"],
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0
     },
 
 //
@@ -135,7 +154,7 @@
         "attributes": ["pressed"],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
-    },    
+    },
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
@@ -451,7 +470,7 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Light/file-dirty-selected.png"
     },
-    { 
+    {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
