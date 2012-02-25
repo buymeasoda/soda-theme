@@ -109,6 +109,23 @@
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
     },
+    // Tab close button hidden with highlight modified flag true
+    {
+        // Tab dirty state (close button hidden)
+        "class": "tab_control",
+        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+        "attributes": ["dirty"],
+        "content_margin": [22, 6, 15, 4]
+    },
+    {
+        // Tab dirty button (close button hidden)
+        "class": "tab_close_button",
+        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "content_margin": [8, 8],
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0
+    },
 
 //
 // FOLD BUTTONS
