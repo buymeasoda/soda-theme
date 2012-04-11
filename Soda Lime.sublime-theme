@@ -265,14 +265,14 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["Lime"],
-        "layer0.texture": "Theme - Soda/Soda Lime/overlay-Lime-puck-vertical.png"
+        "layer0.texture": "Theme - Soda/Soda Lime/overlay-dark-puck-vertical.png"
     },
     // Overlay light horizontal puck (for Lime content)
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal", "Lime"],
-        "layer0.texture": "Theme - Soda/Soda Lime/overlay-Lime-puck-horizontal.png"
+        "layer0.texture": "Theme - Soda/Soda Lime/overlay-dark-puck-horizontal.png"
     },
 
 //
