@@ -432,6 +432,13 @@
         "shadow_color": [34, 94, 145],
         "shadow_offset": [0, 1]
     },
+    // Sidebar folder entry
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "color": [110, 126, 141],
+        "font.bold": true
+    },
     // Sidebar file close
     {
         "class": "close_button",
