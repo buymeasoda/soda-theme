@@ -436,6 +436,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "settings": ["bold_folder_labels"],
         "color": [110, 126, 141],
         "font.bold": true
     },
