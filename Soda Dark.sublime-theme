@@ -629,27 +629,27 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [190, 190, 190, 255],
-        "match_fg": [200, 200, 0, 255],
+        "fg": [210, 210, 210, 255],
+        "match_fg": [126, 199, 239, 255],
         "bg": [41, 41, 41, 255],
         "selected_fg": [255, 255, 255, 255],
-        "selected_match_fg": [255, 255, 0, 255],
+        "selected_match_fg": [166, 229, 255, 255],
         "selected_bg": [24, 24, 24, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [120, 120, 120, 255],
-        "match_fg": [200, 200, 200, 255],
+        "fg": [130, 130, 130, 255],
+        "match_fg": [220, 220, 220, 255],
         "bg": [41, 41, 41, 255],
-        "selected_fg": [130, 130, 130, 255],
-        "selected_match_fg": [255, 255, 255, 255],
+        "selected_fg": [175, 175, 175, 255],
+        "selected_match_fg": [220, 220, 220, 255],
         "selected_bg": [24, 24, 24, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [137, 208, 244, 255],
+        "fg": [126, 199, 239, 255],
         "bg": [41, 41, 41, 255],
-        "selected_fg": [137, 208, 244, 255],
+        "selected_fg": [166, 229, 255, 255],
         "selected_bg": [24, 24, 24, 255]
     },
 
