@@ -442,20 +442,27 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [110, 126, 141],
+        "color": [90, 103, 115],
         "shadow_color": [241, 244, 247],
         "shadow_offset": [0, 1]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "color": [90, 103, 115]
+        "color": [70, 80, 89]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
+        "color": [110, 126, 141],
         "font.bold": true
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
+        "settings": ["bold_folder_labels"],
+        "color": [90, 103, 115]
     },
     // Sidebar file close
     {
