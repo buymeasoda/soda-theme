@@ -63,17 +63,21 @@
     },
     // Tab labels
     {
-        // Inactive tab label
         "class": "tab_label",
         "fade": true,
-        "fg": [170, 170, 170]
+        "fg": [175, 175, 175],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, -1] 
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        "fg": [200, 200, 200]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [255, 255, 255, 255],
-        "shadow_color": [0, 0, 0, 50],
-        "shadow_offset": [0, -1]
+        "fg": [245, 245, 245]
     },
     // Tab close button
     {
