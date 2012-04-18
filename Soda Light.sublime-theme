@@ -63,10 +63,22 @@
     },
     // Tab labels
     {
-        // Inactive tab label
         "class": "tab_label",
         "fade": true,
-        "fg": [0, 0, 0]
+        "fg": [50, 50, 50],
+        "shadow_color": [235, 235, 235],
+        "shadow_offset": [0, 1]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        "fg": [25, 25, 25]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "fg": [0, 0, 0],
+        "shadow_color": [255, 255, 255]
     },
     // Tab close button
     {
