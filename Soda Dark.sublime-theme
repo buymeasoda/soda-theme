@@ -437,6 +437,11 @@
     },
     {
         "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
+        "color": [235, 235, 235]
+    },
+    {
+        "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
         "font.bold": true
