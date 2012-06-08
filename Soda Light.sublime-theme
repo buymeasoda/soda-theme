@@ -10,8 +10,8 @@
         "layer0.texture": "Theme - Soda/Soda Light/tabset-background.png",
         "layer0.inner_margin": [1, 2],
         "layer0.opacity": 1.0,
-        "content_margin": [-1, 0, 0, 3],
-        "tab_overlap": 1,
+        "content_margin": [-2, 0, -2, 3],
+        "tab_overlap": 3,
         "tab_width": 180,
         "tab_min_width": 40,
         "tab_height": 25,
@@ -34,7 +34,7 @@
         "layer0.opacity": 1.0,
         // Active tab setting
         "layer1.texture": "Theme - Soda/Soda Light/tab-active.png",
-        "layer1.inner_margin": [18, 4],
+        "layer1.inner_margin": [3, 3],
         "layer1.opacity": 0.0,
         // Hover tab setting
         "layer2.texture": "Theme - Soda/Soda Light/tab-hover.png",
