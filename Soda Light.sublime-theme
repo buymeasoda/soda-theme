@@ -66,7 +66,7 @@
         "class": "tab_label",
         "fade": true,
         "fg": [50, 50, 50],
-        "shadow_color": [235, 235, 235],
+        "shadow_color": [245, 245, 245],
         "shadow_offset": [0, 1]
     },
     {
