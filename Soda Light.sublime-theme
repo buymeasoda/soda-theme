@@ -29,7 +29,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
         "layer0.texture": "Theme - Soda/Soda Light/tab-inactive.png",
-        "layer0.inner_margin": [3, 3],
+        "layer0.inner_margin": [4, 4],
         "layer0.opacity": 1.0
     },
     {
