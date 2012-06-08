@@ -25,41 +25,30 @@
     // Tab element
     {
         "class": "tab_control",
-        "content_margin": [22, 6, 22, 4],
+        "content_margin": [12, 3, 12, 3],
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
-        // Inactive tab settings
         "layer0.texture": "Theme - Soda/Soda Light/tab-inactive.png",
         "layer0.inner_margin": [3, 3],
-        "layer0.opacity": 1.0,
-        // Active tab setting
-        "layer1.texture": "Theme - Soda/Soda Light/tab-active.png",
-        "layer1.inner_margin": [3, 3],
-        "layer1.opacity": 0.0,
-        // Hover tab setting
-        "layer2.texture": "Theme - Soda/Soda Light/tab-hover.png",
-        "layer2.inner_margin": [3, 3],
-        "layer2.opacity": 0.0
+        "layer0.opacity": 1.0
     },
     {
         // Tab close state
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [22, 6, 15, 4]
+        "content_margin": [12, 3, 7, 3]
     },
     {
         // Hover tab state
         "class": "tab_control",
         "attributes": ["hover"],
-        "layer2.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Light/tab-hover.png"
     },
     {
         // Active tab state
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0,
-        "layer2.opacity": 0.0
+        "layer0.texture": "Theme - Soda/Soda Light/tab-active.png"
     },
     // Tab labels
     {
@@ -80,8 +69,9 @@
         "fg": [0, 0, 0],
         "shadow_color": [255, 255, 255]
     },
-    // Tab close button
+    // Tab buttons
     {
+        // Tab close button
         "class": "tab_close_button",
         "content_margin": [0, 0],
         "layer0.texture": "Theme - Soda/Soda Light/tab-close.png",
@@ -95,6 +85,27 @@
         "content_margin": [8, 8]
     },
     {
+        // Tab dirty state (close button hidden)
+        "class": "tab_control",
+        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+        "attributes": ["dirty"],
+        "content_margin": [12, 3, 7, 3]
+    },
+    {
+        // Tab dirty button (close button hidden)
+        "class": "tab_close_button",
+        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "content_margin": [8, 8],
+        "layer0.texture": "Theme - Soda/Soda Light/tab-dirty.png"
+    },
+    {
+        // Tab dirty button
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "layer0.texture": "Theme - Soda/Soda Light/tab-dirty.png"
+    },
+    {
         // Tab close button hover
         "class": "tab_close_button",
         "attributes": ["hover"],
@@ -105,35 +116,6 @@
         "class": "tab_close_button",
         "attributes": ["pressed"],
         "layer0.texture": "Theme - Soda/Soda Light/tab-close-pressed.png"
-    },
-    // Tab dirty button
-    {
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Soda/Soda Light/tab-dirty.png"
-    },
-    {
-        // Tab dirty button hover
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "attributes": ["hover"],
-        "layer0.texture": "Theme - Soda/Soda Light/tab-close-hover.png"
-    },
-    // Tab close button hidden with highlight modified flag true
-    {
-        // Tab dirty state (close button hidden)
-        "class": "tab_control",
-        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
-        "attributes": ["dirty"],
-        "content_margin": [22, 6, 15, 4]
-    },
-    {
-        // Tab dirty button (close button hidden)
-        "class": "tab_close_button",
-        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
-        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "content_margin": [8, 8],
-        "layer0.texture": "Theme - Soda/Soda Light/tab-close.png"
     },
 
 //
