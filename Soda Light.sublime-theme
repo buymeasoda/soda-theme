@@ -84,13 +84,9 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        // Tab close default settings
         "layer0.texture": "Theme - Soda/Soda Light/tab-close.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": 0,
-        // Tab close hover settings
-        "layer1.texture": "Theme - Soda/Soda Light/tab-close-hover.png",
-        "layer1.opacity": 0.0
+        "layer0.inner_margin": 0
     },
     {
         // Tab button size
@@ -102,24 +98,26 @@
         // Tab close button hover
         "class": "tab_close_button",
         "attributes": ["hover"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Light/tab-close-hover.png"
+    },
+    {
+        // Tab close button pressed
+        "class": "tab_close_button",
+        "attributes": ["pressed"],
+        "layer0.texture": "Theme - Soda/Soda Light/tab-close-pressed.png"
     },
     // Tab dirty button
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Soda/Soda Light/tab-dirty.png",
-        "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0
+        "layer0.texture": "Theme - Soda/Soda Light/tab-dirty.png"
     },
     {
         // Tab dirty button hover
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "attributes": ["hover"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Light/tab-close-hover.png"
     },
     // Tab close button hidden with highlight modified flag true
     {
@@ -135,8 +133,7 @@
         "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "content_margin": [8, 8],
-        "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0
+        "layer0.texture": "Theme - Soda/Soda Light/tab-close.png"
     },
 
 //
