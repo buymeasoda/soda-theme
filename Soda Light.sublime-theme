@@ -405,15 +405,14 @@
     {
         "class": "sidebar_label",
         "color": [0, 0, 0],
-        "shadow_offset": [0, 0]
+        "shadow_color": [241, 244, 247],
+        "shadow_offset": [0, 1]
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [90, 103, 115],
-        "shadow_color": [241, 244, 247],
-        "shadow_offset": [0, 1]
+        "color": [90, 103, 115]
     },
     {
         "class": "sidebar_label",
