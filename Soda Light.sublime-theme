@@ -10,7 +10,7 @@
         "layer0.texture": "Theme - Soda/Soda Light/tabset-background.png",
         "layer0.inner_margin": [1, 2],
         "layer0.opacity": 1.0,
-        "content_margin": [-2, 0, -2, 3],
+        "content_margin": [-3, 0, -3, 3],
         "tab_overlap": 3,
         "tab_width": 180,
         "tab_min_width": 40,
