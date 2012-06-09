@@ -367,10 +367,9 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [172, 172, 172],
+        "layer0.texture": "Theme - Soda/Soda Light/sidebar-bg.png",
         "layer0.opacity": 1.0,
-        "layer0.draw_center": false,
-        "layer0.inner_margin": [0, 0, 1, 0],
+        "layer0.inner_margin": [1, 1, 2, 1],
         "content_margin": [0, 0, 1, 0]
     },
     // Sidebar tree
@@ -379,9 +378,7 @@
         "row_padding": [8, 3],
         "indent": 15,
         "indent_offset": 15,
-        "indent_top_level": false,
-        "layer0.tint": [222, 227, 233],
-        "layer0.opacity": 1.0
+        "indent_top_level": false
     },
     // Sidebar rows
     {
