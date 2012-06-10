@@ -322,7 +322,8 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "shadow_color": [210, 210, 210],
+        "color": [47, 47, 47],
+        "shadow_color": [220, 220, 220],
         "shadow_offset": [0, 1]
     },
 
