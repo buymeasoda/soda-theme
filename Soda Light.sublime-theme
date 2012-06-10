@@ -318,14 +318,6 @@
         "shadow_color": [245, 245, 245],
         "shadow_offset": [0, 1]
     },
-    // Status bar label
-    {
-        "class": "label_control",
-        "parents": [{"class": "status_bar"}],
-        "color": [47, 47, 47],
-        "shadow_color": [220, 220, 220],
-        "shadow_offset": [0, 1]
-    },
 
 //
 // TOOLTIP
@@ -357,9 +349,18 @@
         "layer0.inner_margin": [2, 2],
         "content_margin": [4, 3, 4, 3]
     },
+    // Status bar button
     {
         "class": "status_button",
         "min_size": [100, 0]
+    },
+    // Status bar label
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [47, 47, 47],
+        "shadow_color": [220, 220, 220],
+        "shadow_offset": [0, 1]
     },
 
 //
