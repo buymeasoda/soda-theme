@@ -417,7 +417,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "color": [70, 80, 89]
+        "color": [61, 68, 77]
     },
     {
         "class": "sidebar_label",
@@ -430,7 +430,7 @@
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
         "settings": ["bold_folder_labels"],
-        "color": [90, 103, 115]
+        "color": [81, 92, 103]
     },
     // Sidebar entry selected
     {
