@@ -398,7 +398,7 @@
         "class": "sidebar_heading",
         "color": [110, 126, 141],
         "font.bold": true,
-        "shadow_color": [241, 244, 247],
+        "shadow_color": [249, 250, 252],
         "shadow_offset": [0, 1]
     },
     // Sidebar entry
