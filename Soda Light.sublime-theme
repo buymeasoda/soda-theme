@@ -347,7 +347,7 @@
         "layer0.texture": "Theme - Soda/Soda Light/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
-        "content_margin": [4, 3, 4, 3]
+        "content_margin": [8, 4, 8, 4]
     },
     // Status bar button
     {
