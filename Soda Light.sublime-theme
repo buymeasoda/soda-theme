@@ -699,26 +699,43 @@
         "layer0.opacity": 1.0,
         "content_margin": [4, 4]
     },
+    {
+        "class": "icon_button_control",
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Soda/Soda Light/btn-group-middle-on.png"
+    },
     // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "Theme - Soda/Soda Light/btn-group-left.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Light/btn-group-left.png"
+    },
+    {
+        "class": "icon_button_control",
+        "attributes": ["left", "selected"],
+        "layer0.texture": "Theme - Soda/Soda Light/btn-group-left-on.png"
     },
     // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "Theme - Soda/Soda Light/btn-group-right.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Light/btn-group-right.png"
+    },
+    {
+        "class": "icon_button_control",
+        "attributes": ["right", "selected"],
+        "layer0.texture": "Theme - Soda/Soda Light/btn-group-right-on.png"
     },
     // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.texture": "Theme - Soda/Soda Light/btn-small.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Light/btn-small.png"
+    },
+    {
+        "class": "icon_button_control",
+        "attributes": ["left", "right", "selected"],
+        "layer0.texture": "Theme - Soda/Soda Light/btn-small-on.png"
     },
 
 //
