@@ -41,6 +41,18 @@ To configure Sublime Text 2 to use the theme:
         "theme": "Soda Light.sublime-theme"
     }
 
+## Configurable Features
+
+### Alternate Tab Styles
+
+Soda Theme ships with two alternate UI tab styles.
+
+By default, a square tab style is used. If you'd prefer to use the original curved tab style, add the following custom setting to your `Settings - User` file:
+
+    "soda_classic_tabs": true
+
+![Soda Tab Styles](http://buymeasoda.github.com/soda-theme/images/features/multiple-tab-styles.png)
+
 ## Bonus Options
 
 ### Syntax Highlighting Colour Schemes
