@@ -50,6 +50,13 @@
         "attributes": ["selected"],
         "layer0.texture": "Theme - Soda/Soda Light/tab-active.png"
     },
+    // Tab dirty state (close button hidden)
+    {
+        "class": "tab_control",
+        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+        "attributes": ["dirty"],
+        "content_margin": [12, 3, 7, 3]
+    },
 
 //
 // TAB LABELS
@@ -93,21 +100,6 @@
         "settings": ["show_tab_close_buttons"],
         "content_margin": [8, 8]
     },
-    // Tab dirty state (close button hidden)
-    {
-        "class": "tab_control",
-        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
-        "attributes": ["dirty"],
-        "content_margin": [12, 3, 7, 3]
-    },
-    // Tab dirty button (close button hidden)
-    {
-        "class": "tab_close_button",
-        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
-        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "content_margin": [8, 8],
-        "layer0.texture": "Theme - Soda/Soda Light/tab-dirty.png"
-    },
     // Tab dirty button
     {
         "class": "tab_close_button",
@@ -125,6 +117,14 @@
         "class": "tab_close_button",
         "attributes": ["pressed"],
         "layer0.texture": "Theme - Soda/Soda Light/tab-close-pressed.png"
+    },
+    // Tab dirty button (close button hidden)
+    {
+        "class": "tab_close_button",
+        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "content_margin": [8, 8],
+        "layer0.texture": "Theme - Soda/Soda Light/tab-dirty.png"
     },
 
 //
