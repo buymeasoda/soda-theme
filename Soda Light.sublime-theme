@@ -103,6 +103,7 @@
     // Tab dirty button
     {
         "class": "tab_close_button",
+        "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Theme - Soda/Soda Light/tab-dirty.png"
     },
