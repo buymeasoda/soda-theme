@@ -733,9 +733,9 @@
     },
     {
         "class": "table_row",
-        "layer0.texture": "Theme - Soda/Soda Light/code-completion-row-selected.png",
+        "layer0.texture": "Theme - Soda/Soda Light/autocomplete-row-selected.png",
         "layer0.opacity": 0.0,
-        "layer0.inner_margin": [1, 1]
+        "layer0.inner_margin": [3, 1]
     },
     {
         "class": "table_row",
