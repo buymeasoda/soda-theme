@@ -716,13 +716,13 @@
 
     {
         "class": "popup_control",
-        "content_margin": [0, 0]
+        "content_margin": [2, 2],
         "layer0.tint": [255, 255, 255],
         "layer0.opacity": 1.0
     },
     {
         "class": "auto_complete",
-        "row_padding": [2, 2],
+        "row_padding": [4, 2]
     },
     {
         "class": "auto_complete_label",
