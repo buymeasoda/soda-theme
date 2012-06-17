@@ -726,10 +726,10 @@
     },
     {
         "class": "auto_complete_label",
-        "fg": [0, 0, 0],
+        "fg": [51, 51, 51],
         "match_fg": [0, 0, 0],
-        "selected_fg": [255, 255, 255],
-        "selected_match_fg": [255, 255, 255],
+        "selected_fg": [205, 226, 243],
+        "selected_match_fg": [255, 255, 255]
     },
     {
         "class": "table_row",
