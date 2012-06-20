@@ -1,20 +1,20 @@
 [
 
 //
-// TABS
+// TABS (REGULAR)
 //
 
     // Tab set
     {
         "class": "tabset_control",
         "layer0.texture": "Theme - Soda/Soda Dark/tabset-background.png",
-        "layer0.inner_margin": [1, 2],
+        "layer0.inner_margin": [1, 6],
         "layer0.opacity": 1.0,
-        "content_margin": [3, 4, 3, 3],
-        "tab_overlap": 24,
+        "content_margin": [-3, 0, -3, 3],
+        "tab_overlap": 3,
         "tab_width": 180,
-        "tab_min_width": 40,
-        "tab_height": 28,
+        "tab_min_width": 50,
+        "tab_height": 25,
         "mouse_wheel_switch": false
     },
     {
@@ -25,43 +25,92 @@
     // Tab element
     {
         "class": "tab_control",
-        "content_margin": [22, 6, 22, 4],
+        "content_margin": [12, 3, 12, 3],
         "max_margin_trim": 0,
-        "hit_test_level": 0.5,
-        // Inactive tab settings
+        "hit_test_level": 0.0,
         "layer0.texture": "Theme - Soda/Soda Dark/tab-inactive.png",
-        "layer0.inner_margin": [18, 4],
-        "layer0.opacity": 1.0,
-        // Active tab setting
-        "layer1.texture": "Theme - Soda/Soda Dark/tab-active.png",
-        "layer1.inner_margin": [18, 4],
-        "layer1.opacity": 0.0,
-        // Hover tab setting
-        "layer2.texture": "Theme - Soda/Soda Dark/tab-hover.png",
-        "layer2.inner_margin": [18, 4],
-        "layer2.opacity": 0.0
+        "layer0.inner_margin": [4, 4],
+        "layer0.opacity": 1.0
     },
+    // Tab close state
     {
-        // Tab close state
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [22, 6, 15, 4]
+        "content_margin": [12, 3, 7, 3]
     },
+    // Tab hover state
     {
-        // Hover tab state
         "class": "tab_control",
         "attributes": ["hover"],
-        "layer2.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Dark/tab-hover.png"
     },
+    // Tab active state
     {
-        // Active tab state
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0,
-        "layer2.opacity": 0.0
+        "layer0.texture": "Theme - Soda/Soda Dark/tab-active.png"
     },
-    // Tab labels
+    // Tab dirty state (close button hidden)
+    {
+        "class": "tab_control",
+        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+        "attributes": ["dirty"],
+        "content_margin": [12, 3, 7, 3]
+    },
+
+//
+// TABS (CLASSIC)
+//
+
+    // Tab set
+    {
+        "class": "tabset_control",
+        "settings": ["soda_classic_tabs"],
+        "content_margin": [3, 4, 3, 3],
+        "tab_overlap": 24,
+        "tab_height": 28
+    },
+    // Tab element
+    {
+        "class": "tab_control",
+        "settings": ["soda_classic_tabs"],
+        "content_margin": [22, 6, 22, 4],
+        "hit_test_level": 0.5,
+        "layer0.texture": "Theme - Soda/Soda Dark/classic/tab-inactive.png",
+        "layer0.inner_margin": [18, 4]
+    },
+    // Tab close state
+    {
+        "class": "tab_control",
+        "settings": ["soda_classic_tabs", "show_tab_close_buttons"],
+        "content_margin": [22, 6, 15, 4]
+    },
+    // Tab hover state
+    {
+        "class": "tab_control",
+        "settings": ["soda_classic_tabs"],
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Soda/Soda Dark/classic/tab-hover.png"
+    },
+    // Tab active state
+    {
+        "class": "tab_control",
+        "settings": ["soda_classic_tabs"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Soda/Soda Dark/classic/tab-active.png"
+    },
+    // Tab dirty state (close button hidden)
+    {
+        "class": "tab_control",
+        "settings": ["soda_classic_tabs", "!show_tab_close_buttons", "highlight_modified_tabs"],
+        "attributes": ["dirty"],
+        "content_margin": [22, 6, 15, 4]
+    },
+
+//
+// TAB LABELS
+//
+    
     {
         "class": "tab_label",
         "fade": true,
@@ -79,63 +128,51 @@
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [245, 245, 245]
     },
+
+//
+// TAB BUTTONS
+//
+    
     // Tab close button
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        // Tab close default settings
         "layer0.texture": "Theme - Soda/Soda Dark/tab-close.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": 0,
-        // Tab close hover settings
-        "layer1.texture": "Theme - Soda/Soda Dark/tab-close-hover.png",
-        "layer1.opacity": 0.0
+        "layer0.inner_margin": 0
     },
+    // Tab button size
     {
-        // Tab button size
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "content_margin": [8, 8]
     },
-    {
-        // Tab close button hover
-        "class": "tab_close_button",
-        "attributes": ["hover"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
-    },
     // Tab dirty button
     {
         "class": "tab_close_button",
+        "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Soda/Soda Dark/tab-dirty.png",
-        "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0
+        "layer0.texture": "Theme - Soda/Soda Dark/tab-dirty.png"
     },
+    // Tab close button hover
     {
-        // Tab dirty button hover
         "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "attributes": ["hover"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Dark/tab-close-hover.png"
     },
-    // Tab close button hidden with highlight modified flag true
+    // Tab close button pressed
     {
-        // Tab dirty state (close button hidden)
-        "class": "tab_control",
-        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
-        "attributes": ["dirty"],
-        "content_margin": [22, 6, 15, 4]
+        "class": "tab_close_button",
+        "attributes": ["pressed"],
+        "layer0.texture": "Theme - Soda/Soda Dark/tab-close-pressed.png"
     },
+    // Tab dirty button (close button hidden)
     {
-        // Tab dirty button (close button hidden)
         "class": "tab_close_button",
         "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "content_margin": [8, 8],
-        "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0
+        "layer0.texture": "Theme - Soda/Soda Dark/tab-dirty.png"
     },
 
 //
@@ -338,14 +375,6 @@
         "shadow_color": [40, 40, 40],
         "shadow_offset": [0, 1]
     },
-    // Status bar label
-    {
-        "class": "label_control",
-        "parents": [{"class": "status_bar"}],
-        "color": [185, 185, 185],
-        "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 1]
-    },
 
 //
 // TOOLTIP
@@ -375,11 +404,20 @@
         "layer0.texture": "Theme - Soda/Soda Dark/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
-        "content_margin": [4, 3, 4, 3]
+        "content_margin": [8, 4, 8, 4]
     },
+    // Status bar button
     {
         "class": "status_button",
         "min_size": [100, 0]
+    },
+    // Status bar label
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [185, 185, 185],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 1]
     },
 
 //
@@ -389,21 +427,21 @@
     // Sidebar container
     {
         "class": "sidebar_container",
+        // "layer0.texture": "Theme - Soda/Soda Dark/sidebar-bg.png",
         "layer0.tint": [25, 25, 25],
         "layer0.opacity": 1.0,
-        "layer0.draw_center": false,
-        "layer0.inner_margin": [0, 0, 1, 0],
-        "content_margin": [0, 0, 1, 0]
+        "layer0.inner_margin": [1, 1, 2, 1],
+        "content_margin": [0, 2, 1, 0]
     },
     // Sidebar tree
     {
         "class": "sidebar_tree",
+        "layer0.tint": [30, 30, 30],
+        "layer0.opacity": 1.0,
         "row_padding": [8, 3],
         "indent": 15,
         "indent_offset": 15,
         "indent_top_level": false,
-        "layer0.tint": [30, 30, 30],
-        "layer0.opacity": 1.0,
         "dark_content": true
     },
     // Sidebar rows
@@ -676,29 +714,27 @@
 
     {
         "class": "popup_control",
-        "content_margin": [0, 0]
-    },
-    {
-        "class": "auto_complete",
-        "row_padding": [2, 2],
+        "content_margin": [2, 2],
         "layer0.tint": [30, 30, 30],
         "layer0.opacity": 1.0,
         "dark_content": true
     },
     {
+        "class": "auto_complete",
+        "row_padding": [4, 2]
+    },
+    {
         "class": "auto_complete_label",
         "fg": [140, 140, 140],
         "match_fg": [255, 255, 255],
-        "bg": [26, 26, 26],
         "selected_fg": [255, 255, 255],
-        "selected_match_fg": [255, 255, 255],
-        "selected_bg": [86, 86, 86]
+        "selected_match_fg": [255, 255, 255]
     },
     {
         "class": "table_row",
-        "layer0.texture": "Theme - Soda/Soda Dark/code-completion-row-selected.png",
+        "layer0.texture": "Theme - Soda/Soda Dark/autocomplete-row-selected.png",
         "layer0.opacity": 0.0,
-        "layer0.inner_margin": [1, 1]
+        "layer0.inner_margin": [3, 1]
     },
     {
         "class": "table_row",
@@ -718,26 +754,43 @@
         "layer0.opacity": 1.0,
         "content_margin": [4, 4]
     },
+    {
+        "class": "icon_button_control",
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-middle-on.png"
+    },
     // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-left.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-left.png"
+    },
+    {
+        "class": "icon_button_control",
+        "attributes": ["left", "selected"],
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-left-on.png"
     },
     // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-right.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-right.png"
+    },
+    {
+        "class": "icon_button_control",
+        "attributes": ["right", "selected"],
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-right-on.png"
     },
     // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.texture": "Theme - Soda/Soda Dark/btn-small.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-small.png"
+    },
+    {
+        "class": "icon_button_control",
+        "attributes": ["left", "right", "selected"],
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-small-on.png"
     },
 
 //
