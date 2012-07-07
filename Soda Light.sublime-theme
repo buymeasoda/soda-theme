@@ -480,12 +480,12 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [90, 103, 115]
+        "color": [70, 86, 102]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "color": [61, 68, 77]
+        "color": [45, 56, 68]
     },
     {
         "class": "sidebar_label",
