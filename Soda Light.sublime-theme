@@ -143,11 +143,21 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
-    // Tab button size
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [8, 8]
+        "content_margin": [8, 8],
+        "layer0.opacity": 0.85
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        "layer0.opacity": 1.0
     },
     // Tab dirty button
     {
