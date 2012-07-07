@@ -754,7 +754,7 @@
         "layer0.texture": "Theme - Soda/Soda Light/btn-group-middle.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
-        "content_margin": [4, 4]
+        "content_margin": [3, 3]
     },
     {
         "class": "icon_button_control",
@@ -765,7 +765,8 @@
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "Theme - Soda/Soda Light/btn-group-left.png"
+        "layer0.texture": "Theme - Soda/Soda Light/btn-group-left.png",
+        "content_margin": [4, 3, 3, 3]
     },
     {
         "class": "icon_button_control",
@@ -776,7 +777,8 @@
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "Theme - Soda/Soda Light/btn-group-right.png"
+        "layer0.texture": "Theme - Soda/Soda Light/btn-group-right.png",
+        "content_margin": [3, 3, 4, 3]
     },
     {
         "class": "icon_button_control",
@@ -787,7 +789,8 @@
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.texture": "Theme - Soda/Soda Light/btn-small.png"
+        "layer0.texture": "Theme - Soda/Soda Light/btn-small.png",
+        "content_margin": [4, 3]
     },
     {
         "class": "icon_button_control",
