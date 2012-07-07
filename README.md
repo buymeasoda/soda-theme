@@ -10,6 +10,8 @@ Dark and light custom UI themes for Sublime Text 2.
 
 ## Installation
 
+Soda theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2.
+
 ### Using Sublime Package Control
 
 If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Soda Theme via the `Package Control: Install Package` menu item. The Soda Theme package is listed as `Theme - Soda` in the packages list.
@@ -67,13 +69,11 @@ If you'd like to use the syntax highlighting schemes shown in the screenshots:
 
 ### Code Font
 
-The code font shown in the screenshot is [Meslo](https://github.com/andreberg/Meslo-Font), which is a modified version of Menlo.
-
-## Release Notes
-
-Soda theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2. ST2 dev builds move quickly and changes can occur with the theme API between releases, so there may be occasions where the theme doesn't quite work with a brand new dev release.
+The code font shown in the screenshot is Menlo.
 
 ## Development
+
+Please note, Sublime Text dev builds move quickly and changes can occur with the theme API between releases, so there may be occasions where the theme doesn't quite work with a brand new dev release.
 
 While developing the theme, I have documented some [theme challenges and ideas](https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges-and-ideas) encountered along the way.
 
