@@ -650,7 +650,7 @@
         "layer0.inner_margin": [12, 6, 12, 15],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Soda/Soda Light/quick-panel-sections.png",
-        "layer1.inner_margin": [12, 37, 12, 19],
+        "layer1.inner_margin": [12, 40, 12, 19],
         "layer1.opacity": 1.0,
         "content_margin": [11, 8, 11, 17]
     },
