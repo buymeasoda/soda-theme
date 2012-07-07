@@ -189,7 +189,7 @@
         "layer1.texture": "Theme - Soda/Soda Light/fold-closed-pressed.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
-        "content_margin": [9, 7, 8, 6]
+        "content_margin": [8, 8]
     },
     {
         "class": "fold_button_control",
