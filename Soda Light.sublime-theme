@@ -10,7 +10,7 @@
         "layer0.texture": "Theme - Soda/Soda Light/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1.0,
-        "content_margin": [-3, 0, -3, 3],
+        "content_margin": [-4, 0, -4, 3],
         "tab_overlap": 5,
         "tab_width": 180,
         "tab_min_width": 45,
@@ -29,7 +29,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
         "layer0.texture": "Theme - Soda/Soda Light/tab-inactive.png",
-        "layer0.inner_margin": [4, 4],
+        "layer0.inner_margin": [5, 5],
         "layer0.opacity": 1.0
     },
     // Tab close state
