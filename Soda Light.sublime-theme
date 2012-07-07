@@ -557,7 +557,7 @@
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
-        "content_margin": [9, 7, 8, 6],
+        "content_margin": [8, 8],
         "layer0.texture": "Theme - Soda/Soda Light/group-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
