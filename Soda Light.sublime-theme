@@ -169,6 +169,12 @@
     },
     {
         "class": "tab_close_button",
+        "settings": ["highlight_modified_tabs", "!show_tab_close_buttons"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "tab_close_button",
         "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "layer0.opacity": 1.0
@@ -182,22 +188,16 @@
     // Tab close button hover
     {
         "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons"],
         "attributes": ["hover"],
         "layer0.texture": "Theme - Soda/Soda Light/tab-close-hover.png"
     },
     // Tab close button pressed
     {
         "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons"],
         "attributes": ["pressed"],
         "layer0.texture": "Theme - Soda/Soda Light/tab-close-pressed.png"
-    },
-    // Tab dirty button (close button hidden)
-    {
-        "class": "tab_close_button",
-        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
-        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "content_margin": [8, 8],
-        "layer0.texture": "Theme - Soda/Soda Light/tab-dirty.png"
     },
 
 //
