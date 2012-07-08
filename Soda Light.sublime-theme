@@ -165,6 +165,18 @@
         "class": "tab_close_button",
         "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "layer0.texture": "Theme - Soda/Soda Light/tab-dirty-inactive.png"
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["highlight_modified_tabs"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["highlight_modified_tabs"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Soda/Soda Light/tab-dirty.png"
     },
     // Tab close button hover
