@@ -166,7 +166,7 @@
     {
         "class": "tab_close_button",
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - Soda/Soda Dark/tab-close-pressed.png"
+        "layer0.texture": "Theme - Soda/Soda Dark/tab-close-hover.png"
     },
     // Tab dirty button (close button hidden)
     {
@@ -759,7 +759,7 @@
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-middle-on.png"
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-middle.png"
     },
     // Button group left
     {
@@ -770,7 +770,7 @@
     {
         "class": "icon_button_control",
         "attributes": ["left", "selected"],
-        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-left-on.png"
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-left.png"
     },
     // Button group right
     {
@@ -781,7 +781,7 @@
     {
         "class": "icon_button_control",
         "attributes": ["right", "selected"],
-        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-right-on.png"
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-right.png"
     },
     // Button single
     {
@@ -792,7 +792,7 @@
     {
         "class": "icon_button_control",
         "attributes": ["left", "right", "selected"],
-        "layer0.texture": "Theme - Soda/Soda Dark/btn-small-on.png"
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-small.png"
     },
 
 //
