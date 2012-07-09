@@ -20,7 +20,9 @@ If you are using Will Bond's excellent [Sublime Package Control](http://wbond.ne
 
 Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text 2 application settings area.
 
-Go to your Sublime Text 2 `Packages` directory and clone the theme repository using the command below:
+You can locate your Sublime Text 2 `Packages` directory by using the menu item `Preferences -> Browse Packages...`.
+
+While inside the `Packages` directory, clone the theme repository using the command below:
 
     git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
 
