@@ -88,3 +88,5 @@ The following details apply to the Creative Commons license "author specified" c
 * Attribution example: Based on Soda Theme by Ian Hill (http://buymeasoda.com/)
 
 * Naming guidelines: If you create and distribute a derivative theme, please give your theme a unique and original name that does not directly include "Soda Theme" (or a close variant) in the main project title, repo name or Package Control name.
+
+The Soda Dark theme contains some icons from the excellent [Pictos](http://pictos.drewwilson.com/) series by Drew Wilson which I have a license for. Any use of these icons, other than for the purpose of the theme itself, would need to comply with Drew's [icon licensing agreement](http://stockart.drewwilson.com/license/).
