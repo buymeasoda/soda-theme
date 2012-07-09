@@ -45,7 +45,7 @@ To configure Sublime Text 2 to use the theme:
         "theme": "Soda Light.sublime-theme"
     }
 
-## Configurable Features
+## Additional Features
 
 ### Alternate Tab Styles
 
@@ -56,6 +56,12 @@ By default, a square tab style is used. If you'd prefer to use the original curv
     "soda_classic_tabs": true
 
 ![Soda Tab Styles](http://buymeasoda.github.com/soda-theme/images/features/multiple-tab-styles.png)
+
+### Retina Resolution UI
+
+Soda Light has been designed to take advantage of retina resolution (high-dpi) displays. Retina support for Soda Dark is coming soon.
+
+![Soda Retina](http://buymeasoda.github.com/soda-theme/images/features/soda-retina.png)
 
 ## Bonus Options
 
