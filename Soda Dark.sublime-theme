@@ -185,7 +185,7 @@
         "fade": true,
         "fg": [170, 170, 170],
         "shadow_color": [25, 25, 25],
-        "shadow_offset": [0, -1] 
+        "shadow_offset": [0, -1]
     },
     {
         "class": "tab_label",
@@ -250,7 +250,6 @@
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
         "layer0.texture": "Theme - Soda/Soda Dark/standard-scrollbar-horizontal.png",
-        "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 0],
         "blur": false
     },
@@ -258,7 +257,6 @@
     {
         "class": "scroll_corner_control",
         "layer0.texture": "Theme - Soda/Soda Dark/standard-scrollbar-corner.png",
-        "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },
     // Standard vertical scroll puck
@@ -275,7 +273,6 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.texture": "Theme - Soda/Soda Dark/standard-puck-horizontal.png",
-        "layer0.opacity": 1.0,
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8],
         "blur": false
