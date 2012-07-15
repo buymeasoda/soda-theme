@@ -777,7 +777,7 @@
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-middle.png"
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-middle-on.png"
     },
     // Button group left
     {
@@ -788,7 +788,7 @@
     {
         "class": "icon_button_control",
         "attributes": ["left", "selected"],
-        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-left.png"
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-left-on.png"
     },
     // Button group right
     {
@@ -799,7 +799,7 @@
     {
         "class": "icon_button_control",
         "attributes": ["right", "selected"],
-        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-right.png"
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-group-right-on.png"
     },
     // Button single
     {
@@ -810,7 +810,7 @@
     {
         "class": "icon_button_control",
         "attributes": ["left", "right", "selected"],
-        "layer0.texture": "Theme - Soda/Soda Dark/btn-small.png"
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-small-on.png"
     },
 
 //
