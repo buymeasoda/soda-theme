@@ -825,7 +825,7 @@
         "class": "icon_regex",
         "layer0.texture": "Theme - Soda/Soda Dark/icon-regex-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [9, 9]
     },
     {
         "class": "icon_regex",
@@ -837,7 +837,7 @@
         "class": "icon_case",
         "layer0.texture": "Theme - Soda/Soda Dark/icon-case-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [9, 9]
     },
     {
         "class": "icon_case",
@@ -849,7 +849,7 @@
         "class": "icon_whole_word",
         "layer0.texture": "Theme - Soda/Soda Dark/icon-word-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [9, 9]
     },
     {
         "class": "icon_whole_word",
@@ -866,7 +866,7 @@
         "class": "icon_context",
         "layer0.texture": "Theme - Soda/Soda Dark/icon-context-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [9, 9]
     },
     {
         "class": "icon_context",
@@ -878,7 +878,7 @@
         "class": "icon_use_buffer",
         "layer0.texture": "Theme - Soda/Soda Dark/icon-buffer-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [9, 9]
     },
     {
         "class": "icon_use_buffer",
@@ -895,7 +895,7 @@
         "class": "icon_reverse",
         "layer0.texture": "Theme - Soda/Soda Dark/icon-reverse-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [9, 9]
     },
     {
         "class": "icon_reverse",
@@ -907,7 +907,7 @@
         "class": "icon_wrap",
         "layer0.texture": "Theme - Soda/Soda Dark/icon-wrap-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [9, 9]
     },
     {
         "class": "icon_wrap",
@@ -919,7 +919,7 @@
         "class": "icon_in_selection",
         "layer0.texture": "Theme - Soda/Soda Dark/icon-selection-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [9, 9]
     },
     {
         "class": "icon_in_selection",
@@ -936,7 +936,7 @@
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - Soda/Soda Dark/icon-preserve-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [9, 9]
     },
     {
         "class": "icon_preserve_case",
@@ -953,7 +953,7 @@
         "class": "icon_highlight",
         "layer0.texture": "Theme - Soda/Soda Dark/icon-highlight-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [9, 9]
     },
     {
         "class": "icon_highlight",
