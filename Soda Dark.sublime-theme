@@ -655,10 +655,10 @@
     // Quick panel background
     {
         "class": "overlay_control",
-        "layer0.texture": "Theme - Soda/Soda Dark/overlay-background.png",
+        "layer0.texture": "Theme - Soda/Soda Dark/quick-panel-background.png",
         "layer0.inner_margin": [12, 6, 12, 15],
         "layer0.opacity": 1.0,
-        "layer1.texture": "Theme - Soda/Soda Dark/quick-panel-background.png",
+        "layer1.texture": "Theme - Soda/Soda Dark/quick-panel-sections.png",
         "layer1.inner_margin": [12, 40, 12, 19],
         "layer1.opacity": 1.0,
         "content_margin": [11, 8, 11, 17]
