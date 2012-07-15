@@ -649,7 +649,8 @@
         "class": "panel_control",
         "layer0.texture": "Theme - Soda/Soda Dark/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 2],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "content_margin": [2, 3, 2, 1]
     },
     // Quick panel background
     {
@@ -658,7 +659,7 @@
         "layer0.inner_margin": [12, 6, 12, 15],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Soda/Soda Dark/quick-panel-background.png",
-        "layer1.inner_margin": [12, 37, 12, 19],
+        "layer1.inner_margin": [12, 40, 12, 19],
         "layer1.opacity": 1.0,
         "content_margin": [11, 8, 11, 17]
     },
