@@ -611,25 +611,20 @@
 // STANDARD TEXT BUTTONS
 //
 
-    // Standard buttons (used for Find / Replace panel)
+    // Default button state
     {
         "class": "button_control",
         "content_margin": [6, 5, 6, 6],
         "min_size": [75, 0],
-        // Default button state
         "layer0.texture": "Theme - Soda/Soda Dark/btn-large.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [6, 6],
-        // Pressed button setup
-        "layer1.texture": "Theme - Soda/Soda Dark/btn-large-on.png",
-        "layer1.opacity": 0.0,
-        "layer1.inner_margin": [6, 6]
+        "layer0.inner_margin": [6, 6]
     },
+    // Pressed button state
     {
-        // Pressed button state
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer1.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Dark/btn-large-on.png"
     },
 
 //
@@ -641,8 +636,8 @@
         "class": "text_line_control",
         "layer0.texture": "Theme - Soda/Soda Dark/text-field.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [4, 5, 4, 4],
-        "content_margin": [3, 4, 3, 3]
+        "layer0.inner_margin": [4, 5, 4, 3],
+        "content_margin": [3, 3]
     },
 
 //
