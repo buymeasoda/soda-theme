@@ -517,6 +517,11 @@
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1]
     },
+
+//
+// SIDEBAR - OPEN FILE ICONS
+//
+
     // Sidebar file close
     {
         "class": "close_button",
@@ -565,6 +570,11 @@
         "attributes": ["hover"],
         "layer0.texture": "Theme - Soda/Soda Dark/file-close-hover.png"
     },
+
+//
+// SIDEBAR - GENERAL FILE ICONS
+//
+    
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
