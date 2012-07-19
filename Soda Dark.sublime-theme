@@ -128,7 +128,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "layer0.texture": "Theme - Soda/Soda Dark/tab-close.png",
-        "layer0.opacity": 0.85
+        "layer0.opacity": 1.0
     },
     {
         "class": "tab_close_button",
