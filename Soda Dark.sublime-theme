@@ -736,8 +736,8 @@
         "class": "popup_control",
         "content_margin": [2, 2],
         "layer0.tint": [30, 30, 30],
-        "layer0.opacity": 1.0,
-        "dark_content": true
+        // "dark_content": true,
+        "layer0.opacity": 1.0
     },
     {
         "class": "auto_complete",
