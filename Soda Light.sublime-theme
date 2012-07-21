@@ -267,7 +267,8 @@
     {
         "class": "scroll_corner_control",
         "layer0.texture": "Theme - Soda/Soda Light/standard-scrollbar-corner.png",
-        "layer0.inner_margin": [2, 2]
+        "layer0.inner_margin": [2, 2],
+        "layer0.opacity": 1.0
     },
     // Standard vertical scroll puck
     {
