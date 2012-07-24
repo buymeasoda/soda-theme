@@ -219,28 +219,22 @@
         "layer0.texture": "Theme - Soda/Soda Dark/fold-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Soda/Soda Dark/fold-closed-pressed.png",
-        "layer1.opacity": 0.0,
-        "layer1.inner_margin": 0,
         "content_margin": [8, 8]
     },
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 0.75
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": ["pressed"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Dark/fold-closed-hover.png"
     },
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Soda/Soda Dark/fold-open.png",
-        "layer1.texture": "Theme - Soda/Soda Dark/fold-open-pressed.png"
+        "layer0.texture": "Theme - Soda/Soda Dark/fold-open.png"
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["expanded", "hover"],
+        "layer0.texture": "Theme - Soda/Soda Dark/fold-open-hover.png"
     },
 
 //
