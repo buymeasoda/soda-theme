@@ -224,7 +224,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Soda/Soda Light/fold-closed-pressed.png"
+        "layer0.texture": "Theme - Soda/Soda Light/fold-closed-hover.png"
     },
     {
         "class": "fold_button_control",
@@ -234,7 +234,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded", "hover"],
-        "layer0.texture": "Theme - Soda/Soda Light/fold-open-pressed.png"
+        "layer0.texture": "Theme - Soda/Soda Light/fold-open-hover.png"
     },
 
 //
