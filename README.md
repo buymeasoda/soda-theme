@@ -59,7 +59,7 @@ By default, a square tab style is used. If you'd prefer to use the original curv
 
 ### Retina Resolution UI
 
-Soda Light has been designed to take advantage of retina resolution (high-dpi) displays. Retina support for Soda Dark is coming soon.
+Soda Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Soda Light and Soda Dark support retina displays.
 
 ![Soda Retina](http://buymeasoda.github.com/soda-theme/images/features/soda-retina.png)
 
