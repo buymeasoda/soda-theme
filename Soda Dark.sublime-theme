@@ -391,16 +391,15 @@
     {
         "class": "label_control",
         "parents": [{"class": "panel_control"}],
-        "shadow_color": [55, 55, 55],
-        "shadow_offset": [0, 1]
+        "shadow_color": [50, 50, 50],
+        "shadow_offset": [0, -1]
     },
     // Button labels
     {
         "class": "label_control",
         "parents": [{"class": "button_control"}],
-        "color": [218, 218, 218],
-        "shadow_color": [40, 40, 40],
-        "shadow_offset": [0, 1]
+        "shadow_color": [55, 55, 55],
+        "shadow_offset": [0, -1]
     },
 
 //
@@ -487,21 +486,20 @@
         "color": [210, 210, 210],
         "font.bold": true,
         "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 1]
+        "shadow_offset": [0, -1]
     },
     // Sidebar entry
     {
         "class": "sidebar_label",
         "color": [125, 125, 125],
-        "shadow_offset": [0, 0]
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, -1]
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [210, 210, 210],
-        "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 1]
+        "color": [190, 190, 190]
     },
     {
         "class": "sidebar_label",
@@ -750,9 +748,9 @@
     {
         "class": "auto_complete_label",
         "fg": [140, 140, 140],
-        "match_fg": [255, 255, 255],
-        "selected_fg": [255, 255, 255],
-        "selected_match_fg": [255, 255, 255]
+        "match_fg": [220, 220, 220],
+        "selected_fg": [180, 180, 180],
+        "selected_match_fg": [245, 245, 245]
     },
     {
         "class": "table_row",
