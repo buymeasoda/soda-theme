@@ -1,27 +1,23 @@
-# Soda Theme
+# Phoenix Theme
 
 Dark and light custom UI themes for Sublime Text 2.
-Based on Soda Theme by buymeasoda
+Based on Soda Theme by Ian Hill (http://buymeasoda.com/)
 
 ## Design
 
-Dark `Lemon` Theme (use modified version of Clouds Midnight) :
+Dark `Kiwi` Theme (use modified version of Clouds Midnight) :
 ![Soda Dark Lemon Theme](http://img515.imageshack.us/img515/893/sodadarklemon.png?v=1)
 ![Soda Dark Lemon Theme](http://img23.imageshack.us/img23/695/sodadarklemon2.png?v=1)
 
 ## Todo's
 
-- Dark Classic theme (same as lemon with no color)
-- Dark Pink/Blue/Red/Orange themes
+- Dark Classic theme (same as Kiwi with no color)
+- Dark Yellow/Pink/Blue/Red/Orange themes
 - Light theme
 
 ## Installation
 
-Soda theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2.
-
-### Using Sublime Package Control
-
-If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Soda Theme via the `Package Control: Install Package` menu item. The Soda Theme package is listed as `Theme - Soda` in the packages list.
+Phoenix theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2.
 
 ### Using Git
 
@@ -31,12 +27,12 @@ You can locate your Sublime Text 2 `Packages` directory by using the menu item `
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-    git clone https://github.com/netatoo/soda-theme/ "Theme - Soda"
+    git clone https://github.com/netatoo/phoenix-theme/ "Theme - Phoenix"
 
 ### Download Manually
 
 * Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - Soda`
+* Unzip the files and rename the folder to `Theme - Phoenix`
 * Copy the folder to your Sublime Text 2 `Packages` directory
 
 ## Activating the theme
@@ -44,12 +40,12 @@ While inside the `Packages` directory, clone the theme repository using the comm
 To configure Sublime Text 2 to use the theme:
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Soda Dark Lemon.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
+* Add (or update) your theme entry to be `"theme": "Phoenix Dark Kiwi.sublime-theme"` or `"theme": "Phoenix Dark.sublime-theme"`
 
 ### Example User Settings
 
     {
-        "theme": "Soda Dark Lemon.sublime-theme"
+        "theme": "Phoenix Dark Kiwi.sublime-theme"
     }
 
 ## Additional Features
