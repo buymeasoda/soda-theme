@@ -4,9 +4,13 @@ Dark and light custom UI themes for Sublime Text 2.
 
 ## Design
 
-![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-2-light-theme.png?v=4)
+![Soda Dark Theme](http://netatoo.github.com/soda-theme/images/screenshots/soda-2-dark-theme.png?v=1)
 
-![Soda Dark Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-2-dark-theme.png?v=2)
+## Todo's
+
+- Dark Classic theme (same as lemon with no color)
+- Dark Pink/Blue/Red/Orange themes
+- Light theme
 
 ## Installation
 
