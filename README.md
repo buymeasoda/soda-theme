@@ -5,12 +5,8 @@ Dark and light custom UI themes for Sublime Text 2.
 ## Design
 
 Dark `Lemon` Theme (use modified version of Clouds Midnight) :
-<<<<<<< HEAD
 ![Soda Dark Lemon Theme](http://img515.imageshack.us/img515/893/sodadarklemon.png?v=1)
 ![Soda Dark Lemon Theme](http://img23.imageshack.us/img23/695/sodadarklemon2.png?v=1)
-=======
-![Soda Dark Theme](http://img515.imageshack.us/img515/893/sodadarklemon.png?v=1)
->>>>>>> 81f23a6d128c0a25e27b159dcd833ea07a324591
 
 ## Todo's
 
