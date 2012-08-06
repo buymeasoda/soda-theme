@@ -1,6 +1,7 @@
 # Soda Theme
 
 Dark and light custom UI themes for Sublime Text 2.
+Based on Soda Theme by buymeasoda
 
 ## Design
 
@@ -30,7 +31,7 @@ You can locate your Sublime Text 2 `Packages` directory by using the menu item `
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-    git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
+    git clone https://github.com/netatoo/soda-theme/ "Theme - Soda"
 
 ### Download Manually
 
@@ -43,12 +44,12 @@ While inside the `Packages` directory, clone the theme repository using the comm
 To configure Sublime Text 2 to use the theme:
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
+* Add (or update) your theme entry to be `"theme": "Soda Dark Lemon.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
 
 ### Example User Settings
 
     {
-        "theme": "Soda Light.sublime-theme"
+        "theme": "Soda Dark Lemon.sublime-theme"
     }
 
 ## Additional Features
@@ -72,18 +73,6 @@ Soda Theme has been designed to take advantage of retina resolution (high-dpi) d
 ### Theme Customisation
 
 Sublime Text 2 provides an elegant way to tweak existing themes without having to duplicate or maintain a separate copy of the original theme. If there are aspects of Soda Theme that you would like to adjust, take a look at the [theme customisation](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation) wiki page.
-
-## Bonus Options
-
-### Syntax Highlighting Colour Schemes
-
-The Soda Light screenshot uses a modified version of Espresso Tutti Colori and the Soda Dark screenshot uses a modified version of Monokai.
-
-If you'd like to use the syntax highlighting schemes shown in the screenshots: 
-
-* Download [colour-schemes.zip](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip)
-* Unzip and place the extracted `tmtheme` files in the Sublime Text 2 `Packages/User` folder
-* Enable the colour scheme via `Preferences -> Color Scheme -> User`
 
 ### Code Font
 
