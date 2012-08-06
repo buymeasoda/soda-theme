@@ -4,7 +4,7 @@ Dark and light custom UI themes for Sublime Text 2.
 
 ## Design
 
-![Soda Dark Theme](http://imageshack.us/photo/my-images/525/sodadarklemon.png?v=1)
+![Soda Dark Theme](http://img515.imageshack.us/img515/893/sodadarklemon.png?v=1)
 
 ## Todo's
 
