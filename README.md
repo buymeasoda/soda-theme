@@ -50,37 +50,27 @@ To configure Sublime Text 2 to use the theme:
 
 Phoenix Theme ships with 5 alternate color styles.
 
-#### Dark Green
-
     "phoenix_color_green": true
 
 ![Phoenix Dark Green Theme](http://img228.imageshack.us/img228/2007/phoenixdarkgreen.png?v=1)
-
-#### Dark Blue
 
     "phoenix_color_blue": true
 
 ![Phoenix Dark Blue Theme](http://img152.imageshack.us/img152/5929/phoenixdarkblue.png?v=1)
 
-#### Dark Orange
-
     "phoenix_color_orange": true
 
 ![Phoenix Dark Orange Theme](http://img803.imageshack.us/img803/2741/phoenixdarkorange.png?v=1)
-
-#### Dark Yellow
 
     "phoenix_color_yellow": true
 
 ![Phoenix Dark Green Theme](http://img839.imageshack.us/img839/8550/phoenixdarkyellow.png?v=1)
 
-#### Dark Red
-
     "phoenix_color_red": true
 
 ![Phoenix Dark Red Theme](http://img28.imageshack.us/img28/5171/phoenixdarkred.png?v=1)
 
-#### Color the text label on current tab
+### Color the text label on current tab
 
     "phoenix_highlight_current_tab": true
 
