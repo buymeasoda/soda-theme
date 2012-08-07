@@ -72,6 +72,8 @@ Phoenix Theme ships with 5 alternate color styles.
 
 ### Color the text label on current tab
 
+You can colorize or not the text label (filename) of the current tab, for that, we propose to define a custom settings in `Sublime Text 2 -> Preferences -> Settings - User`
+
     "phoenix_highlight_current_tab": true
 
 ![Phoenix Dark Color Tab Style True](http://img696.imageshack.us/img696/1982/phoenixhighlighttabtrue.png?v=1)
@@ -79,6 +81,17 @@ Phoenix Theme ships with 5 alternate color styles.
     "phoenix_highlight_current_tab": false
 
 ![Phoenix Dark Color Tab Style False](http://img811.imageshack.us/img811/8628/phoenixhighlighttabfals.png?v=1)
+
+### Simply choose the height of your tabs!
+
+    {
+        "phoenix_tabs_small": false,
+        "phoenix_tabs_medium": false,
+        "phoenix_tabs_normal": true,
+        "phoenix_tabs_large": false,
+        "phoenix_tabs_xlarge": false,
+        "phoenix_tabs_auto_width": false
+    }
 
 ### Retina Resolution UI
 

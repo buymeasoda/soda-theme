@@ -919,6 +919,45 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/icon-highlight-on.png"
     },
 
+
+
+//
+// COLORS
+//
+
+    // Tab set
+    {
+        "class": "tabset_control",
+        "settings": ["phoenix_tabs_auto_width"],
+        "tab_width": 0
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["phoenix_tabs_small"],
+        "tab_height": 26
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["phoenix_tabs_medium"],
+        "tab_height": 30
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["phoenix_tabs_normal"],
+        "tab_height": 36
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["phoenix_tabs_large"],
+        "tab_height": 45
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["phoenix_tabs_xlarge"],
+        "tab_height": 60
+    },
+
+
 //
 // COLORS
 //
