@@ -74,10 +74,6 @@ Phoenix Theme ships with 5 alternate color styles.
 
 You can colorize or not the text label (filename) of the current tab, for that, we propose to define a custom settings in `Sublime Text 2 -> Preferences -> Settings - User`
 
-    "phoenix_highlight_current_tab": true
-
-![Phoenix Dark Color Tab Style True](http://img696.imageshack.us/img696/1982/phoenixhighlighttabtrue.png?v=1)
-
     "phoenix_highlight_current_tab": false
 
 ![Phoenix Dark Color Tab Style False](http://img811.imageshack.us/img811/8628/phoenixhighlighttabfals.png?v=1)
@@ -100,12 +96,6 @@ Phoenix Theme has been designed to take advantage of retina resolution (high-dpi
 ### Theme Customisation
 
 Sublime Text 2 provides an elegant way to tweak existing themes without having to duplicate or maintain a separate copy of the original theme. If there are aspects of Soda Theme that you would like to adjust, take a look at the [theme customisation](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation) wiki page.
-
-## Development
-
-Please note, Sublime Text dev builds move quickly and changes can occur with the theme API between releases, so there may be occasions where the theme doesn't quite work with a brand new dev release.
-
-While developing the theme, I have documented some [theme challenges and ideas](https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges-and-ideas) encountered along the way.
 
 ## License
 
