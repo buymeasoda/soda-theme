@@ -1,18 +1,14 @@
 # Phoenix Theme
 
-Dark and light custom UI themes for Sublime Text 2.
-Based on Soda Theme by Ian Hill (http://buymeasoda.com/)
+Dark custom UI themes for Sublime Text 2, based on Soda Theme by Ian Hill (http://buymeasoda.com/)
 
 ## Design
 
-Dark `Kiwi` Theme (use modified version of Clouds Midnight) :
-![Soda Dark Lemon Theme](http://img515.imageshack.us/img515/893/sodadarklemon.png?v=1)
-![Soda Dark Lemon Theme](http://img23.imageshack.us/img23/695/sodadarklemon2.png?v=1)
+![Phoenix Dark Default Theme](http://img268.imageshack.us/img268/3320/phoenixdark.png?v=1)
 
 ## Todo's
 
-- Dark Classic theme (same as Kiwi with no color)
-- Dark Yellow/Pink/Blue/Red/Orange themes
+- Color icons for dark themes
 - Light theme
 
 ## Installation
@@ -40,39 +36,67 @@ While inside the `Packages` directory, clone the theme repository using the comm
 To configure Sublime Text 2 to use the theme:
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Phoenix Dark Kiwi.sublime-theme"` or `"theme": "Phoenix Dark.sublime-theme"`
+* Add (or update) your theme entry to be `"theme": "Phoenix Dark.sublime-theme"`
 
 ### Example User Settings
 
     {
-        "theme": "Phoenix Dark Kiwi.sublime-theme"
+        "theme": "Phoenix Dark.sublime-theme"
     }
 
 ## Additional Features
 
-### Alternate Tab Styles
+### Alternate Colors
 
-Soda Theme ships with two alternate UI tab styles.
+Phoenix Theme ships with 5 alternate color styles.
 
-By default, a square tab style is used. If you'd prefer to use the original curved tab style, add the following custom setting to your `Settings - User` file:
+#### Dark Green
 
-    "soda_classic_tabs": true
+    "phoenix_color_green": true
 
-![Soda Tab Styles](http://buymeasoda.github.com/soda-theme/images/features/multiple-tab-styles.png)
+![Phoenix Dark Green Theme](http://img228.imageshack.us/img228/2007/phoenixdarkgreen.png?v=1)
+
+#### Dark Blue
+
+    "phoenix_color_blue": true
+
+![Phoenix Dark Blue Theme](http://img152.imageshack.us/img152/5929/phoenixdarkblue.png?v=1)
+
+#### Dark Orange
+
+    "phoenix_color_orange": true
+
+![Phoenix Dark Orange Theme](http://img803.imageshack.us/img803/2741/phoenixdarkorange.png?v=1)
+
+#### Dark Yellow
+
+    "phoenix_color_yellow": true
+
+![Phoenix Dark Green Theme](http://img839.imageshack.us/img839/8550/phoenixdarkyellow.png?v=1)
+
+#### Dark Red
+
+    "phoenix_color_red": true
+
+![Phoenix Dark Red Theme](http://img28.imageshack.us/img28/5171/phoenixdarkred.png?v=1)
+
+#### Color the text label on current tab
+
+    "phoenix_highlight_current_tab": true
+
+![Phoenix Dark Color Tab Style True](http://img696.imageshack.us/img696/1982/phoenixhighlighttabtrue.png?v=1)
+
+    "phoenix_highlight_current_tab": false
+
+![Phoenix Dark Color Tab Style False](http://img811.imageshack.us/img811/8628/phoenixhighlighttabfals.png?v=1)
 
 ### Retina Resolution UI
 
-Soda Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Soda Light and Soda Dark support retina displays.
-
-![Soda Retina](http://buymeasoda.github.com/soda-theme/images/features/soda-retina.png)
+Phoenix Theme has been designed to take advantage of retina resolution (high-dpi) displays. Phoenix Dark<div></div> support retina displays.
 
 ### Theme Customisation
 
 Sublime Text 2 provides an elegant way to tweak existing themes without having to duplicate or maintain a separate copy of the original theme. If there are aspects of Soda Theme that you would like to adjust, take a look at the [theme customisation](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation) wiki page.
-
-### Code Font
-
-The code font shown in the screenshot is Menlo.
 
 ## Development
 
@@ -86,6 +110,6 @@ Soda Theme is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Li
 
 The following details apply to the Creative Commons license "author specified" components:
 
-* Attribution example: Based on Soda Theme by Ian Hill (http://buymeasoda.com/)
+* Attribution example: Based on a fork of Soda Theme by Ian Hill (http://buymeasoda.com/)
 
-* Naming guidelines: If you create and distribute a derivative theme, please give your theme a unique and original name that does not directly include "Soda Theme" (or a close variant) in the main project title, repo name or Package Control name.
+* Naming guidelines: If you create and distribute a derivative theme, please give your theme a unique and original name that does not directly include "Phoenix Theme" (or a close variant) in the main project title, repo name or Package Control name.
