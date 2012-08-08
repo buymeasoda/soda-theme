@@ -87,6 +87,16 @@ You want your tabs with automatic width? there is a custom setting for this!
 
     "phoenix_tabs_auto_width": true
 
+### Custom Color Scheme
+
+Phoenix Theme provide two slightly modified color scheme to magnify the interface.
+
+#### Clouds Midnight
+![Phoenix Dark Clouds Midnight](http://img809.imageshack.us/img809/4797/phoenixcloudsmidnightsc.png?v=1)
+
+#### Tomorrow Night
+![Phoenix Dark Tomorrow Night](http://img269.imageshack.us/img269/8480/phoenixtomorrowscheme.png?v=1)
+
 ### Retina Resolution UI
 
 Phoenix Theme has been designed to take advantage of retina resolution (high-dpi) displays. Phoenix Dark<div></div> support retina displays.
