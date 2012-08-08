@@ -5,6 +5,7 @@ Dark custom UI themes for Sublime Text 2, based on Soda Theme by Ian Hill (http:
 ## Design & Colors
 
 ![Phoenix Dark Theme](http://img38.imageshack.us/img38/3320/phoenixdark.png?v=1)
+Phoenix Theme ships with 5 alternate color styles :
 ![Phoenix Dark Red Theme](http://img204.imageshack.us/img204/5171/phoenixdarkred.png?v=1)
 ![Phoenix Dark Green Theme](http://img88.imageshack.us/img88/2007/phoenixdarkgreen.png?v=1)
 ![Phoenix Dark Blue Theme](http://img341.imageshack.us/img341/5929/phoenixdarkblue.png?v=1)
@@ -58,10 +59,7 @@ Phoenix Theme ships with 5 alternate color styles. To configure you favorite col
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
 * Add (or update) the `phoenix_color_*` entry, example :
 
-    {
-        "phoenix_color_blue": true
-    }
-    
+    "phoenix_color_blue": true
 
 For now, five colors are available : `red`, `green`, `blue`, `orange` and `yellow`
 
@@ -69,10 +67,7 @@ For now, five colors are available : `red`, `green`, `blue`, `orange` and `yello
 
 You can colorize or not the text label (filename) of the current tab, for that, we propose to define a custom settings in `Sublime Text 2 -> Preferences -> Settings - User`
 
-    {
-        "phoenix_highlight_current_tab": true
-    }
-    
+    "phoenix_highlight_current_tab": true    
 
 ![Phoenix Dark Highlight Current Tab](http://img341.imageshack.us/img341/6887/phoenixhighlightcurrent.png?v=1)
 
@@ -80,9 +75,7 @@ You can colorize or not the text label (filename) of the current tab, for that, 
 
 Prefer small tabs? No problem, there is a custom setting for this!
 
-    {
-        "phoenix_tabs_small": true
-    }
+    "phoenix_tabs_small": true
 
 ![Phoenix Dark Tab Sizing](http://img853.imageshack.us/img853/9093/phoenixtabssizing.png?v=1)
 
@@ -92,9 +85,7 @@ For now, five height are available : `small`, `medium`, `normal` (by default), `
 
 You want your tabs with automatic width? there is a custom setting for this!
 
-    {
-        "phoenix_tabs_auto_width": true
-    }
+    "phoenix_tabs_auto_width": true
 
 ### Retina Resolution UI
 
