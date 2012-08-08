@@ -2,14 +2,19 @@
 
 Dark custom UI themes for Sublime Text 2, based on Soda Theme by Ian Hill (http://buymeasoda.com/)
 
-## Design
+## Design & Colors
 
-![Phoenix Dark Default Theme](http://img268.imageshack.us/img268/3320/phoenixdark.png?v=1)
+![Phoenix Dark Theme](http://img38.imageshack.us/img38/3320/phoenixdark.png?v=1)
+![Phoenix Dark Red Theme](http://img204.imageshack.us/img204/5171/phoenixdarkred.png?v=1)
+![Phoenix Dark Green Theme](http://img88.imageshack.us/img88/2007/phoenixdarkgreen.png?v=1)
+![Phoenix Dark Blue Theme](http://img341.imageshack.us/img341/5929/phoenixdarkblue.png?v=1)
+![Phoenix Dark Orange Theme](http://img692.imageshack.us/img692/2741/phoenixdarkorange.png?v=1)
+![Phoenix Dark Yellow Theme](http://img40.imageshack.us/img40/8550/phoenixdarkyellow.png?v=1)
 
 ## Todo's
 
-- Color icons for dark themes
 - Light theme
+- Package Control
 
 ## Installation
 
@@ -48,45 +53,47 @@ To configure Sublime Text 2 to use the theme:
 
 ### Alternate Colors
 
-Phoenix Theme ships with 5 alternate color styles.
+Phoenix Theme ships with 5 alternate color styles. To configure you favorite color:
 
-    "phoenix_color_green": true
+* Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
+* Add (or update) the `phoenix_color_*` entry, example :
 
-![Phoenix Dark Green Theme](http://img228.imageshack.us/img228/2007/phoenixdarkgreen.png?v=1)
+    {
+        "phoenix_color_blue": true
+    }
+    
 
-    "phoenix_color_blue": true
-
-![Phoenix Dark Blue Theme](http://img152.imageshack.us/img152/5929/phoenixdarkblue.png?v=1)
-
-    "phoenix_color_orange": true
-
-![Phoenix Dark Orange Theme](http://img803.imageshack.us/img803/2741/phoenixdarkorange.png?v=1)
-
-    "phoenix_color_yellow": true
-
-![Phoenix Dark Green Theme](http://img839.imageshack.us/img839/8550/phoenixdarkyellow.png?v=1)
-
-    "phoenix_color_red": true
-
-![Phoenix Dark Red Theme](http://img28.imageshack.us/img28/5171/phoenixdarkred.png?v=1)
+For now, five colors are available : `red`, `green`, `blue`, `orange` and `yellow`
 
 ### Color the text label on current tab
 
 You can colorize or not the text label (filename) of the current tab, for that, we propose to define a custom settings in `Sublime Text 2 -> Preferences -> Settings - User`
 
-    "phoenix_highlight_current_tab": false
+    {
+        "phoenix_highlight_current_tab": true
+    }
+    
 
-![Phoenix Dark Color Tab Style False](http://img811.imageshack.us/img811/8628/phoenixhighlighttabfals.png?v=1)
+![Phoenix Dark Highlight Current Tab](http://img341.imageshack.us/img341/6887/phoenixhighlightcurrent.png?v=1)
 
 ### Simply choose the height of your tabs!
 
+Prefer small tabs? No problem, there is a custom setting for this!
+
     {
-        "phoenix_tabs_small": false,
-        "phoenix_tabs_medium": false,
-        "phoenix_tabs_normal": true,
-        "phoenix_tabs_large": false,
-        "phoenix_tabs_xlarge": false,
-        "phoenix_tabs_auto_width": false
+        "phoenix_tabs_small": true
+    }
+
+![Phoenix Dark Tab Sizing](http://img853.imageshack.us/img853/9093/phoenixtabssizing.png?v=1)
+
+For now, five height are available : `small`, `medium`, `normal` (by default), `large`, and `xlarge`
+
+### Simply choose the height of your tabs!
+
+You want your tabs with automatic width? there is a custom setting for this!
+
+    {
+        "phoenix_tabs_auto_width": true
     }
 
 ### Retina Resolution UI

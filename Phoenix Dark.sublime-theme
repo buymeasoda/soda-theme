@@ -48,6 +48,12 @@
     {
         "class": "tab_control",
         "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-active-noblur.png"
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["phoenix_blur_current_tab"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-active.png"
     },
     // Tab dirty state (close button hidden)
@@ -970,6 +976,12 @@
         "class": "tab_control",
         "settings": ["phoenix_color_green"],
         "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/tab-active-noblur.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_color_green", "phoenix_blur_current_tab"],
+        "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/tab-active.png"
     },
     {
@@ -1044,6 +1056,31 @@
         "fg": [184, 224, 63, 255],
         "selected_fg": [184, 224, 63, 255]
     },
+    // BOTTOM PANEL BUTTONS
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_green"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/btn-group-middle-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_green"],
+        "attributes": ["left", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/btn-group-left-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_green"],
+        "attributes": ["right", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/btn-group-right-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_green"],
+        "attributes": ["left", "right", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/btn-small-on.png"
+    },
     // CODE COMPLETION DROPDOWN
     {
         "class": "auto_complete_label",
@@ -1058,6 +1095,12 @@
     {
         "class": "tab_control",
         "settings": ["phoenix_color_yellow"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-active-noblur.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_color_yellow", "phoenix_blur_current_tab"],
         "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-active.png"
     },
@@ -1139,6 +1182,31 @@
         "fg": [255, 255, 128, 255],
         "selected_fg": [232, 232, 118, 255]
     },
+    // BOTTOM PANEL BUTTONS
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_yellow"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/btn-group-middle-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_yellow"],
+        "attributes": ["left", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/btn-group-left-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_yellow"],
+        "attributes": ["right", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/btn-group-right-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_yellow"],
+        "attributes": ["left", "right", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/btn-small-on.png"
+    },
     // CODE COMPLETION DROPDOWN
     {
         "class": "auto_complete_label",
@@ -1153,6 +1221,12 @@
     {
         "class": "tab_control",
         "settings": ["phoenix_color_orange"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/tab-active-noblur.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_color_orange", "phoenix_blur_current_tab"],
         "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/tab-active.png"
     },
@@ -1234,6 +1308,31 @@
         "fg": [251, 190, 28, 255],
         "selected_fg": [234, 176, 24, 255]
     },
+    // BOTTOM PANEL BUTTONS
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_orange"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/btn-group-middle-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_orange"],
+        "attributes": ["left", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/btn-group-left-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_orange"],
+        "attributes": ["right", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/btn-group-right-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_orange"],
+        "attributes": ["left", "right", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/btn-small-on.png"
+    },
     // CODE COMPLETION DROPDOWN
     {
         "class": "auto_complete_label",
@@ -1248,6 +1347,12 @@
     {
         "class": "tab_control",
         "settings": ["phoenix_color_blue"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-active-noblur.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_color_blue", "phoenix_blur_current_tab"],
         "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-active.png"
     },
@@ -1329,6 +1434,31 @@
         "fg": [113, 203, 244, 255],
         "selected_fg": [151, 232, 249, 255]
     },
+    // BOTTOM PANEL BUTTONS
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_blue"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/btn-group-middle-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_blue"],
+        "attributes": ["left", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/btn-group-left-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_blue"],
+        "attributes": ["right", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/btn-group-right-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_blue"],
+        "attributes": ["left", "right", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/btn-small-on.png"
+    },
     // CODE COMPLETION DROPDOWN
     {
         "class": "auto_complete_label",
@@ -1343,6 +1473,12 @@
     {
         "class": "tab_control",
         "settings": ["phoenix_color_red"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/tab-active-noblur.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_color_red", "phoenix_blur_current_tab"],
         "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/tab-active.png"
     },
@@ -1423,6 +1559,31 @@
         "settings": ["phoenix_color_red"],
         "fg": [255, 87, 87, 255],
         "selected_fg": [255, 171, 171, 255]
+    },
+    // BOTTOM PANEL BUTTONS
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_red"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/btn-group-middle-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_red"],
+        "attributes": ["left", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/btn-group-left-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_red"],
+        "attributes": ["right", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/btn-group-right-on.png"
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["phoenix_color_red"],
+        "attributes": ["left", "right", "selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/btn-small-on.png"
     },
     // CODE COMPLETION DROPDOWN
     {
