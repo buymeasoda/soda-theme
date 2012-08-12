@@ -1,11 +1,15 @@
 # Phoenix Theme
 
-Dark custom UI themes for Sublime Text 2, based on Soda Theme by Ian Hill (http://buymeasoda.com/)
+Dark & Light custom UI themes for Sublime Text 2, based on Soda Theme by Ian Hill (http://buymeasoda.com/)
 
 ## Design & Colors
 
+### Light Theme
+![Phoenix Light Blue Theme](http://img43.imageshack.us/img43/7478/phoenixlightblue.png?v=1)
+
+### Dark Theme
+Phoenix Dark Theme ships with 5 alternate color styles.
 ![Phoenix Dark Theme](http://img38.imageshack.us/img38/3320/phoenixdark.png?v=1)
-Phoenix Theme ships with 5 alternate color styles :
 ![Phoenix Dark Red Theme](http://img204.imageshack.us/img204/5171/phoenixdarkred.png?v=1)
 ![Phoenix Dark Green Theme](http://img88.imageshack.us/img88/2007/phoenixdarkgreen.png?v=1)
 ![Phoenix Dark Blue Theme](http://img341.imageshack.us/img341/5929/phoenixdarkblue.png?v=1)
@@ -14,8 +18,7 @@ Phoenix Theme ships with 5 alternate color styles :
 
 ## Todo's
 
-- Light theme
-- Package Control
+- Add alternates colors for Light Theme (green, red, orange)
 
 ## Installation
 
@@ -42,7 +45,7 @@ While inside the `Packages` directory, clone the theme repository using the comm
 To configure Sublime Text 2 to use the theme:
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Phoenix Dark.sublime-theme"`
+* Add (or update) your theme entry to be `"theme": "Phoenix Light.sublime-theme"` or `"theme": "Phoenix Dark.sublime-theme"`
 
 ### Example User Settings
 
@@ -57,11 +60,12 @@ To configure Sublime Text 2 to use the theme:
 Phoenix Theme ships with 5 alternate color styles. To configure you favorite color:
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or update) the `phoenix_color_*` entry, example :
+* Add (or update) the `phoenix_color_*` entry
+  
 
     "phoenix_color_blue": true
 
-For now, five colors are available : `red`, `green`, `blue`, `orange` and `yellow`
+For now, five colors are available on Dark Theme : `red`, `green`, `blue`, `orange` and `yellow`
 
 ### Color the text label on current tab
 
@@ -81,7 +85,13 @@ Prefer small tabs? No problem, there is a custom setting for this!
 
 For now, five height are available : `small`, `medium`, `normal` (by default), `large`, and `xlarge`
 
-### Simply choose the height of your tabs!
+### Blur current tabs
+
+Enable this setting to bring out the color on the current tab :
+
+    "phoenix_blur_current_tab": true
+
+### Automatic width tabs
 
 You want your tabs with automatic width? there is a custom setting for this!
 
@@ -99,7 +109,7 @@ Phoenix Theme provide two slightly modified color scheme to magnify the interfac
 
 ### Retina Resolution UI
 
-Phoenix Theme has been designed to take advantage of retina resolution (high-dpi) displays. Phoenix Dark<div></div> support retina displays.
+Phoenix Theme has been designed to take advantage of retina resolution (high-dpi) displays. Phoenix Theme support retina displays.
 
 ### Theme Customisation
 
