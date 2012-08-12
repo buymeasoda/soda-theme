@@ -5,16 +5,20 @@ Dark & Light custom UI themes for Sublime Text 2, based on Soda Theme by Ian Hil
 ## Design & Colors
 
 ### Light Theme
-![Phoenix Light Blue Theme](http://img43.imageshack.us/img43/7478/phoenixlightblue.png?v=1)
+Phoenix Dark Theme ships with 3 alternate color styles.
+![Phoenix Light Theme](http://img339.imageshack.us/img339/3994/phoenixlight.png?v=1)
+![Phoenix Light Blue Theme](http://img62.imageshack.us/img62/7478/phoenixlightblue.png?v=1)
+![Phoenix Light Red Theme](http://img854.imageshack.us/img854/7506/phoenixlightred.png?v=1)
 
 ### Dark Theme
-Phoenix Dark Theme ships with 5 alternate color styles.
+Phoenix Dark Theme ships with 6 alternate color styles.
 ![Phoenix Dark Theme](http://img38.imageshack.us/img38/3320/phoenixdark.png?v=1)
 ![Phoenix Dark Red Theme](http://img204.imageshack.us/img204/5171/phoenixdarkred.png?v=1)
 ![Phoenix Dark Green Theme](http://img88.imageshack.us/img88/2007/phoenixdarkgreen.png?v=1)
 ![Phoenix Dark Blue Theme](http://img341.imageshack.us/img341/5929/phoenixdarkblue.png?v=1)
 ![Phoenix Dark Orange Theme](http://img692.imageshack.us/img692/2741/phoenixdarkorange.png?v=1)
 ![Phoenix Dark Yellow Theme](http://img40.imageshack.us/img40/8550/phoenixdarkyellow.png?v=1)
+![Phoenix Dark Pink Theme](http://img40.imageshack.us/img40/8550/phoenixdarkyellow.png?v=1)
 
 ## Todo's
 
@@ -62,10 +66,9 @@ Phoenix Theme ships with 5 alternate color styles. To configure you favorite col
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
 * Add (or update) the `phoenix_color_*` entry
   
-
-    "phoenix_color_blue": true
-
 For now, five colors are available on Dark Theme : `red`, `green`, `blue`, `orange` and `yellow`
+    
+    "phoenix_color_blue": true
 
 ### Color the text label on current tab
 
@@ -74,6 +77,12 @@ You can colorize or not the text label (filename) of the current tab, for that, 
     "phoenix_highlight_current_tab": true    
 
 ![Phoenix Dark Highlight Current Tab](http://img341.imageshack.us/img341/6887/phoenixhighlightcurrent.png?v=1)
+
+### Blur current tab color
+
+Enable this setting to bring out the color on the current tab :
+
+    "phoenix_blur_current_tab": true
 
 ### Simply choose the height of your tabs!
 
@@ -84,12 +93,6 @@ Prefer small tabs? No problem, there is a custom setting for this!
 ![Phoenix Dark Tab Sizing](http://img853.imageshack.us/img853/9093/phoenixtabssizing.png?v=1)
 
 For now, five height are available : `small`, `medium`, `normal` (by default), `large`, and `xlarge`
-
-### Blur current tabs
-
-Enable this setting to bring out the color on the current tab :
-
-    "phoenix_blur_current_tab": true
 
 ### Automatic width tabs
 
