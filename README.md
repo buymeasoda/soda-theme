@@ -6,12 +6,12 @@ Dark & Light custom UI themes with color for Sublime Text 2, based on Soda Theme
 
 ### Light Theme
 ![Phoenix Light Theme](http://img196.imageshack.us/img196/3994/phoenixlight.png?v=1)
-Phoenix Dark Theme ships with 1 alternate color style :
+Phoenix Light Theme currently provides a single color alternative :
 ![Phoenix Light Blue Theme](http://img266.imageshack.us/img266/7478/phoenixlightblue.png?v=1)
 
 ### Dark Theme
 ![Phoenix Dark Theme](http://img94.imageshack.us/img94/3320/phoenixdark.png?v=1)
-Phoenix Dark Theme ships with 5 alternate color styles :
+Phoenix Dark Theme currently provides five alternate colors :
 ![Phoenix Dark Red Theme](http://img204.imageshack.us/img204/5171/phoenixdarkred.png?v=1)
 ![Phoenix Dark Green Theme](http://img88.imageshack.us/img88/2007/phoenixdarkgreen.png?v=1)
 ![Phoenix Dark Blue Theme](http://img341.imageshack.us/img341/5929/phoenixdarkblue.png?v=1)
@@ -68,18 +68,17 @@ Phoenix Theme ships with 5 alternate color styles. To configure you favorite col
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
 * Add (or update) the `phoenix_color_*` entry
   
-Light theme : `blue`
-Dark Theme : `red`, `green`, `blue`, `orange` and `yellow`
+**Light theme :** `blue`
+
+**Dark Theme :** `red`, `green`, `blue`, `orange` and `yellow`
   
 ### Example User Settings
 
- 	{
- 		"phoenix_color_blue": true
- 	}
+ 	"phoenix_color_blue": true
 
 ### Blur current tab color
 
-Enable this setting to bring out the color on the current tab :
+Enable this setting to bring out the background color on the current tab, for that, we propose to define a custom settings in `Sublime Text 2 -> Preferences -> Settings - User` :
 
     "phoenix_blur_current_tab": true
 
@@ -87,7 +86,7 @@ Enable this setting to bring out the color on the current tab :
 
 ### Color the text label on current tab
 
-You can colorize or not the text label (filename) of the current tab, for that, we propose to define a custom settings in `Sublime Text 2 -> Preferences -> Settings - User`
+You can colorize or not the text label (filename) of the current tab :
 
     "phoenix_highlight_current_tab": true    
 
