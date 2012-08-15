@@ -416,9 +416,9 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 3],
-        "indent": 15,
-        "indent_offset": 15,
+        "row_padding": [12, 3],
+        "indent": 16,
+        "indent_offset": 16,
         "indent_top_level": false
     },
     // Sidebar rows
@@ -445,16 +445,15 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [66, 76, 85], 
+        "color": [81, 93, 104], 
         "shadow_color": [241, 244, 247],
-        "shadow_offset": [0, 1],
-        "font.bold": false
+        "shadow_offset": [0, 1]
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [70, 86, 102]
+        "color": [102, 115, 127]
     },
     {
         "class": "sidebar_label",
@@ -535,20 +534,19 @@
 //
 // SIDEBAR - GENERAL FILE ICONS
 //
-
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - Phoenix/Phoenix Light/group-closed.png",
-        "layer0.opacity": 0.7,
+        "layer0.opacity": 0.60,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Light/group-closed.png",
-        "layer0.opacity": 0.9
+        "layer0.opacity": 1.0
     },
     {
         "class": "disclosure_button_control",
