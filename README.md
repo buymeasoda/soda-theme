@@ -5,12 +5,12 @@ Dark & Light custom UI themes with color for Sublime Text 2, based on Soda Theme
 ## Design & Colors
 
 ### Light Theme
-![Phoenix Light Theme](http://img19.imageshack.us/img19/3994/phoenixlight.png?v=1)
+![Phoenix Light Theme](http://ballejaune.net/phoenix-theme/Phoenix-Light.png?v=1)
 Phoenix Light Theme currently provides a single color alternative :
-![Phoenix Light Blue Theme](http://img841.imageshack.us/img841/7478/phoenixlightblue.png?v=1)
+![Phoenix Light Blue Theme](http://ballejaune.net/phoenix-theme/Phoenix-Light-Blue.png?v=1)
 
 ### Dark Theme
-![Phoenix Dark Theme](http://img337.imageshack.us/img337/3320/phoenixdark.png?v=1)
+![Phoenix Dark Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark.png?v=1)
 Phoenix Dark Theme currently provides five alternate colors :
 ![Phoenix Dark Red Theme](http://img204.imageshack.us/img204/5171/phoenixdarkred.png?v=1)
 ![Phoenix Dark Green Theme](http://img88.imageshack.us/img88/2007/phoenixdarkgreen.png?v=1)
