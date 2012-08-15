@@ -36,7 +36,7 @@
     {
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [15, 3, 6, 3]
+        "content_margin": [12, 3, 6, 3]
     },
     // Tab hover state
     {
@@ -413,7 +413,7 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/sidebar-bg.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1, 2, 1],
-        "content_margin": [0, 8, 1, 0]
+        "content_margin": [0, 0, 1, 0]
     },
     // Sidebar tree
     {
@@ -456,7 +456,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [210, 210, 210]
+        "color": [190, 190, 190]
     },
     {
         "class": "sidebar_label",
@@ -615,7 +615,7 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
-        "content_margin": [2, 0, 2, 1]
+        "content_margin": [2, 1, 2, 1]
     },
     // Quick panel background
     {
