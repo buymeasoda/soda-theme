@@ -5,18 +5,18 @@ Dark & Light custom UI themes with color for Sublime Text 2, based on Soda Theme
 ## Design & Colors
 
 ### Light Theme
-![Phoenix Light Theme](http://ballejaune.net/phoenix-theme/Phoenix-Light.png?v=1)
+![Phoenix Light Theme](http://ballejaune.net/phoenix-theme/Phoenix-Light.png?v=2)
 Phoenix Light Theme currently provides a single color alternative :
-![Phoenix Light Blue Theme](http://ballejaune.net/phoenix-theme/Phoenix-Light-Blue.png?v=1)
+![Phoenix Light Blue Theme](http://ballejaune.net/phoenix-theme/Phoenix-Light-Blue.png?v=2)
 
 ### Dark Theme
-![Phoenix Dark Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark.png?v=1)
+![Phoenix Dark Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark.png?v=2)
 Phoenix Dark Theme currently provides five alternate colors :
-![Phoenix Dark Red Theme](http://img204.imageshack.us/img204/5171/phoenixdarkred.png?v=1)
-![Phoenix Dark Green Theme](http://img88.imageshack.us/img88/2007/phoenixdarkgreen.png?v=1)
-![Phoenix Dark Blue Theme](http://img341.imageshack.us/img341/5929/phoenixdarkblue.png?v=1)
-![Phoenix Dark Orange Theme](http://img692.imageshack.us/img692/2741/phoenixdarkorange.png?v=1)
-![Phoenix Dark Yellow Theme](http://img40.imageshack.us/img40/8550/phoenixdarkyellow.png?v=1)
+![Phoenix Dark Green Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark-Green.png?v=1)
+![Phoenix Dark Blue Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark-Blue.png?v=1)
+![Phoenix Dark Orange Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark-Orange.png?v=1)
+![Phoenix Dark Red Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark-Red.png?v=1)
+![Phoenix Dark Yellow Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark-Yellow.png?v=1)
 
 ## Todo's
 
@@ -78,7 +78,7 @@ Phoenix Theme ships with 5 alternate color styles. To configure you favorite col
 
 ### Blur current tab color
 
-Enable this setting to bring out the background color on the current tab, for that, we propose to define a custom settings in `Sublime Text 2 -> Preferences -> Settings - User` :
+Enable this setting to bring out the background color on the current tab :
 
     "phoenix_blur_current_tab": true
 

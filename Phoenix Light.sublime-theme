@@ -162,7 +162,7 @@
         "color": [233, 241, 252],
         "shadow_color": [75, 79, 85],
         "shadow_offset": [0, 1],
-        "font.bold": false
+        "font.bold": true
     },
 
 //
@@ -416,7 +416,7 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [12, 3],
+        "row_padding": [8, 4],
         "indent": 16,
         "indent_offset": 16,
         "indent_top_level": false
@@ -480,7 +480,7 @@
         "color": [233, 241, 252],
         "shadow_color": [75, 79, 85],
         "shadow_offset": [1, 1],
-        "font.bold": false
+        "font.bold": true
     },
 
 //
@@ -1010,8 +1010,7 @@
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [255, 255, 255],
         "shadow_offset": [0, 1],
-        "shadow_color": [75, 79, 85],
-        "font.bold": false
+        "shadow_color": [75, 79, 85]
     },
     // SIDEBAR
     {
@@ -1030,8 +1029,7 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [255, 255, 255],
         "shadow_color": [75, 79, 85],
-        "shadow_offset": [0, 1],
-        "font.bold": false
+        "shadow_offset": [0, 1]
     },
     // QUICK PANEL
     {
