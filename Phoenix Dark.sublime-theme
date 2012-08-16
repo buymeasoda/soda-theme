@@ -1551,7 +1551,7 @@
         "class": "tab_label",
         "settings": ["phoenix_color_pink", "phoenix_highlight_current_tab"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [231, 87, 219],
+        "fg": [203, 155, 210],
         "shadow_color": [0, 0, 0]
     },
     // SIDEBAR
@@ -1578,7 +1578,7 @@
         "class": "sidebar_label",
         "settings": ["phoenix_color_pink"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [231, 87, 219],
+        "color": [203, 155, 210],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1]
     },
