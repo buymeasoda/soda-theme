@@ -5,18 +5,18 @@ Dark & Light custom UI themes with color for Sublime Text 2, based on Soda Theme
 ## Design & Colors
 
 ### Light Theme
-![Phoenix Light Theme](http://ballejaune.net/phoenix-theme/Phoenix-Light.png?v=2)
+![Phoenix Light Theme](http://ballejaune.net/phoenix/Phoenix-Light.png?v=2)
 Phoenix Light Theme currently provides a single color alternative :
-![Phoenix Light Blue Theme](http://ballejaune.net/phoenix-theme/Phoenix-Light-Blue.png?v=2)
+![Phoenix Light Blue Theme](http://ballejaune.net/phoenix/Phoenix-Light-Blue.png?v=2)
 
 ### Dark Theme
-![Phoenix Dark Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark.png?v=2)
+![Phoenix Dark Theme](http://ballejaune.net/phoenix/Phoenix-Dark.png?v=2)
 Phoenix Dark Theme currently provides five alternate colors :
-![Phoenix Dark Green Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark-Green.png?v=1)
-![Phoenix Dark Blue Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark-Blue.png?v=1)
-![Phoenix Dark Orange Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark-Orange.png?v=1)
-![Phoenix Dark Red Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark-Red.png?v=1)
-![Phoenix Dark Yellow Theme](http://ballejaune.net/phoenix-theme/Phoenix-Dark-Yellow.png?v=1)
+![Phoenix Dark Green Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Green.png?v=1)
+![Phoenix Dark Blue Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Blue.png?v=1)
+![Phoenix Dark Orange Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Orange.png?v=1)
+![Phoenix Dark Red Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Red.png?v=1)
+![Phoenix Dark Yellow Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Yellow.png?v=1)
 
 ## Todo's
 
