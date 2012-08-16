@@ -1,6 +1,6 @@
 # Phoenix Theme
 
-Dark & Light custom UI themes with color for Sublime Text 2, based on Soda Theme by Ian Hill (http://buymeasoda.com/)
+Dark & Light custom UI themes with colors variations for Sublime Text 2
 
 ## Design & Colors
 
@@ -11,16 +11,18 @@ Phoenix Light Theme currently provides a single color alternative :
 
 ### Dark Theme
 ![Phoenix Dark Theme](http://ballejaune.net/phoenix/Phoenix-Dark.png?v=2)
-Phoenix Dark Theme currently provides five alternate colors :
+Phoenix Dark Theme currently provides six alternate colors :
+
 ![Phoenix Dark Green Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Green.png?v=1)
 ![Phoenix Dark Blue Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Blue.png?v=1)
 ![Phoenix Dark Orange Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Orange.png?v=1)
 ![Phoenix Dark Red Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Red.png?v=1)
 ![Phoenix Dark Yellow Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Yellow.png?v=1)
+![Phoenix Dark Pink Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Pink.png?v=1)
 
 ## Todo's
 
-- Add alternates colors for Light Theme (green, red, orange)
+- Add more alternate colors for Light Theme (green, red, orange)
 
 ## Installation
 
@@ -63,18 +65,20 @@ To configure Sublime Text 2 to use the theme:
 
 ### Alternate Colors
 
-Phoenix Theme ships with 5 alternate color styles. To configure you favorite color:
+Phoenix Theme ships with 6 alternate color styles. To configure you favorite color:
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
 * Add (or update) the `phoenix_color_*` entry
   
-**Light theme :** `blue`
-
-**Dark Theme :** `red`, `green`, `blue`, `orange` and `yellow`
-  
-### Example User Settings
+**Light theme :** `blue` - **Dark Theme :** `red`, `green`, `blue`, `orange`, `yellow` and `pink`
 
  	"phoenix_color_blue": true
+
+### Colorize opened folders on Dark Theme
+
+Enable this setting to colorize opened folder icons on sidebar, when using Dark Theme with color variation.
+
+    "phoenix_color_expanded_folder": true
 
 ### Blur current tab color
 
