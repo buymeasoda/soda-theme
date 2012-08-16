@@ -1119,8 +1119,8 @@
         "class": "tab_label",
         "settings": ["phoenix_color_green", "phoenix_highlight_current_tab"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [185, 209, 89],
-        "shadow_color": [35, 35, 35]
+        "fg": [101, 145, 15],
+        "shadow_color": [0, 0, 0]
     },
     // SIDEBAR
     {
@@ -1146,8 +1146,8 @@
         "class": "sidebar_label",
         "settings": ["phoenix_color_green"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [185, 209, 89],
-        "shadow_color": [0, 0, 0],
+        "color": [101, 145, 15],
+        "shadow_color": [28, 39, 7],
         "shadow_offset": [0, 1]
     },
     // QUICK PANEL
