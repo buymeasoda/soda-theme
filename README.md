@@ -6,22 +6,34 @@ Dark & Light custom UI themes with colors variations for Sublime Text 2
 
 ### Light Theme
 ![Phoenix Light Theme](http://ballejaune.net/phoenix/Phoenix-Light.png?v=2)
-Phoenix Light Theme currently provides a single color alternative :
+
+##### Light Blue
 ![Phoenix Light Blue Theme](http://ballejaune.net/phoenix/Phoenix-Light-Blue.png?v=2)
 
 ### Dark Theme
-![Phoenix Dark Theme](http://ballejaune.net/phoenix/Phoenix-Dark.png?v=2)
-Phoenix Dark Theme currently provides six alternate colors :
+![Phoenix Dark Theme](http://ballejaune.net/phoenix/Phoenix-Dark.png?v=3)
 
-![Phoenix Dark Green Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Green.png?v=1)
-![Phoenix Dark Blue Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Blue.png?v=1)
-![Phoenix Dark Orange Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Orange.png?v=1)
-![Phoenix Dark Red Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Red.png?v=1)
-![Phoenix Dark Yellow Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Yellow.png?v=1)
-![Phoenix Dark Pink Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Pink.png?v=1)
+##### Dark Green
+![Phoenix Dark Green Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Green.png?v=2)
+
+##### Dark Blue
+![Phoenix Dark Blue Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Blue.png?v=2)
+
+##### Dark Red
+![Phoenix Dark Red Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Red.png?v=2)
+
+##### Dark Pink
+![Phoenix Dark Pink Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Pink.png?v=2)
+
+##### Dark Orange
+![Phoenix Dark Orange Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Orange.png?v=2)
+
+##### Dark Yellow
+![Phoenix Dark Yellow Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Yellow.png?v=2)
 
 ## Todo's
 
+- Improve colors of tab-close/tab-highlight button on selected tabs
 - Add more alternate colors for Light Theme (green, red, orange)
 
 ## Installation
@@ -55,15 +67,13 @@ To configure Sublime Text 2 to use the theme:
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
 * Add (or update) your theme entry to be `"theme": "Phoenix Light.sublime-theme"` or `"theme": "Phoenix Dark.sublime-theme"`
 
-### Example User Settings
+#### Example User Settings
 
     {
         "theme": "Phoenix Dark.sublime-theme"
     }
 
-## Additional Features
-
-### Alternate Colors
+## Alternate Colors
 
 Phoenix Theme ships with 6 alternate color styles. To configure you favorite color:
 
@@ -72,7 +82,39 @@ Phoenix Theme ships with 6 alternate color styles. To configure you favorite col
   
 **Light theme :** `blue` - **Dark Theme :** `red`, `green`, `blue`, `orange`, `yellow` and `pink`
 
+#### Example for Blue variant
+
  	"phoenix_color_blue": true
+
+## Custom settings
+
+### Hightlight text label on selected tab
+
+You can hightlight or not the text label (filename) of the selected tab :
+
+    "phoenix_highlight_current_tab": true    
+
+![Phoenix Dark Highlight Current Tab](http://ballejaune.net/phoenix/Phoenix-Highlight-Current-Tab.png?v=1)
+
+### Blur selected tab color
+
+Enable this setting to bring out the background color on the selected tab :
+
+    "phoenix_blur_current_tab": true
+
+![Phoenix Dark Blur Current Tab](http://ballejaune.net/phoenix/Phoenix-Blur-Current-Tab.png?v=1)
+
+### Combined
+
+![Phoenix Dark Combined Current Tab](http://ballejaune.net/phoenix/Phoenix-Combine-Current-Tab.png?v=1)
+
+### Solid selected tabs
+
+Enable this setting to get **solid** background color on the selected tab :
+
+    "phoenix_solid_current_tab": true
+
+![Phoenix Dark Solid Current Tab](http://ballejaune.net/phoenix/Phoenix-Solid-Current-Tab.png?v=1)
 
 ### Colorize opened folders on Dark Theme
 
@@ -80,29 +122,12 @@ Enable this setting to colorize opened folder icons on sidebar, when using Dark 
 
     "phoenix_color_expanded_folder": true
 
-### Blur current tab color
-
-Enable this setting to bring out the background color on the current tab :
-
-    "phoenix_blur_current_tab": true
-
-![Phoenix Dark Blur Current Tab]( http://img854.imageshack.us/img854/7839/phoenixblurcurrenttab.png?v=1)
-
-### Color the text label on current tab
-
-You can colorize or not the text label (filename) of the current tab :
-
-    "phoenix_highlight_current_tab": true    
-
-![Phoenix Dark Highlight Current Tab](http://img341.imageshack.us/img341/6887/phoenixhighlightcurrent.png?v=1)
 
 ### Simply choose the height of your tabs!
 
 Prefer small tabs? No problem, there is a custom setting for this!
 
     "phoenix_tabs_small": true
-
-![Phoenix Dark Tab Sizing](http://img853.imageshack.us/img853/9093/phoenixtabssizing.png?v=1)
 
 For now, five height are available : `small`, `medium`, `normal` (by default), `large`, and `xlarge`
 
@@ -117,10 +142,12 @@ You want your tabs with automatic width? there is a custom setting for this!
 Phoenix Theme provide two slightly modified color scheme to magnify the interface.
 
 #### Clouds Midnight
-![Phoenix Dark Clouds Midnight](http://img809.imageshack.us/img809/4797/phoenixcloudsmidnightsc.png?v=1)
+Original theme : (http://fredhq.com/projects/clouds)
+![Phoenix Dark Clouds Midnight](http://ballejaune.net/phoenix/Phoenix-CloudsMidnightScheme.png?v=1)
 
 #### Tomorrow Night
-![Phoenix Dark Tomorrow Night](http://img269.imageshack.us/img269/8480/phoenixtomorrowscheme.png?v=1)
+Original theme : (https://github.com/chriskempson/Tomorrow-Theme)
+![Phoenix Dark Tomorrow Night](http://ballejaune.net/phoenix/Phoenix-TomorrowScheme.png?v=1)
 
 ### Retina Resolution UI
 
