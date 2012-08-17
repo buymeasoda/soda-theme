@@ -979,6 +979,120 @@
         "layer0.inner_margin": [4, 4]
     },
 
+
+
+
+//
+// DIRTY TABS WITH BOTTOM BAR
+// 
+    
+    // DEFAULT
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar"],
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-inactive-dirty.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar"],
+        "attributes": ["dirty", "hover"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-hover-dirty.png"
+    },
+    // GREEN
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_green"],
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/tab-inactive-dirty.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_green"],
+        "attributes": ["dirty", "hover"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/tab-hover-dirty.png"
+    },
+    // ORANGE
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_orange"],
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/tab-inactive-dirty.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_orange"],
+        "attributes": ["dirty", "hover"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/tab-hover-dirty.png"
+    },
+    // RED
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_red"],
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/tab-inactive-dirty.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_red"],
+        "attributes": ["dirty", "hover"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/tab-inactive-dirty.png"
+    },
+    // BLUE
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_blue"],
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-inactive-dirty.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_blue"],
+        "attributes": ["dirty", "hover"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-inactive-dirty.png"
+    },
+    // BLUE
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_blue"],
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-inactive-dirty.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_blue"],
+        "attributes": ["dirty", "hover"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-inactive-dirty.png"
+    },
+    // YELLOW
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_yellow"],
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-inactive-dirty.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_yellow"],
+        "attributes": ["dirty", "hover"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-inactive-dirty.png"
+    },
+    // PINK
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_pink"],
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/pink/tab-inactive-dirty.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_pink"],
+        "attributes": ["dirty", "hover"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/pink/tab-inactive-dirty.png"
+    },
+
+
+
 // RED ------------------------------------------------------------
 // ----------------------------------------------------------------
 
@@ -1023,16 +1137,23 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-close-selected.png",
         "layer0.opacity": 1.0
     },
+    {
+        "class": "tab_close_button",
+        "settings": ["phoenix_color_red", "phoenix_solid_current_tab"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
+        "layer0.opacity": 1.0
+    }, 
     // Tabs highlight
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_red"],
+        "settings": ["phoenix_color_red", "!phoenix_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/tab-highlight-inactive.png"
     },
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_red"],
+        "settings": ["phoenix_color_red", "!phoenix_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/tab-highlight.png"
     },
@@ -1152,17 +1273,24 @@
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-close-selected.png",
         "layer0.opacity": 1.0
-    },
+    }, 
+    {
+        "class": "tab_close_button",
+        "settings": ["phoenix_color_green", "phoenix_solid_current_tab"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
+        "layer0.opacity": 1.0
+    }, 
     // Tabs highlight
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_green"],
+        "settings": ["phoenix_color_green", "!phoenix_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/tab-highlight-inactive.png"
     },
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_green"],
+        "settings": ["phoenix_color_green", "!phoenix_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/tab-highlight.png"
     },
@@ -1283,16 +1411,23 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-close-selected.png",
         "layer0.opacity": 1.0
     },
+    {
+        "class": "tab_close_button",
+        "settings": ["phoenix_color_blue", "phoenix_solid_current_tab"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
+        "layer0.opacity": 1.0
+    }, 
     // Tabs highlight
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_blue"],
+        "settings": ["phoenix_color_blue", "!phoenix_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-highlight-inactive.png"
     },
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_blue"],
+        "settings": ["phoenix_color_blue", "!phoenix_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-highlight.png"
     },
@@ -1413,16 +1548,23 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-close-solid.png",
         "layer0.opacity": 1.0
     },
+    {
+        "class": "tab_close_button",
+        "settings": ["phoenix_color_yellow", "phoenix_solid_current_tab"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
+        "layer0.opacity": 1.0
+    }, 
     // Tabs highlight
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_yellow"],
+        "settings": ["phoenix_color_yellow", "!phoenix_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-highlight-inactive.png"
     },
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_yellow"],
+        "settings": ["phoenix_color_yellow", "!phoenix_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-highlight.png"
     },
@@ -1543,16 +1685,23 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-close-selected.png",
         "layer0.opacity": 1.0
     },
+    {
+        "class": "tab_close_button",
+        "settings": ["phoenix_color_orange", "phoenix_solid_current_tab"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
+        "layer0.opacity": 1.0
+    }, 
     // Tabs highlight
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_orange"],
+        "settings": ["phoenix_color_orange", "!phoenix_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/tab-highlight-inactive.png"
     },
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_orange"],
+        "settings": ["phoenix_color_orange", "!phoenix_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/tab-highlight.png"
     },
@@ -1673,16 +1822,23 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-close-selected.png",
         "layer0.opacity": 1.0
     },
+    {
+        "class": "tab_close_button",
+        "settings": ["phoenix_color_pink", "phoenix_solid_current_tab"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
+        "layer0.opacity": 1.0
+    }, 
     // Tabs highlight
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_pink"],
+        "settings": ["phoenix_color_pink", "!phoenix_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/pink/tab-highlight-inactive.png"
     },
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_pink"],
+        "settings": ["phoenix_color_pink", "!phoenix_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/pink/tab-highlight.png"
     },
@@ -1758,5 +1914,14 @@
         "settings": ["phoenix_color_pink"],
         "match_fg": [231, 87, 219]
     }
+
+
+
+
+
+
+
+
+
 
 ]
