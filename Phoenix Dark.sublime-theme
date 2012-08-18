@@ -1,5 +1,5 @@
 [
- 
+
 //
 // TABS
 //
@@ -21,8 +21,7 @@
         "class": "tabset_control",
         "settings": ["mouse_wheel_switches_tabs"],
         "mouse_wheel_switch": true
-    },
-    // Tab element
+    },                        
     {
         "class": "tab_control",
         "content_margin": [12, 3, 12, 3],
@@ -368,7 +367,7 @@
         "class": "tool_tip_control",
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/tooltip.png",
         "layer0.inner_margin": [1, 1],
-        "layer0.opacity": 0.95,
+        "layer0.opacity": 0.5,
         "content_margin": [3, 3]
     },
     // Tooltip content
@@ -967,6 +966,9 @@
         "tab_height": 60
     },
 
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
 
 //
 // COLORS
@@ -978,9 +980,6 @@
         "attributes": ["selected"],
         "layer0.inner_margin": [4, 4]
     },
-
-
-
 
 //
 // DIRTY TABS WITH BOTTOM BAR
@@ -1036,7 +1035,7 @@
         "class": "tab_control",
         "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_red"],
         "attributes": ["dirty", "hover"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/tab-inactive-dirty.png"
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/tab-hover-dirty.png"
     },
     // BLUE
     {
@@ -1049,7 +1048,7 @@
         "class": "tab_control",
         "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_blue"],
         "attributes": ["dirty", "hover"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-inactive-dirty.png"
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-hover-dirty.png"
     },
     // BLUE
     {
@@ -1062,7 +1061,7 @@
         "class": "tab_control",
         "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_blue"],
         "attributes": ["dirty", "hover"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-inactive-dirty.png"
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-hover-dirty.png"
     },
     // YELLOW
     {
@@ -1075,7 +1074,7 @@
         "class": "tab_control",
         "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_yellow"],
         "attributes": ["dirty", "hover"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-inactive-dirty.png"
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-hover-dirty.png"
     },
     // PINK
     {
@@ -1088,9 +1087,40 @@
         "class": "tab_control",
         "settings": ["phoenix_dirty_bottom_bar", "phoenix_dirty_bottom_bar_pink"],
         "attributes": ["dirty", "hover"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/pink/tab-inactive-dirty.png"
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/pink/tab-hover-dirty.png"
     },
 
+
+//
+// DEFAULT Solid tab active
+//
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_solid_current_tab"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-active-solid.png"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["phoenix_solid_current_tab"],
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "fg": [255, 255, 255],
+        "shadow_color": [35, 35, 35]
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["phoenix_solid_current_tab"],
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-close-selected.png",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["phoenix_solid_current_tab"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
+        "layer0.opacity": 1.0
+    },
 
 
 // RED ------------------------------------------------------------
@@ -1143,7 +1173,7 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
         "layer0.opacity": 1.0
-    }, 
+    },
     // Tabs highlight
     {
         "class": "tab_close_button",
@@ -1914,14 +1944,5 @@
         "settings": ["phoenix_color_pink"],
         "match_fg": [231, 87, 219]
     }
-
-
-
-
-
-
-
-
-
 
 ]
