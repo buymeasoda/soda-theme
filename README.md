@@ -26,7 +26,7 @@ Dark & Light custom UI themes with colors variations for Sublime Text 2
 ![Phoenix Dark Pink Theme](http://netatoo.net/phoenix/Phoenix-Dark-Pink.png?v=3)
 
 ##### Dark Orange
-![Phoenix Dark Orange Theme](http://netatoo.net/phoenix/Phoenix-Dark-Orange.png?v=3)
+![Phoenix Dark Orange Theme](http://netatoo.net/phoenix/Phoenix-Dark-Orange.png?v=4)
 
 ##### Dark Yellow
 ![Phoenix Dark Yellow Theme](http://netatoo.net/phoenix/Phoenix-Dark-Yellow.png?v=3)
