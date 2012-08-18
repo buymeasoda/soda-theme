@@ -367,13 +367,13 @@
         "class": "tool_tip_control",
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/tooltip.png",
         "layer0.inner_margin": [1, 1],
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 0.9,
         "content_margin": [3, 3]
     },
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [0, 0, 0]
+        "color": [255, 255, 255]
     },
 
 //
@@ -1259,6 +1259,12 @@
         "settings": ["phoenix_color_red"],
         "match_fg": [255, 87, 87]
     },
+    // Tooltip content
+    {
+        "class": "tool_tip_label_control",
+        "settings": ["phoenix_color_red"],
+        "color": [210, 55, 55]
+    },
 
 // GREEN ----------------------------------------------------------
 // ----------------------------------------------------------------
@@ -1395,6 +1401,12 @@
         "class": "auto_complete_label",
         "settings": ["phoenix_color_green"],
         "match_fg": [185, 209, 89]
+    },
+    // Tooltip content
+    {
+        "class": "tool_tip_label_control",
+        "settings": ["phoenix_color_green"],
+        "color": [101, 145, 15]
     },
 
 // BLUE  ----------------------------------------------------------
@@ -1533,6 +1545,12 @@
         "settings": ["phoenix_color_blue"],
         "match_fg": [113, 203, 244]
     },
+    // Tooltip content
+    {
+        "class": "tool_tip_label_control",
+        "settings": ["phoenix_color_blue"],
+        "color": [100, 178, 219]
+    },
 
 // YELLOW ---------------------------------------------------------
 // ----------------------------------------------------------------
@@ -1669,6 +1687,12 @@
         "class": "auto_complete_label",
         "settings": ["phoenix_color_yellow"],
         "match_fg": [255, 255, 128]
+    },
+    // Tooltip content
+    {
+        "class": "tool_tip_label_control",
+        "settings": ["phoenix_color_yellow"],
+        "color": [183, 183, 76]
     },
 
 // ORANGE ---------------------------------------------------------
@@ -1807,6 +1831,12 @@
         "settings": ["phoenix_color_orange"],
         "match_fg": [251, 190, 28]
     },
+    // Tooltip content
+    {
+        "class": "tool_tip_label_control",
+        "settings": ["phoenix_color_orange"],
+        "color": [251, 190, 28]
+    },
 
 // PINK -----------------------------------------------------------
 // ----------------------------------------------------------------
@@ -1943,6 +1973,12 @@
         "class": "auto_complete_label",
         "settings": ["phoenix_color_pink"],
         "match_fg": [231, 87, 219]
+    },
+    // Tooltip content
+    {
+        "class": "tool_tip_label_control",
+        "settings": ["phoenix_color_pink"],
+        "color": [203, 155, 210]
     }
 
 ]
