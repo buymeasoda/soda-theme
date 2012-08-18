@@ -5,35 +5,34 @@ Dark & Light custom UI themes with colors variations for Sublime Text 2
 ## Design & Colors
 
 ### Light Theme
-![Phoenix Light Theme](http://ballejaune.net/phoenix/Phoenix-Light.png?v=2)
+![Phoenix Light Theme](http://netatoo.net/phoenix/Phoenix-Light.png?v=3)
 
 ##### Light Blue
-![Phoenix Light Blue Theme](http://ballejaune.net/phoenix/Phoenix-Light-Blue.png?v=2)
+![Phoenix Light Blue Theme](http://netatoo.net/phoenix/Phoenix-Light-Blue.png?v=3)
 
 ### Dark Theme
-![Phoenix Dark Theme](http://ballejaune.net/phoenix/Phoenix-Dark.png?v=3)
+![Phoenix Dark Theme](http://netatoo.net/phoenix/Phoenix-Dark.png?v=5)
 
 ##### Dark Green
-![Phoenix Dark Green Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Green.png?v=2)
+![Phoenix Dark Green Theme](http://netatoo.net/phoenix/Phoenix-Dark-Green.png?v=3)
 
 ##### Dark Blue
-![Phoenix Dark Blue Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Blue.png?v=2)
+![Phoenix Dark Blue Theme](http://netatoo.net/phoenix/Phoenix-Dark-Blue.png?v=3)
 
 ##### Dark Red
-![Phoenix Dark Red Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Red.png?v=2)
+![Phoenix Dark Red Theme](http://netatoo.net/phoenix/Phoenix-Dark-Red.png?v=3)
 
 ##### Dark Pink
-![Phoenix Dark Pink Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Pink.png?v=2)
+![Phoenix Dark Pink Theme](http://netatoo.net/phoenix/Phoenix-Dark-Pink.png?v=3)
 
 ##### Dark Orange
-![Phoenix Dark Orange Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Orange.png?v=2)
+![Phoenix Dark Orange Theme](http://netatoo.net/phoenix/Phoenix-Dark-Orange.png?v=3)
 
 ##### Dark Yellow
-![Phoenix Dark Yellow Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Yellow.png?v=2)
+![Phoenix Dark Yellow Theme](http://netatoo.net/phoenix/Phoenix-Dark-Yellow.png?v=3)
 
 ## Todo's
 
-- Improve colors of tab-close/tab-highlight button on selected tabs
 - Add more alternate colors for Light Theme (green, red, orange)
 
 ## Installation
@@ -94,7 +93,7 @@ You can hightlight or not the text label (filename) of the selected tab :
 
     "phoenix_highlight_current_tab": true    
 
-![Phoenix Dark Highlight Current Tab](http://ballejaune.net/phoenix/Phoenix-Highlight-Current-Tab.png?v=1)
+![Phoenix Dark Highlight Current Tab](http://netatoo.net/phoenix/Phoenix-Highlight-Current-Tab.png?v=2)
 
 ### Blur selected tab color
 
@@ -102,11 +101,11 @@ Enable this setting to bring out the background color on the selected tab :
 
     "phoenix_blur_current_tab": true
 
-![Phoenix Dark Blur Current Tab](http://ballejaune.net/phoenix/Phoenix-Blur-Current-Tab.png?v=1)
+![Phoenix Dark Blur Current Tab](http://netatoo.net/phoenix/Phoenix-Blur-Current-Tab.png?v=2)
 
 ### Combined
 
-![Phoenix Dark Combined Current Tab](http://ballejaune.net/phoenix/Phoenix-Combine-Current-Tab.png?v=1)
+![Phoenix Dark Combined Current Tab](http://netatoo.net/phoenix/Phoenix-Combine-Current-Tab.png?v=2)
 
 ### Solid selected tabs
 
@@ -114,14 +113,25 @@ Enable this setting to get **solid** background color on the selected tab :
 
     "phoenix_solid_current_tab": true
 
-![Phoenix Dark Solid Current Tab](http://ballejaune.net/phoenix/Phoenix-Solid-Current-Tab.png?v=1)
+![Phoenix Dark Solid Current Tab](http://netatoo.net/phoenix/Phoenix-Solid-Current-Tab.png?v=2)
+
+### Alternate dirty state for inactive tabs
+
+Enable this setting to get a **bottom bar** on inactive dirty tabs :
+
+    "phoenix_dirty_bottom_bar": true
+
+Also, you can choose the color of the bottom bar (default is white, colors available are `red`, `green`, `blue`, `orange`, `yellow` and `pink`). Example for red :
+
+    "phoenix_dirty_bottom_bar_red": true
+
+![Phoenix Dark Dirty State](http://netatoo.net/phoenix/Phoenix-Dirty-State.png?v=2)
 
 ### Colorize opened folders on Dark Theme
 
 Enable this setting to colorize opened folder icons on sidebar, when using Dark Theme with color variation.
 
     "phoenix_color_expanded_folder": true
-
 
 ### Simply choose the height of your tabs!
 
@@ -143,11 +153,11 @@ Phoenix Theme provide two slightly modified color scheme to magnify the interfac
 
 #### Clouds Midnight
 Original theme : (http://fredhq.com/projects/clouds)
-![Phoenix Dark Clouds Midnight](http://ballejaune.net/phoenix/Phoenix-CloudsMidnightScheme.png?v=1)
+![Phoenix Dark Clouds Midnight](http://netatoo.net/phoenix/Phoenix-CloudsMidnightScheme.png?v=2)
 
 #### Tomorrow Night
 Original theme : (https://github.com/chriskempson/Tomorrow-Theme)
-![Phoenix Dark Tomorrow Night](http://ballejaune.net/phoenix/Phoenix-TomorrowScheme.png?v=1)
+![Phoenix Dark Tomorrow Night](http://netatoo.net/phoenix/Phoenix-TomorrowScheme.png?v=2)
 
 ### Retina Resolution UI
 
