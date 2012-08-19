@@ -72,7 +72,7 @@
         "class": "tab_close_button",
         "content_margin": [0, 0],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-close-inactive.png",
-        "layer0.opacity": 0.50,
+        "layer0.opacity": 0.6,
         "layer0.inner_margin": 0
     },
     {
@@ -96,7 +96,8 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-dirty-inactive.png"
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-dirty-inactive.png",
+        "layer0.opacity": 0.85
     },
     {
         "class": "tab_close_button",
