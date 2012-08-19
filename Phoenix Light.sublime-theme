@@ -447,7 +447,8 @@
         "class": "sidebar_label",
         "color": [81, 93, 104], 
         "shadow_color": [241, 244, 247],
-        "shadow_offset": [0, 1]
+        "shadow_offset": [0, 1],
+        "font.bold": false
     },
     // Sidebar folder entry
     {
