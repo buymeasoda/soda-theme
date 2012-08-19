@@ -117,7 +117,7 @@ Enable this setting to get **solid** background color on the selected tab :
 
 ### Alternate dirty state for inactive tabs
 
-Enable this setting to get a **bottom bar** on inactive dirty tabs :
+Enable this setting to get a **bottom bar** on inactive dirty tabs (inspired from [Nil Theme by Noel Cower](https://github.com/nilium/st2-nil-theme)) :
 
     "phoenix_dirty_bottom_bar": true
 
