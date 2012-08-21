@@ -5,10 +5,13 @@ Dark & Light custom UI themes with colors variations for Sublime Text 2
 ## Design & Colors
 
 ### Light Theme
-![Phoenix Light Theme](http://netatoo.net/phoenix/Phoenix-Light.png?v=3)
+![Phoenix Light Theme](http://netatoo.net/phoenix/Phoenix-Light.png?v=4)
 
 ##### Light Blue
-![Phoenix Light Blue Theme](http://netatoo.net/phoenix/Phoenix-Light-Blue.png?v=3)
+![Phoenix Light Blue Theme](http://netatoo.net/phoenix/Phoenix-Light-Blue.png?v=4)
+
+##### Light Dark Blue
+![Phoenix Light Dark Blue Theme](http://netatoo.net/phoenix/Phoenix-Light-DarkBlue.png?v=1)
 
 ### Dark Theme
 ![Phoenix Dark Theme](http://netatoo.net/phoenix/Phoenix-Dark.png?v=5)
@@ -79,7 +82,7 @@ Phoenix Theme ships with 6 alternate color styles. To configure you favorite col
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
 * Add (or update) the `phoenix_color_*` entry
   
-**Light theme :** `blue` - **Dark Theme :** `red`, `green`, `blue`, `orange`, `yellow` and `pink`
+**Light theme :** `blue`, `darkblue` - **Dark Theme :** `red`, `green`, `blue`, `orange`, `yellow` and `pink`
 
 #### Example for Blue variant
 
@@ -165,7 +168,7 @@ Phoenix Theme has been designed to take advantage of retina resolution (high-dpi
 
 ### Theme Customisation
 
-Sublime Text 2 provides an elegant way to tweak existing themes without having to duplicate or maintain a separate copy of the original theme. If there are aspects of Soda Theme that you would like to adjust, take a look at the [theme customisation](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation) wiki page.
+Sublime Text 2 provides an elegant way to tweak existing themes without having to duplicate or maintain a separate copy of the original theme. If there are aspects of Phoenix Theme that you would like to adjust, take a look at the [theme customisation](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation) wiki page from Soda Theme.
 
 ## License
 
