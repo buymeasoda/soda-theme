@@ -14,25 +14,25 @@ Dark & Light custom UI themes with colors variations for Sublime Text 2
 ![Phoenix Light Dark Blue Theme](http://netatoo.net/phoenix/Phoenix-Light-DarkBlue.png?v=1)
 
 ### Dark Theme
-![Phoenix Dark Theme](http://netatoo.net/phoenix/Phoenix-Dark.png?v=5)
+![Phoenix Dark Theme](http://netatoo.net/phoenix/Phoenix-Dark.png?v=6)
 
 ##### Dark Green
-![Phoenix Dark Green Theme](http://netatoo.net/phoenix/Phoenix-Dark-Green.png?v=3)
+![Phoenix Dark Green Theme](http://netatoo.net/phoenix/Phoenix-Dark-Green.png?v=4)
 
 ##### Dark Blue
-![Phoenix Dark Blue Theme](http://netatoo.net/phoenix/Phoenix-Dark-Blue.png?v=3)
+![Phoenix Dark Blue Theme](http://netatoo.net/phoenix/Phoenix-Dark-Blue.png?v=4)
 
 ##### Dark Red
-![Phoenix Dark Red Theme](http://netatoo.net/phoenix/Phoenix-Dark-Red.png?v=3)
+![Phoenix Dark Red Theme](http://netatoo.net/phoenix/Phoenix-Dark-Red.png?v=4)
 
 ##### Dark Pink
-![Phoenix Dark Pink Theme](http://netatoo.net/phoenix/Phoenix-Dark-Pink.png?v=3)
+![Phoenix Dark Pink Theme](http://netatoo.net/phoenix/Phoenix-Dark-Pink.png?v=4)
 
 ##### Dark Orange
-![Phoenix Dark Orange Theme](http://netatoo.net/phoenix/Phoenix-Dark-Orange.png?v=5)
+![Phoenix Dark Orange Theme](http://netatoo.net/phoenix/Phoenix-Dark-Orange.png?v=6)
 
 ##### Dark Yellow
-![Phoenix Dark Yellow Theme](http://netatoo.net/phoenix/Phoenix-Dark-Yellow.png?v=3)
+![Phoenix Dark Yellow Theme](http://netatoo.net/phoenix/Phoenix-Dark-Yellow.png?v=4)
 
 ## Todo's
 
@@ -88,9 +88,7 @@ Phoenix Theme ships with 6 alternate color styles. To configure you favorite col
 
  	"phoenix_color_blue": true
 
-## Custom settings
-
-### Hightlight text label on selected tab
+## Hightlight text label on selected tab
 
 You can hightlight or not the text label (filename) of the selected tab :
 
@@ -98,7 +96,15 @@ You can hightlight or not the text label (filename) of the selected tab :
 
 ![Phoenix Dark Highlight Current Tab](http://netatoo.net/phoenix/Phoenix-Highlight-Current-Tab.png?v=2)
 
-### Solid selected tabs
+## Eighties mode for selected tab
+
+If you use Phoenix Dark Eighties or Tomorrow Night Eighties color scheme, you will love having this option enabled!
+
+    "phoenix_eighties": true    
+
+![Phoenix Dark Eighties Current Tab](http://netatoo.net/phoenix/Phoenix-Dark-Eighties.png?v=1)
+
+## Solid selected tabs
 
 Enable this setting to get **solid** background color on the selected tab :
 
@@ -106,7 +112,7 @@ Enable this setting to get **solid** background color on the selected tab :
 
 ![Phoenix Dark Solid Current Tab](http://netatoo.net/phoenix/Phoenix-Solid-Current-Tab.png?v=2)
 
-### Alternate dirty state for inactive tabs
+## Alternate dirty state for inactive tabs
 
 Enable this setting to get a **bottom bar** on inactive dirty tabs (inspired from [Nil Theme by Noel Cower](https://github.com/nilium/st2-nil-theme)) :
 
@@ -118,13 +124,13 @@ Also, you can choose the color of the bottom bar (default is white, colors avail
 
 ![Phoenix Dark Dirty State](http://netatoo.net/phoenix/Phoenix-Dirty-State.png?v=2)
 
-### Colorize opened folders on Dark Theme
+## Colorize opened folders on Dark Theme
 
 Enable this setting to colorize opened folder icons on sidebar, when using Dark Theme with color variation.
 
     "phoenix_color_expanded_folder": true
 
-### Simply choose the height of your tabs!
+## Simply choose the height of your tabs!
 
 Prefer small tabs? No problem, there is a custom setting for this!
 
@@ -132,17 +138,22 @@ Prefer small tabs? No problem, there is a custom setting for this!
 
 For now, five height are available : `small`, `medium`, `normal` (by default), `large`, and `xlarge`
 
-### Automatic width tabs
+## Automatic width tabs
 
 You want your tabs with automatic width? there is a custom setting for this!
 
     "phoenix_tabs_auto_width": true
 
-### Custom Color Scheme
+## Custom Color Scheme
 
-Phoenix Theme provide six custom color scheme according to Phoenix Dark colors variations.
+#### Phoenix Dark
+**Phoenix Theme provide six custom color schemes** according to Phoenix Dark colors variations : `red`, `green`, `blue`, `orange`, `yellow` and `pink`.
 
-Also, Phoenix Theme provide two slightly modified color scheme to magnify the interface.
+Each color scheme has a "Eighties" version with a slightly lighter background (recommend to activate the `phoenix_eighties`).
+
+**You can see screenshots of these color schemes in the top page**
+
+Also, Phoenix Theme provide two slightly modified color scheme to magnify the interface (just background update).
 
 #### Clouds Midnight
 Original theme : (http://fredhq.com/projects/clouds)
