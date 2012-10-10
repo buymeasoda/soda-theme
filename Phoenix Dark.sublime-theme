@@ -66,24 +66,24 @@
     // Eighties Mode
     {
         "class": "tabset_control",
-        "settings": ["phoenix_eighties_mode"],
+        "settings": ["phoenix_eighties"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/tabset-background-eighties.png"
     },
     {
         "class": "tab_control",
-        "settings": ["phoenix_eighties_mode"],
+        "settings": ["phoenix_eighties"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-hover.png"
     },
     {
         "class": "tab_control",
         "attributes": ["hover"],
-        "settings": ["phoenix_eighties_mode"],
+        "settings": ["phoenix_eighties"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-inactive.png"
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "settings": ["phoenix_eighties_mode"],
+        "settings": ["phoenix_eighties"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-active-eighties.png"
     },
 
@@ -1159,6 +1159,12 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/tab-active.png"
     },
     {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["phoenix_eighties", "phoenix_color_red"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/tab-active-eighties.png"
+    },
+    {
         "class": "tab_label",
         "settings": ["phoenix_color_red", "phoenix_highlight_current_tab"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
@@ -1298,7 +1304,7 @@
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "settings": ["phoenix_eighties_mode", "phoenix_color_green"],
+        "settings": ["phoenix_eighties", "phoenix_color_green"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/tab-active-eighties.png"
     },
     {
@@ -1439,6 +1445,12 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-active.png"
     },
     {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["phoenix_eighties", "phoenix_color_blue"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-active-eighties.png"
+    },
+    {
         "class": "tab_label",
         "settings": ["phoenix_color_blue", "phoenix_highlight_current_tab"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
@@ -1574,6 +1586,12 @@
         "settings": ["phoenix_color_yellow"],
         "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-active.png"
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["phoenix_eighties", "phoenix_color_yellow"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-active-eighties.png"
     },
     {
         "class": "tab_label",
@@ -1713,6 +1731,12 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/tab-active.png"
     },
     {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["phoenix_eighties", "phoenix_color_orange"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/tab-active-eighties.png"
+    },
+    {
         "class": "tab_label",
         "settings": ["phoenix_color_orange", "phoenix_highlight_current_tab"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
@@ -1848,6 +1872,12 @@
         "settings": ["phoenix_color_pink"],
         "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/pink/tab-active.png"
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["phoenix_eighties", "phoenix_color_pink"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/pink/tab-active-eighties.png"
     },
     {
         "class": "tab_label",
