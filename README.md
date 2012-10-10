@@ -152,7 +152,9 @@ You want your tabs with automatic width? there is a custom setting for this!
 
 ### Custom Color Scheme
 
-Phoenix Theme provide two slightly modified color scheme to magnify the interface.
+Phoenix Theme provide six custom color scheme according to Phoenix Dark colors variations.
+
+Also, Phoenix Theme provide two slightly modified color scheme to magnify the interface.
 
 #### Clouds Midnight
 Original theme : (http://fredhq.com/projects/clouds)

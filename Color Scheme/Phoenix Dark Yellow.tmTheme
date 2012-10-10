@@ -5,7 +5,7 @@
 	<key>comment</key>
 	<string>http://chriskempson.com</string>
 	<key>name</key>
-	<string>Tomorrow Night</string>
+	<string>Tomorrow Night - Eighties</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -14,15 +14,15 @@
 				<key>background</key>
 				<string>#191919</string>
 				<key>caret</key>
-				<string>#AEAFAD</string>
+				<string>#CCCCCC</string>
 				<key>foreground</key>
-				<string>#C5C8C6</string>
+				<string>#CCCCCC</string>
 				<key>invisibles</key>
-				<string>#4B4E55</string>
+				<string>#6A6A6A</string>
 				<key>lineHighlight</key>
-				<string>#282A2E</string>
+				<string>#292929</string>
 				<key>selection</key>
-				<string>#373B41</string>
+				<string>#515151</string>
 			</dict>
 		</dict>
 		<dict>
@@ -33,7 +33,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#666</string>
+				<string>#444</string>
 			</dict>
 		</dict>
 		<dict>
@@ -46,18 +46,18 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#CED1CF</string>
+				<string>#CCCCCC</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable, String Link, Regular Expression, Tag Name</string>
+			<string>Variable, String Link, Tag Name</string>
 			<key>scope</key>
-			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
+			<string>variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CC6666</string>
+				<string>#787878</string>
 			</dict>
 		</dict>
 		<dict>
@@ -70,7 +70,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#DE935F</string>
+				<string>#dedd5a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -83,7 +83,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F0C674</string>
+				<string>#DDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -96,7 +96,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#B5BD68</string>
+				<string>#91812b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,7 +107,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8ABEB7</string>
+				<string>#AAA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -120,7 +120,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#81A2BE</string>
+				<string>#EFEFEF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -133,7 +133,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#B294BB</string>
+				<string>#c3ba4d</string>
 			</dict>
 		</dict>
 		<dict>
@@ -144,11 +144,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#DF5F5F</string>
+				<string>#F2777A</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#CED2CF</string>
+				<string>#d23535</string>
 			</dict>
 		</dict>
 		<dict>
@@ -159,9 +159,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#82A3BF</string>
+				<string>#99CCCC</string>
 				<key>foreground</key>
-				<string>#CED2CF</string>
+				<string>#CDCDCD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -172,15 +172,74 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#B798BF</string>
+				<string>#CC99CC</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#CED2CF</string>
+				<string>#CDCDCD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff foreground</string>
+			<key>scope</key>
+			<string>markup.inserted.diff, markup.deleted.diff, meta.diff.header.to-file, meta.diff.header.from-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>				
+		<dict>
+			<key>name</key>
+			<string>Diff insertion</string>
+			<key>scope</key>
+			<string>markup.inserted.diff, meta.diff.header.to-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#718c00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff deletion</string>
+			<key>scope</key>
+			<string>markup.deleted.diff, meta.diff.header.from-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c82829</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff header</string>
+			<key>scope</key>
+			<string>meta.diff.header.from-file, meta.diff.header.to-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+				<key>background</key>
+				<string>#4271ae</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>Diff range</string>
+			<key>scope</key>
+			<string>meta.diff.range</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#3e999f</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>F96223EB-1A60-4617-92F3-D24D4F13DB09</string>
+	<string>DE477E5B-BD4D-46B0-BF80-2EA32A2814D5</string>
 </dict>
 </plist>
