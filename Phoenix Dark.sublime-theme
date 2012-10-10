@@ -63,6 +63,30 @@
         "content_margin": [12, 3, 7, 3]
     },
 
+    // Eighties Mode
+    {
+        "class": "tabset_control",
+        "settings": ["phoenix_eighties_mode"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/tabset-background-eighties.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_eighties_mode"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-hover.png"
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["hover"],
+        "settings": ["phoenix_eighties_mode"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-inactive.png"
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["phoenix_eighties_mode"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/tab-active-eighties.png"
+    },
+
 //
 // TAB BUTTONS
 //
@@ -1132,12 +1156,6 @@
         "class": "tab_control",
         "settings": ["phoenix_color_red"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/tab-active-noblur.png"
-    },
-    {
-        "class": "tab_control",
-        "settings": ["phoenix_color_red", "phoenix_blur_current_tab"],
-        "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/red/tab-active.png"
     },
     {
@@ -1275,13 +1293,13 @@
         "class": "tab_control",
         "settings": ["phoenix_color_green"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/tab-active-noblur.png"
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/tab-active.png"
     },
     {
         "class": "tab_control",
-        "settings": ["phoenix_color_green", "phoenix_blur_current_tab"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/tab-active.png"
+        "settings": ["phoenix_eighties_mode", "phoenix_color_green"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/green/tab-active-eighties.png"
     },
     {
         "class": "tab_label",
@@ -1417,12 +1435,6 @@
     {
         "class": "tab_control",
         "settings": ["phoenix_color_blue"],
-        "attributes": ["selected"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-active-noblur.png"
-    },
-    {
-        "class": "tab_control",
-        "settings": ["phoenix_color_blue", "phoenix_blur_current_tab"],
         "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/blue/tab-active.png"
     },
@@ -1561,12 +1573,6 @@
         "class": "tab_control",
         "settings": ["phoenix_color_yellow"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-active-noblur.png"
-    },
-    {
-        "class": "tab_control",
-        "settings": ["phoenix_color_yellow", "phoenix_blur_current_tab"],
-        "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/yellow/tab-active.png"
     },
     {
@@ -1704,12 +1710,6 @@
         "class": "tab_control",
         "settings": ["phoenix_color_orange"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/tab-active-noblur.png"
-    },
-    {
-        "class": "tab_control",
-        "settings": ["phoenix_color_orange", "phoenix_blur_current_tab"],
-        "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/orange/tab-active.png"
     },
     {
@@ -1846,12 +1846,6 @@
     {
         "class": "tab_control",
         "settings": ["phoenix_color_pink"],
-        "attributes": ["selected"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/pink/tab-active-noblur.png"
-    },
-    {
-        "class": "tab_control",
-        "settings": ["phoenix_color_pink", "phoenix_blur_current_tab"],
         "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/colors/pink/tab-active.png"
     },

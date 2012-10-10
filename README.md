@@ -98,18 +98,6 @@ You can hightlight or not the text label (filename) of the selected tab :
 
 ![Phoenix Dark Highlight Current Tab](http://netatoo.net/phoenix/Phoenix-Highlight-Current-Tab.png?v=2)
 
-### Blur selected tab color
-
-Enable this setting to bring out the background color on the selected tab :
-
-    "phoenix_blur_current_tab": true
-
-![Phoenix Dark Blur Current Tab](http://netatoo.net/phoenix/Phoenix-Blur-Current-Tab.png?v=2)
-
-### Combined
-
-![Phoenix Dark Combined Current Tab](http://netatoo.net/phoenix/Phoenix-Combine-Current-Tab.png?v=2)
-
 ### Solid selected tabs
 
 Enable this setting to get **solid** background color on the selected tab :
