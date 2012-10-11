@@ -124,6 +124,16 @@ Also, you can choose the color of the bottom bar (default is white, colors avail
 
 ![Phoenix Dark Dirty State](http://netatoo.net/phoenix/Phoenix-Dirty-State.png?v=2)
 
+## Adjust row's height on sidebar tree
+
+Example for large sidebar tree :
+
+    "phoenix_sidebar_tree_large": true
+
+For now, five additionnal height are available : `xsmall`, `small`, `medium`, `large`, and `xlarge`
+
+![Phoenix Sidebar Tree](http://netatoo.net/phoenix/Phoenix-Sidebar-Tree.png?v=1)
+
 ## Colorize opened folders on Dark Theme
 
 Enable this setting to colorize opened folder icons on sidebar, when using Dark Theme with color variation.
