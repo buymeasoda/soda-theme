@@ -2064,7 +2064,7 @@
         "settings": ["phoenix_classic_tabs"],
         "content_margin": [3, 4, 3, 3],
         "tab_overlap": 24,
-        "tab_height": 30
+        "tab_height": 31 
     },
     // Tab element
     {
@@ -2072,7 +2072,7 @@
         "settings": ["phoenix_classic_tabs"],
         "content_margin": [22, 6, 22, 4],
         "hit_test_level": 0.5,
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/classic/tab-inactive.png",
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/classic/tab-hover.png",
         "layer0.inner_margin": [18, 4]
     },
     // Tab close state
@@ -2086,7 +2086,7 @@
         "class": "tab_control",
         "settings": ["phoenix_classic_tabs"],
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Phoenix/Phoenix Dark/classic/tab-hover.png"
+        "layer0.texture": "Theme - Phoenix/Phoenix Dark/classic/tab-inactive.png"
     },
     // Tab active state
     {
