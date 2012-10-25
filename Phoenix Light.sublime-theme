@@ -999,22 +999,22 @@
 // ----------------------------------------------------------------
 
     // TABS
-    // {
-    //     "class": "tabset_control",
-    //     "settings": ["phoenix_color_darkblue"],
-    //     "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tabset-background.png"
-    // },
-    // {
-    //     "class": "tab_control",
-    //     "settings": ["phoenix_color_darkblue"],
-    //     "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tab-inactive.png"
-    // },
-    // {
-    //     "class": "tab_control",
-    //     "settings": ["phoenix_color_darkblue"],
-    //     "attributes": ["hover"],
-    //     "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tab-hover.png"
-    // },
+    {
+        "class": "tabset_control",
+        "settings": ["phoenix_color_darkblue"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tabset-background.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_color_darkblue"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tab-hover.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_color_darkblue"],
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tab-inactive.png"
+    },
     {
         "class": "tab_control",
         "settings": ["phoenix_color_darkblue"],
@@ -1268,11 +1268,11 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/darkblue/btn-small-on.png"
     },
     // STATUS BAR
-    // {
-    //     "class": "status_bar",
-    //     "settings": ["phoenix_color_darkblue"],
-    //     "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/status-bar-background.png"
-    // },
+    {
+        "class": "status_bar",
+        "settings": ["phoenix_color_darkblue"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/status-bar-background.png"
+    },
     // PANEL
     {
         "class": "panel_control",
@@ -1296,22 +1296,22 @@
 // ----------------------------------------------------------------
 
     // TABS
-    // {
-    //     "class": "tabset_control",
-    //     "settings": ["phoenix_color_blue"],
-    //     "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tabset-background.png"
-    // },
-    // {
-    //     "class": "tab_control",
-    //     "settings": ["phoenix_color_blue"],
-    //     "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tab-inactive.png"
-    // },
-    // {
-    //     "class": "tab_control",
-    //     "settings": ["phoenix_color_blue"],
-    //     "attributes": ["hover"],
-    //     "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tab-hover.png"
-    // },
+    {
+        "class": "tabset_control",
+        "settings": ["phoenix_color_blue"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tabset-background.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_color_blue"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tab-hover.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["phoenix_color_blue"],
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tab-inactive.png"
+    },
     {
         "class": "tab_control",
         "settings": ["phoenix_color_blue"],
@@ -1560,11 +1560,11 @@
         "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/panel-background.png"
     },
     // STATUS BAR
-    // {
-    //     "class": "status_bar",
-    //     "settings": ["phoenix_color_blue"],
-    //     "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/status-bar-background.png"
-    // },
+    {
+        "class": "status_bar",
+        "settings": ["phoenix_color_blue"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/status-bar-background.png"
+    },
     // CODE COMPLETION DROPDOWN
     {
         "class": "auto_complete_label",

@@ -5,13 +5,13 @@ Dark & Light custom UI themes with colors variations for Sublime Text 2
 ## Design & Colors
 
 ### Light Theme
-![Phoenix Light Theme](http://netatoo.net/phoenix/Phoenix-Light.png?v=4)
+![Phoenix Light Theme](http://netatoo.net/phoenix/Phoenix-Light.png?v=5)
 
 ##### Light Blue
-![Phoenix Light Blue Theme](http://netatoo.net/phoenix/Phoenix-Light-Blue.png?v=4)
+![Phoenix Light Blue Theme](http://netatoo.net/phoenix/Phoenix-Light-Blue.png?v=5)
 
 ##### Light Dark Blue
-![Phoenix Light Dark Blue Theme](http://netatoo.net/phoenix/Phoenix-Light-DarkBlue.png?v=1)
+![Phoenix Light Dark Blue Theme](http://netatoo.net/phoenix/Phoenix-Light-DarkBlue.png?v=2)
 
 ### Dark Theme
 ![Phoenix Dark Theme](http://netatoo.net/phoenix/Phoenix-Dark.png?v=6)
