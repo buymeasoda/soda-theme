@@ -1207,6 +1207,41 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/group-open-selected.png"
     },
+    // QUICK PANEL
+    {
+        "class": "quick_panel_label",
+        "settings": ["phoenix_color_darkblue"],
+        "match_fg": [0, 0, 0, 255],
+        "selected_fg": [255, 255, 255, 255],
+        "selected_match_fg": [220, 242, 255, 255],
+        "selected_bg": [225, 225, 225, 255]
+    },
+    {
+        "class": "quick_panel_path_label",
+        "settings": ["phoenix_color_darkblue"],
+        "selected_fg": [220, 242, 255, 255],
+        "selected_match_fg": [255, 255, 255, 255],
+        "selected_bg": [225, 225, 225, 255]
+    },
+    {
+        "class": "quick_panel_score_label",
+        "settings": ["phoenix_color_darkblue"],
+        "fg": [72, 139, 211, 255],
+        "selected_fg": [220, 242, 245, 255]
+    },
+    {
+        "class": "quick_panel_row",
+        "settings": ["phoenix_color_darkblue"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/darkblue/quick-panel-row-selected.png"
+    },
+    // MINI QUICK PANEL
+    {
+        "class": "mini_quick_panel_row",
+        "settings": ["phoenix_color_darkblue"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/darkblue/quick-panel-row-selected.png"
+    },
     // BOTTOM PANEL BUTTONS
     {
         "class": "icon_button_control",
@@ -1463,13 +1498,35 @@
         "class": "quick_panel_label",
         "settings": ["phoenix_color_blue"],
         "match_fg": [0, 0, 0, 255],
-        "selected_match_fg": [0, 0, 0, 255]
+        "selected_fg": [255, 255, 255, 255],
+        "selected_match_fg": [220, 242, 255, 255],
+        "selected_bg": [225, 225, 225, 255]
+    },
+    {
+        "class": "quick_panel_path_label",
+        "settings": ["phoenix_color_blue"],
+        "selected_fg": [220, 242, 255, 255],
+        "selected_match_fg": [255, 255, 255, 255],
+        "selected_bg": [225, 225, 225, 255]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["phoenix_color_blue"],
         "fg": [72, 139, 211, 255],
-        "selected_fg": [72, 139, 211, 255]
+        "selected_fg": [220, 242, 245, 255]
+    },
+    {
+        "class": "quick_panel_row",
+        "settings": ["phoenix_color_blue"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/quick-panel-row-selected.png"
+    },
+    // MINI QUICK PANEL
+    {
+        "class": "mini_quick_panel_row",
+        "settings": ["phoenix_color_blue"],
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/quick-panel-row-selected.png"
     },
     // BOTTOM PANEL BUTTONS
     {
