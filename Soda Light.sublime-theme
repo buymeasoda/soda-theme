@@ -677,8 +677,7 @@
     {
         "class": "overlay_control",
         "settings": ["soda_retina_fix"],
-        "layer0.texture": "Theme - Soda/Soda Light/quick-panel-background-fix.png",
-        "layer0.inner_margin": [2, 3, 2, 2],
+        "layer0.tint": [238, 238, 238],
         "layer0.opacity": 1.0,
         "content_margin": [6, 8, 6, 6]
     },
