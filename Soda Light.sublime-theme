@@ -11,16 +11,16 @@
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1.0,
         "content_margin": [-4, 0, -4, 3],
-        "tab_overlap": 5,
+        "tab_overlap": 10,
         "tab_width": 180,
         "tab_min_width": 45,
-        "tab_height": 25,
+        "tab_height": 17,
         "mouse_wheel_switch": false
     },
     {
         "class": "tabset_control",
         "settings": ["mouse_wheel_switches_tabs"],
-        "mouse_wheel_switch": true
+        "mouse_wheel_switch": false
     },
     // Tab element
     {
@@ -36,7 +36,7 @@
     {
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [12, 3, 7, 3]
+        "content_margin": [12, 1, 10, 3]
     },
     // Tab hover state
     {
@@ -66,7 +66,7 @@
     {
         "class": "tabset_control",
         "settings": ["soda_classic_tabs"],
-        "content_margin": [3, 4, 3, 3],
+        "content_margin": [0, 0, 0, 3],
         "tab_overlap": 24,
         "tab_height": 28
     },
@@ -110,7 +110,7 @@
 //
 // TAB BUTTONS
 //
-    
+
     // Tab close button
     {
         "class": "tab_close_button",
@@ -189,7 +189,7 @@
 //
 // TAB LABELS
 //
-    
+
     {
         "class": "tab_label",
         "fade": true,
@@ -430,7 +430,7 @@
         "layer0.texture": "Theme - Soda/Soda Light/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
-        "content_margin": [8, 4, 8, 4]
+        "content_margin": [4, 2, 4, 2]
     },
     // Status bar button
     {
