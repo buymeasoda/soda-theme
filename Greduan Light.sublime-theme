@@ -659,7 +659,7 @@
         "layer0.texture": "Greduan-Sublime-Theme/Greduan Light/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
-        "content_margin": [2, 3, 2, 1]
+        "content_margin": [0, 0, 0, 0]
     },
     // Quick panel background
     {
@@ -788,7 +788,7 @@
         "layer0.texture": "Greduan-Sublime-Theme/Greduan Light/btn-group-middle.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
-        "content_margin": [3, 3]
+        "content_margin": [1, 1]
     },
     {
         "class": "icon_button_control",
@@ -800,7 +800,7 @@
         "class": "icon_button_control",
         "attributes": ["left"],
         "layer0.texture": "Greduan-Sublime-Theme/Greduan Light/btn-group-left.png",
-        "content_margin": [4, 3, 3, 3]
+        "content_margin": [2, 1, 1, 1]
     },
     {
         "class": "icon_button_control",
@@ -812,7 +812,7 @@
         "class": "icon_button_control",
         "attributes": ["right"],
         "layer0.texture": "Greduan-Sublime-Theme/Greduan Light/btn-group-right.png",
-        "content_margin": [3, 3, 4, 3]
+        "content_margin": [1, 1, 2, 1]
     },
     {
         "class": "icon_button_control",
@@ -824,7 +824,7 @@
         "class": "icon_button_control",
         "attributes": ["left", "right"],
         "layer0.texture": "Greduan-Sublime-Theme/Greduan Light/btn-small.png",
-        "content_margin": [4, 3]
+        "content_margin": [2, 1]
     },
     {
         "class": "icon_button_control",
