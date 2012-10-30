@@ -707,26 +707,20 @@
         "class": "quick_panel_label",
         "fg": [50, 50, 50, 255],
         "match_fg": [0, 0, 0, 255],
-        "bg": [245, 245, 245, 255],
         "selected_fg": [25, 25, 25, 255],
-        "selected_match_fg": [0, 0, 0, 255],
-        "selected_bg": [225, 225, 225, 255]
+        "selected_match_fg": [0, 0, 0, 255]
     },
     {
         "class": "quick_panel_path_label",
         "fg": [150, 150, 150, 255],
         "match_fg": [90, 90, 90, 255],
-        "bg": [245, 245, 245, 255],
         "selected_fg": [120, 120, 120, 255],
-        "selected_match_fg": [90, 90, 90, 255],
-        "selected_bg": [225, 225, 225, 255]
+        "selected_match_fg": [90, 90, 90, 255]
     },
     {
         "class": "quick_panel_score_label",
         "fg": [72, 139, 211, 255],
-        "bg": [245, 245, 245, 255],
-        "selected_fg": [72, 139, 211, 255],
-        "selected_bg": [225, 225, 225, 255]
+        "selected_fg": [72, 139, 211, 255]
     },
 
 //
