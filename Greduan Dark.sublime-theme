@@ -12,8 +12,8 @@
         "layer0.opacity": 1.0,
         "content_margin": [-4, 0, -4, 3],
         "tab_overlap": 10,
-        "tab_width": 180,
-        "tab_min_width": 45,
+        "tab_width": 100,
+        "tab_min_width": 0,
         "tab_height": 17,
         "mouse_wheel_switch": false
     },
@@ -375,7 +375,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [255, 255, 255, 35]
+        "viewport_color": [148, 161, 161, 50]
     },
 
 //
