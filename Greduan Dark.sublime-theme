@@ -12,7 +12,7 @@
         "layer0.opacity": 1.0,
         "content_margin": [-4, 0, -4, 3],
         "tab_overlap": 10,
-        "tab_width": 100,
+        "tab_width": 0,
         "tab_min_width": 0,
         "tab_height": 17,
         "mouse_wheel_switch": false
@@ -20,7 +20,7 @@
     {
         "class": "tabset_control",
         "settings": ["mouse_wheel_switches_tabs"],
-        "mouse_wheel_switch": false
+        "mouse_wheel_switch": true
     },
     // Tab element
     {
@@ -375,7 +375,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [148, 161, 161, 50]
+        "viewport_color": [102, 102, 102, 50]
     },
 
 //
@@ -702,7 +702,6 @@
         "class": "quick_panel_label",
         "fg": [210, 210, 210, 255],
         "match_fg": [126, 199, 239, 255],
-        "bg": [41, 41, 41, 255],
         "selected_fg": [255, 255, 255, 255],
         "selected_match_fg": [166, 229, 255, 255],
         "selected_bg": [24, 24, 24, 255]
@@ -711,17 +710,14 @@
         "class": "quick_panel_path_label",
         "fg": [130, 130, 130, 255],
         "match_fg": [220, 220, 220, 255],
-        "bg": [41, 41, 41, 255],
         "selected_fg": [175, 175, 175, 255],
-        "selected_match_fg": [220, 220, 220, 255],
-        "selected_bg": [24, 24, 24, 255]
+        "selected_match_fg": [166, 229, 255, 255]
     },
     {
         "class": "quick_panel_score_label",
         "fg": [126, 199, 239, 255],
-        "bg": [41, 41, 41, 255],
         "selected_fg": [166, 229, 255, 255],
-        "selected_bg": [24, 24, 24, 255]
+        "selected_match_fg": [166, 229, 255, 255]
     },
 
 //
