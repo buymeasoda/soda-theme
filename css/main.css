@@ -14,9 +14,10 @@ body {
 }
 
 #main {
-    width: 960px;
     margin: 0 auto;
     padding-top: 160px;
+    position: relative;
+    width: 960px;
 }
 
 /* Screenshots */
@@ -45,5 +46,35 @@ body {
     margin-top: -30px;
 }
 
-.screenshots img {
+/* Bubbles */
+
+.bubble {
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.bubble.b1 {
+    background-image: url('../images/bubble-light-lg.png');
+    width: 350px;
+    height: 372px;
+    top: 120px;
+    left: -20px;
+}
+
+.bubble.b2 {
+    background-image: url('../images/bubble-light-sm.png');
+    width: 243px;
+    height: 258px;
+    top: 525px;
+    right: 0;
+    /*right: -80px;*/
+}
+
+.bubble.b3 {
+    background-image: url('../images/bubble-dark-lg.png');
+    width: 381px;
+    height: 379px;
+    top: 1355px;
+    right: 60px;
+    /*display: none;*/
 }
