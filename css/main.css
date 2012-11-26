@@ -10,3 +10,9 @@ body {
     background-image: url('../images/content-bg.jpg');
     background-repeat: repeat-x;
 }
+
+#main {
+    width: 960px;
+    margin: 0 auto;
+}
+}
