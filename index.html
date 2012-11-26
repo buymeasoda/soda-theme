@@ -9,9 +9,8 @@
 
 <div id="container">
 
-    <div id="main">
-
-        <div class="screenshots">
+    <div class="screenshots">
+        <div class="content">
             <h2 class="soda-light">Soda Theme: Soda Light</h2>
             <img src="images/soda-light-screenshot.png" alt="Soda Theme: Soda Light - Screenshot">
             <h2 class="soda-dark">Soda Theme: Soda Dark</h2>
@@ -20,7 +19,121 @@
             <div class="bubble b2"></div>
             <div class="bubble b3"></div>
         </div>
+    </div>
 
+    <div class="info">
+        <div class="content">
+
+            <h2 id="installation">Installation</h2>
+
+            <p>Soda theme is designed to work with the latest <a href="http://www.sublimetext.com/dev">development build</a> of Sublime Text 2.</p>
+
+            <h3 id="usingsublimepackagecontrol">Using Sublime Package Control</h3>
+
+            <p>If you are using Will Bond&#8217;s excellent <a href="http://wbond.net/sublime_packages/package_control">Sublime Package Control</a>, you can easily install Soda Theme via the <code>Package Control: Install Package</code> menu item. The Soda Theme package is listed as <code>Theme - Soda</code> in the packages list.</p>
+
+            <h3 id="usinggit">Using Git</h3>
+
+            <p>Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your <code>Packages</code> directory in the Sublime Text 2 application settings area.</p>
+
+            <p>You can locate your Sublime Text 2 <code>Packages</code> directory by using the menu item <code>Preferences -&gt; Browse Packages...</code>.</p>
+
+            <p>While inside the <code>Packages</code> directory, clone the theme repository using the command below:</p>
+
+            <pre><code>git clone https://github.com/buymeasoda/soda-theme/ &quot;Theme - Soda&quot;
+            </code></pre>
+
+            <h3 id="downloadmanually">Download Manually</h3>
+
+            <ul>
+            <li>Download the files using the GitHub .zip download option</li>
+            <li>Unzip the files and rename the folder to <code>Theme - Soda</code></li>
+            <li>Copy the folder to your Sublime Text 2 <code>Packages</code> directory</li>
+            </ul>
+
+            <h2 id="activatingthetheme">Activating the theme</h2>
+
+            <p>To configure Sublime Text 2 to use the theme:</p>
+
+            <ul>
+            <li>Open your User Settings Preferences file <code>Sublime Text 2 -&gt; Preferences -&gt; Settings - User</code></li>
+            <li>Add (or update) your theme entry to be <code>&quot;theme&quot;: &quot;Soda Light.sublime-theme&quot;</code> or <code>&quot;theme&quot;: &quot;Soda Dark.sublime-theme&quot;</code></li>
+            </ul>
+
+            <h3 id="exampleusersettings">Example User Settings</h3>
+
+            <pre><code>{
+                &quot;theme&quot;: &quot;Soda Light.sublime-theme&quot;
+            }
+            </code></pre>
+
+            <h2 id="additionalfeatures">Additional Features</h2>
+
+            <h3 id="alternatetabstyles">Alternate Tab Styles</h3>
+
+            <p>Soda Theme ships with two alternate UI tab styles.</p>
+
+            <p>By default, a square tab style is used. If you&#8217;d prefer to use the original curved tab style, add the following custom setting to your <code>Settings - User</code> file:</p>
+
+            <pre><code>&quot;soda_classic_tabs&quot;: true
+            </code></pre>
+
+            <figure>
+            <img src="http://buymeasoda.github.com/soda-theme/images/features/multiple-tab-styles.png" alt="Soda Tab Styles" />
+            <figcaption>Soda Tab Styles</figcaption></figure>
+
+
+
+            <h3 id="retinaresolutionui">Retina Resolution UI</h3>
+
+            <p>Soda Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Soda Light and Soda Dark support retina displays.</p>
+
+            <figure>
+            <img src="http://buymeasoda.github.com/soda-theme/images/features/soda-retina.png" alt="Soda Retina" />
+            <figcaption>Soda Retina</figcaption></figure>
+
+
+
+            <h3 id="themecustomisation">Theme Customisation</h3>
+
+            <p>Sublime Text 2 provides an elegant way to tweak existing themes without having to duplicate or maintain a separate copy of the original theme. If there are aspects of Soda Theme that you would like to adjust, take a look at the <a href="https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation">theme customisation</a> wiki page.</p>
+
+            <h2 id="bonusoptions">Bonus Options</h2>
+
+            <h3 id="syntaxhighlightingcolourschemes">Syntax Highlighting Colour Schemes</h3>
+
+            <p>The Soda Light screenshot uses a modified version of Espresso Tutti Colori and the Soda Dark screenshot uses a modified version of Monokai.</p>
+
+            <p>If you&#8217;d like to use the syntax highlighting schemes shown in the screenshots: </p>
+
+            <ul>
+            <li>Download <a href="http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip">colour-schemes.zip</a></li>
+            <li>Unzip and place the extracted <code>tmtheme</code> files in the Sublime Text 2 <code>Packages/User</code> folder</li>
+            <li>Enable the colour scheme via <code>Preferences -&gt; Color Scheme -&gt; User</code></li>
+            </ul>
+
+            <h3 id="codefont">Code Font</h3>
+
+            <p>The code font shown in the screenshot is Menlo.</p>
+
+            <h2 id="development">Development</h2>
+
+            <p>Please note, Sublime Text dev builds move quickly and changes can occur with the theme API between releases, so there may be occasions where the theme doesn&#8217;t quite work with a brand new dev release.</p>
+
+            <p>While developing the theme, I have documented some <a href="https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges-and-ideas">theme challenges and ideas</a> encountered along the way.</p>
+
+            <h2 id="license">License</h2>
+
+            <p>Soda Theme is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>. You are free to share and remix the theme, however please abide by the license terms when doing so. </p>
+
+            <p>The following details apply to the Creative Commons license &#8220;author specified&#8221; components:</p>
+
+            <ul>
+            <li><p>Attribution example: Based on Soda Theme by Ian Hill (http://buymeasoda.com/)</p></li>
+            <li><p>Naming guidelines: If you create and distribute a derivative theme, please give your theme a unique and original name that does not directly include &#8220;Soda Theme&#8221; (or a close variant) in the main project title, repo name or Package Control name.</p></li>
+            </ul>
+
+        </div>
     </div>
 
 </div>

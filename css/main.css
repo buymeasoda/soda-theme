@@ -13,9 +13,8 @@ body {
     background: url('../images/content-bg.jpg') center top repeat-x transparent;
 }
 
-#main {
+.content {
     margin: 0 auto;
-    padding-top: 160px;
     position: relative;
     width: 960px;
 }
@@ -24,6 +23,7 @@ body {
 
 .screenshots {
     text-align: center;
+    padding-top: 160px;
 }
 
 .screenshots h2 {
@@ -57,7 +57,7 @@ body {
     background-image: url('../images/bubble-light-lg.png');
     width: 350px;
     height: 372px;
-    top: 120px;
+    top: -40px;
     left: -20px;
 }
 
@@ -65,7 +65,7 @@ body {
     background-image: url('../images/bubble-light-sm.png');
     width: 243px;
     height: 258px;
-    top: 525px;
+    top: 375px;
     right: 0;
 }
 
@@ -73,7 +73,14 @@ body {
     background-image: url('../images/bubble-dark-lg.png');
     width: 381px;
     height: 379px;
-    top: 1355px;
+    top: 1195px;
     right: 60px;
-    /*display: none;*/
+}
+
+/* Information */
+
+.info {
+    background-color: #fff;
+    margin-top: 35px;
+    padding: 2em;
 }
