@@ -15,4 +15,24 @@ body {
     width: 960px;
     margin: 0 auto;
 }
+
+.screenshots {
+    text-align: center;
+}
+
+.screenshots h2 {
+    background-repeat: no-repeat;
+    width: 199px;
+    height: 55px;
+    overflow: hidden;
+    text-indent: -100%;
+    margin: 0 auto;
+}
+
+.screenshots h2.soda-light {
+    background-image: url('../images/soda-light-heading.png');
+}
+
+.screenshots h2.soda-dark {
+    background-image: url('../images/soda-dark-heading.png');
 }
