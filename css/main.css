@@ -14,6 +14,7 @@ body {
 #main {
     width: 960px;
     margin: 0 auto;
+    padding-top: 160px;
 }
 
 .screenshots {
@@ -27,6 +28,8 @@ body {
     overflow: hidden;
     text-indent: -100%;
     margin: 0 auto;
+    position: relative;
+    top: 10px;
 }
 
 .screenshots h2.soda-light {
@@ -35,4 +38,8 @@ body {
 
 .screenshots h2.soda-dark {
     background-image: url('../images/soda-dark-heading.png');
+    margin-top: -30px;
+}
+
+.screenshots img {
 }
