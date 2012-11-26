@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-#content {
+#container {
     background-image: url('../images/content-bg.jpg');
     background-repeat: repeat-x;
 }
