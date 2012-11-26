@@ -1,4 +1,6 @@
 
+/* General */
+
 body {
     background-image: url('../images/bg.png');
     background-color: rgb(5, 5, 5);
@@ -16,6 +18,8 @@ body {
     margin: 0 auto;
     padding-top: 160px;
 }
+
+/* Screenshots */
 
 .screenshots {
     text-align: center;
