@@ -8,8 +8,7 @@ body {
 }
 
 #container {
-    background-image: url('../images/content-bg.jpg');
-    background-repeat: repeat-x;
+    background: url('../images/content-bg.jpg') center top repeat-x transparent;
 }
 
 #main {
