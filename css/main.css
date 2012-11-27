@@ -18,7 +18,7 @@ body {
 .content {
     margin: 0 auto;
     position: relative;
-    width: 960px;
+    max-width: 960px;
 }
 
 /* Screenshots */
@@ -86,4 +86,17 @@ body {
     background-image: url('../images/info-bg.png');
     margin-top: 35px;
     padding: 2em;
+}
+
+.info .content {
+    padding: 0 20px;
+}
+
+.info figure {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 -16px;
+    border-radius: 2px;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
