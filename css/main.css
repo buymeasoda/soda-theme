@@ -7,7 +7,8 @@ body {
     margin: 0;
     padding: 0;
     min-width: 960px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
     font-size: 16px;
     color: #333;
 }
@@ -100,4 +101,9 @@ body {
     border-radius: 2px;
     border: 4px solid rgba(0, 0, 0, 0.1);
     text-align: center;
+/* Code */
+
+code {
+    font-family: 'Source Code Pro', Consolas, 'Andale Mono', Monaco, 'Courier New', Courier, monospace;
+}
 }
