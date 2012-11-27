@@ -81,6 +81,7 @@ body {
 
 .info {
     background-color: #fff;
+    background-image: url('../images/info-bg.png');
     margin-top: 35px;
     padding: 2em;
 }
