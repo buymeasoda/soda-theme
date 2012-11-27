@@ -106,4 +106,12 @@ body {
 code {
     font-family: 'Source Code Pro', Consolas, 'Andale Mono', Monaco, 'Courier New', Courier, monospace;
 }
+
+pre {
+    background-color: #eee;
+    padding: 0 20px;
+    margin: 0 -16px 2em -16px;
+    border-radius: 4px;
+}
+
 }
