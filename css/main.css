@@ -57,6 +57,21 @@ hr {
     border: 0;
 }
 
+/* Header */
+
+#header {
+    /*position: fixed;*/
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
+    background-color: rgba(12,11,19,0.4);
+    padding: 1em 1em 1em 230px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    /*border-top: 1px solid rgba(255,255,255,0.2);*/
+    color: #fff;
+}
+
 /* Screenshots */
 
 .screenshots {
