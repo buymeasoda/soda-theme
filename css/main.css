@@ -43,8 +43,13 @@ h3 {
 
 ul {
     list-style-position: outside;
-    margin: 0 0 0 1.3em;
+    list-style-type: disc;
+    margin: 0 0 0 1.1em;
     padding: 0;
+}
+
+li {
+    margin: 0 0 1em 0;
 }
 
 hr {
