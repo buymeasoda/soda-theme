@@ -154,6 +154,10 @@ hr {
     text-align: center;
 }
 
+.info figcaption {
+    display: none;
+}
+
 /* Code */
 
 code {
