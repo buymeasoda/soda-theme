@@ -8,8 +8,8 @@ body {
     padding: 0;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 16px;
-    color: #333;
+    font-size: 18px;
+    color: #444;
 }
 
 #container {
@@ -25,15 +25,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 600;
+    margin: 0;
 }
 
-h1 {
-    font-size: 40px;
-}
-
-h2 {
-    font-size: 32px;
+h1, h2 {
+    font-size: 52px;
+    text-align: center;
+    margin: 0.5em 0;
+    line-height: 0.8em;
 }
 
 h3 {
@@ -169,6 +169,8 @@ img {
 
 code {
     font-family: 'Source Code Pro', Consolas, 'Andale Mono', Monaco, 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: #111;
 }
 
 pre {
