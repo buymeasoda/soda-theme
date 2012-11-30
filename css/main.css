@@ -114,8 +114,8 @@ img {
     background-image: url('../images/bubble-light-lg.png');
     width: 350px;
     height: 372px;
-    top: -40px;
-    left: -20px;
+    top: -100px;
+    right: 720px;
 }
 
 .bubble.b2 {
@@ -123,7 +123,7 @@ img {
     width: 243px;
     height: 258px;
     top: 375px;
-    right: 0;
+    left: 775px;
 }
 
 .bubble.b3 {
@@ -131,7 +131,7 @@ img {
     width: 381px;
     height: 379px;
     top: 1195px;
-    right: 60px;
+    right: 70px;
 }
 
 /* Information */
