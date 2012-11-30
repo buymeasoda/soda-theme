@@ -87,11 +87,13 @@ img {
     background-repeat: no-repeat;
     width: 199px;
     height: 55px;
-    overflow: hidden;
-    text-indent: -100%;
     margin: 0 auto;
     position: relative;
     top: 10px;
+    border: 0;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
 }
 
 .screenshots h2.soda-light {
