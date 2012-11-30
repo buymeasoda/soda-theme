@@ -8,7 +8,7 @@ body {
     padding: 0;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     color: #444;
 }
 
@@ -36,6 +36,14 @@ h1, h2 {
     line-height: 0.8em;
 }
 
+h1 {
+    letter-spacing: -2px;
+}
+
+h2 {
+    letter-spacing: -1px;
+}
+
 h3 {
     font-size: 24px;
     margin: 1em 0 0.5em 0;
@@ -54,7 +62,7 @@ li {
 
 hr {
     height: 1px;
-    margin: 35px 0 25px 0;
+    margin: 50px 0;
     background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
     background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
     background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
