@@ -105,6 +105,10 @@ img {
     margin-top: -30px;
 }
 
+.screenshots .content {
+    padding: 0;
+}
+
 /* Bubbles */
 
 .bubble {
@@ -142,7 +146,7 @@ img {
     background-color: #fff;
     background-image: url('../images/info-bg.png');
     margin-top: 35px;
-    padding: 30px;
+    padding: 10px;
     border-top: 16px solid #555;
     border-bottom: 16px solid #555;
     position: relative;
