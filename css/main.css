@@ -6,7 +6,6 @@ body {
     background-color: rgb(5, 5, 5);
     margin: 0;
     padding: 0;
-    min-width: 960px;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -57,6 +56,11 @@ hr {
     background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
     background-image: linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
     border: 0;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
 }
 
 /* Header */
@@ -166,6 +170,7 @@ pre {
     padding: 0 20px;
     margin: 0 -10px 2em -10px;
     border-radius: 4px;
+    white-space: pre-wrap;
 }
 
 /* Footer */
