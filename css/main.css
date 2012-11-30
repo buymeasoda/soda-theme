@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2 {
     font-size: 52px;
     text-align: center;
-    margin: 0.5em 0;
+    margin: 0.5em 0 0.7em 0;
     line-height: 0.8em;
 }
 
@@ -46,7 +46,7 @@ h2 {
 
 h3 {
     font-size: 24px;
-    margin: 1em 0 0.5em 0;
+    margin: 1.8em 0 0.6em 0;
 }
 
 ul {
@@ -181,6 +181,7 @@ img {
 .info h1 {
     font-size: 62px;
     margin: 0.5em 0 0.2em 0;
+    text-align: center;
 }
 
 .info h1 + p {
