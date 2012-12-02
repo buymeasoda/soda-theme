@@ -185,10 +185,7 @@ img {
 /* Information */
 
 .info {
-    margin-top: 35px;
-    padding: 10px 10px 40px 10px;
-    border-bottom: 10px solid #555;
-    position: relative;
+    padding: 10px;
 }
 
 .info figure {
@@ -207,7 +204,6 @@ img {
 .info h1 {
     font-size: 62px;
     margin: 0.5em 0 0.2em 0;
-    text-align: center;
 }
 
 .info h1 + p {
