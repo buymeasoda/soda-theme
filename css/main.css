@@ -2,8 +2,7 @@
 /* General */
 
 body {
-    background-image: url('../images/bg.png');
-    background-color: rgb(5, 5, 5);
+    background: url('../images/bg.png') repeat top left #fff;
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
@@ -156,11 +155,8 @@ img {
 /* Information */
 
 .info {
-    background-color: #fff;
-    background-image: url('../images/info-bg.png');
     margin-top: 35px;
     padding: 10px 10px 40px 10px;
-    border-top: 10px solid #555;
     border-bottom: 10px solid #555;
     position: relative;
 }
