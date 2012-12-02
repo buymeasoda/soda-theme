@@ -12,7 +12,6 @@ body {
 }
 
 #container {
-    background: url('../images/screenshots-bg.jpg') center top repeat-x transparent;
     overflow: hidden;
 }
 
@@ -130,7 +129,15 @@ img {
 
 .screenshots {
     text-align: center;
-    padding-top: 160px;
+    background: url('../images/screenshots-bg.jpg') center top repeat-x transparent;
+}
+
+.screenshots .content {
+    padding: 110px 0 0 0;
+}
+
+.screenshots img {
+    margin: -1% 0 -2.5% 0;
 }
 
 .screenshots h2 {
@@ -138,25 +145,18 @@ img {
     width: 199px;
     height: 55px;
     margin: 0 auto;
-    position: relative;
-    top: 10px;
     border: 0;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
 }
 
-.screenshots h2.soda-light {
+.screenshots .soda-light h2 {
     background-image: url('../images/soda-light-heading.png');
 }
 
-.screenshots h2.soda-dark {
+.screenshots .soda-dark h2 {
     background-image: url('../images/soda-dark-heading.png');
-    margin-top: -30px;
-}
-
-.screenshots .content {
-    padding: 0;
 }
 
 /* Bubbles */
