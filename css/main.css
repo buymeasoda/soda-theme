@@ -80,12 +80,50 @@ img {
 #header {
     position: absolute;
     width: 100%;
-    box-sizing: border-box;
-    z-index: 10;
-    background-color: rgba(12,11,19,0.4);
-    padding: 10px 30px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-    color: #fff;
+}
+
+#header .content {
+    max-width: 750px;
+    padding: 0 5%;
+}
+
+#header h1,
+#header p {
+    margin-top: 18px;
+    background: url('../images/title-bar-text.png') no-repeat transparent top left;
+    height: 21px;
+    display: inline-block;
+    border: 0;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+
+#header h1 {
+    width: 105px;
+}
+
+#header p.blurb {
+    width: 380px;
+    background-position: -113px 0;
+}
+
+@media only screen and (max-width: 720px) {
+    #header p.blurb {
+        display: none;
+    }
+}
+
+#header p.credits {
+    float: right;
+    width: 140px;
+    background-position: -613px 0;
+}
+
+#header p.credits a {
+    width: 140px;
+    height: 21px;
+    display: block;
 }
 
 /* Screenshots */
