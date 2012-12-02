@@ -129,18 +129,18 @@ img {
 }
 
 .bubble.b1 {
-    background-image: url('../images/bubble-light-lg.png');
+    background-image: url('../images/bubble-lg.png');
     width: 350px;
     height: 372px;
-    top: -100px;
+    top: 60px;
     right: 720px;
 }
 
 .bubble.b2 {
-    background-image: url('../images/bubble-light-sm.png');
+    background-image: url('../images/bubble-sm.png');
     width: 243px;
     height: 258px;
-    top: 375px;
+    top: 480px;
     left: 775px;
 }
 
