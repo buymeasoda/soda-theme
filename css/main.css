@@ -95,9 +95,9 @@ a {
 
 #header h1,
 #header p {
+    float: left;
     background: url('../images/title-bar-text.png') no-repeat transparent top left;
     height: 21px;
-    display: inline-block;
     border: 0;
     font: 0/0 a;
     text-shadow: none;
@@ -106,6 +106,7 @@ a {
 
 #header h1 {
     width: 105px;
+    margin-right: 10px;
 }
 
 #header p.blurb {
