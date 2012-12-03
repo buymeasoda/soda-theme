@@ -90,12 +90,11 @@ a {
 
 #header .content {
     max-width: 750px;
-    padding: 0 5%;
+    padding: 18px 5% 0 5%;
 }
 
 #header h1,
 #header p {
-    margin-top: 18px;
     background: url('../images/title-bar-text.png') no-repeat transparent top left;
     height: 21px;
     display: inline-block;
