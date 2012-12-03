@@ -2,7 +2,6 @@
 /* General */
 
 body {
-    background: url('../images/bg.png') repeat top left #fff;
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
@@ -188,7 +187,10 @@ img {
 /* Information */
 
 .info {
-    padding: 10px;
+    padding: 100px 10px 10px 10px;
+    margin-top: -125px;
+    background: url('../images/bg.png') repeat top left #fff;
+    border-top: 10px solid #24343f;
 }
 
 .info figure {
