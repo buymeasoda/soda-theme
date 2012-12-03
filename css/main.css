@@ -173,6 +173,12 @@ a {
     background-image: url('../images/soda-dark-heading.png');
 }
 
+@media only screen and (max-width: 720px) {
+    .screenshots .soda-dark h2 {
+        background-image: url('../images/soda-dark-reverse-heading.png');
+    }
+}
+
 /* Bubbles */
 
 .bubble {
