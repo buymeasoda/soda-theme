@@ -9,6 +9,7 @@ body {
     font-weight: 300;
     font-size: 20px;
     color: #444;
+    min-width: 320px;
 }
 
 #container {
