@@ -136,7 +136,7 @@ a {
 
 .screenshots {
     text-align: center;
-    background: url('../images/screenshots-bg.jpg') center top repeat-x transparent;
+    background: url('../images/screenshots-bg.jpg') center top repeat-x #000;
 }
 
 .screenshots .content {
