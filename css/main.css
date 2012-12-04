@@ -256,6 +256,8 @@ pre {
     margin: 0 -10px 2em -10px;
     border-radius: 4px;
     white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 /* Footer */
