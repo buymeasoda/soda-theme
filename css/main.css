@@ -143,6 +143,12 @@ a {
     padding: 110px 0 0 0;
 }
 
+@media only screen and (max-width: 720px) {
+    .screenshots .content {
+        padding: 80px 0 0 0;
+    }
+}
+
 .screenshots h2 {
     background-repeat: no-repeat;
     width: 199px;
@@ -197,10 +203,17 @@ a {
 /* Information */
 
 .info {
-    padding: 100px 10px 10px 10px;
+    padding: 85px 10px 10px 10px;
     margin-top: -145px;
     background: url('../images/bg.png') repeat top left #fff;
     border-top: 10px solid #24343f;
+}
+
+@media only screen and (max-width: 720px) {
+    .info {
+        padding-top: 20px;
+        margin-top: 0;
+    }
 }
 
 .info figure {
