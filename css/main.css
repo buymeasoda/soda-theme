@@ -140,11 +140,7 @@ a {
 }
 
 .screenshots .content {
-    padding: 105px 0 0 0;
-}
-
-.screenshots img {
-    margin: -1% 0 -2.5% 0;
+    padding: 110px 0 0 0;
 }
 
 .screenshots h2 {
@@ -159,10 +155,13 @@ a {
 }
 
 .screenshots .soda-light h2 {
+    margin-bottom: -1.25%;
     background-image: url('../images/soda-light-heading.png');
 }
 
 .screenshots .soda-dark h2 {
+    margin-top: -2.5%;
+    margin-bottom: -1%;
     background-image: url('../images/soda-dark-heading.png');
 }
 
@@ -199,7 +198,7 @@ a {
 
 .info {
     padding: 100px 10px 10px 10px;
-    margin-top: -125px;
+    margin-top: -145px;
     background: url('../images/bg.png') repeat top left #fff;
     border-top: 10px solid #24343f;
 }
