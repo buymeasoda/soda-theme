@@ -6,7 +6,7 @@ body {
     padding: 0;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
     color: #444;
     min-width: 320px;
 }
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2 {
-    font-size: 52px;
+    font-size: 44px;
     text-align: center;
     margin: 0.5em 0 0.7em 0;
     line-height: 0.8em;
@@ -44,7 +44,8 @@ h2 {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 22px;
+    line-height: 1.1;
     margin: 1.8em 0 0.6em 0;
 }
 
@@ -61,7 +62,7 @@ li {
 
 hr {
     height: 1px;
-    margin: 50px 0;
+    margin: 40px 0;
     background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
     background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
     background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
@@ -230,14 +231,14 @@ a {
 }
 
 .info h1 {
-    font-size: 62px;
+    font-size: 50px;
     margin: 0.5em 0 0.2em 0;
 }
 
 .info h1 + p {
     margin: 0;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
     color: #999;
 }
 
