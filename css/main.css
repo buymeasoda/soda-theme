@@ -98,11 +98,20 @@ a {
 #header p {
     float: left;
     background: url('../images/title-bar-text.png') no-repeat transparent top left;
+    background-size: 754px 21px;
     height: 21px;
     border: 0;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 144dpi) {
+    #header h1,
+    #header p {
+        background-image: url('../images/title-bar-text@2x.png');
+    }
 }
 
 #header h1 {
@@ -164,17 +173,41 @@ a {
 .screenshots .soda-light h2 {
     margin-bottom: -1.25%;
     background-image: url('../images/soda-light-heading.png');
+    background-size: 203px 55px;
 }
 
 .screenshots .soda-dark h2 {
     margin-top: -2.5%;
     margin-bottom: -1%;
     background-image: url('../images/soda-dark-heading.png');
+    background-size: 201px 43px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 144dpi) {
+
+    .screenshots .soda-light h2 {
+        background-image: url('../images/soda-light-heading@2x.png');
+    }
+
+    .screenshots .soda-dark h2 {
+        background-image: url('../images/soda-dark-heading@2x.png');
+    }
+
 }
 
 @media only screen and (max-width: 720px) {
     .screenshots .soda-dark h2 {
         background-image: url('../images/soda-dark-reverse-heading.png');
+        background-size: 197px 43px;
+    }
+}
+
+@media only screen and (max-width: 720px),
+    only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 144dpi) {
+    .screenshots .soda-dark h2 {
+        background-image: url('../images/soda-dark-reverse-heading@2x.png');
     }
 }
 
