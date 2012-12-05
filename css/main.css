@@ -146,7 +146,15 @@ a {
 
 .screenshots {
     text-align: center;
-    background: url('../images/screenshots-bg.jpg') center top repeat-x #000;
+    background: #c8d5de;
+    background-position: center top;
+    background-repeat: repeat-x;
+    background-image: url('../images/screenshots-bg.jpg'), -moz-linear-gradient(top,  #c8d5de 0%, #c8d5de 4%, #bac8d6 4%, #e2dae5 17%, #f4edf7 30%, #dedcea 44%, #1b384f 62%, #040404 70%);
+    background-image: url('../images/screenshots-bg.jpg'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c8d5de), color-stop(4%,#c8d5de), color-stop(4%,#bac8d6), color-stop(17%,#e2dae5), color-stop(30%,#f4edf7), color-stop(44%,#dedcea), color-stop(62%,#1b384f), color-stop(70%,#040404));
+    background-image: url('../images/screenshots-bg.jpg'), -webkit-linear-gradient(top,  #c8d5de 0%,#c8d5de 4%,#bac8d6 4%,#e2dae5 17%,#f4edf7 30%,#dedcea 44%,#1b384f 62%,#040404 70%);
+    background-image: url('../images/screenshots-bg.jpg'), -o-linear-gradient(top,  #c8d5de 0%,#c8d5de 4%,#bac8d6 4%,#e2dae5 17%,#f4edf7 30%,#dedcea 44%,#1b384f 62%,#040404 70%);
+    background-image: url('../images/screenshots-bg.jpg'), -ms-linear-gradient(top,  #c8d5de 0%,#c8d5de 4%,#bac8d6 4%,#e2dae5 17%,#f4edf7 30%,#dedcea 44%,#1b384f 62%,#040404 70%);
+    background-image: url('../images/screenshots-bg.jpg'), linear-gradient(to bottom,  #c8d5de 0%,#c8d5de 4%,#bac8d6 4%,#e2dae5 17%,#f4edf7 30%,#dedcea 44%,#1b384f 62%,#040404 70%);
 }
 
 .screenshots .content {
