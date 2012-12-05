@@ -23,12 +23,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #24343f;
+    color: #333;
     font-weight: 600;
     margin: 0;
 }
 
 h1, h2 {
+    color: rgb(57, 95, 138);
     font-size: 44px;
     text-align: center;
     margin: 0.5em 0 0.7em 0;
@@ -77,7 +78,7 @@ img {
 }
 
 a {
-    color: rgb(113,90,133);
+    color: rgb(202, 15, 15);
 }
 
 /* Header */
@@ -288,7 +289,7 @@ a {
 code {
     font-family: 'Source Code Pro', Consolas, 'Andale Mono', Monaco, 'Courier New', Courier, monospace;
     font-weight: 400;
-    color: #111;
+    color: #333;
 }
 
 pre {
