@@ -29,7 +29,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2 {
-    color: rgb(57, 95, 138);
     font-size: 44px;
     text-align: center;
     margin: 0.5em 0 0.7em 0;
@@ -38,10 +37,12 @@ h1, h2 {
 
 h1 {
     letter-spacing: -2px;
+    color: rgb(56, 87, 122);
 }
 
 h2 {
     letter-spacing: -1px;
+    color: rgb(70, 118, 168);
 }
 
 h3 {
@@ -78,7 +79,7 @@ img {
 }
 
 a {
-    color: rgb(202, 15, 15);
+    color: rgb(192, 0, 0);
 }
 
 /* Header */
