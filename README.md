@@ -2,6 +2,8 @@
 
 Dark and light custom UI themes for Sublime Text 2.
 
+Project site: [http://buymeasoda.github.com/soda-theme/](http://buymeasoda.github.com/soda-theme/)
+
 ## Design
 
 ![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-2-light-theme.png?v=4)
