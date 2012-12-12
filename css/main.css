@@ -269,7 +269,7 @@ html.lt-ie8 .bubble {
 /* Information */
 
 .info {
-    padding: 85px 10px 10px 10px;
+    padding: 85px 10px 20px 10px;
     margin-top: -145px;
     background: url('../images/bg.png') repeat top left #fff;
     border-top: 10px solid #24343f;
@@ -324,7 +324,7 @@ pre {
 /* Footer */
 
 #footer {
-    font-size: 14px;
+    font-size: 16px;
     color: #4c5f70;
     background-color: #22303b;
     padding: 1.5em 0;
