@@ -324,5 +324,35 @@ pre {
 /* Footer */
 
 #footer {
-    visibility: hidden;
+    font-size: 14px;
+    color: #4c5f70;
+    background-color: #22303b;
+    padding: 1.5em 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+#footer a {
+    color: #4c5f70;
+}
+
+#footer a:hover {
+    color: #c9d6e0;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#footer li {
+    margin: 0 0.8em 0 0;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 480px) {
+    #footer li.copyright {
+        display: block;
+    }
 }
