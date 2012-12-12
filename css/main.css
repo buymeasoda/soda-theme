@@ -11,6 +11,10 @@ body {
     min-width: 320px;
 }
 
+html.lt-ie9 body {
+    min-width: 960px;
+}
+
 #container {
     overflow: hidden;
 }
@@ -73,6 +77,11 @@ hr {
     border: 0;
 }
 
+html.lt-ie9 hr {
+    background-image: none;
+    background-color: #ccc;
+}
+
 img {
     width: auto;
     max-width: 100%;
@@ -90,6 +99,11 @@ a {
     width: 100%;
     min-width: 320px;
 }
+
+html.lt-ie9 #header {
+    min-width: 960px;
+}
+
 
 #header .content {
     max-width: 750px;
@@ -157,6 +171,10 @@ a {
     background-image: url('../images/screenshots-bg.jpg'), -o-linear-gradient(top,  #c8d5de 0%,#c8d5de 4%,#bac8d6 4%,#e2dae5 17%,#f4edf7 30%,#dedcea 44%,#1b384f 62%,#040404 70%);
     background-image: url('../images/screenshots-bg.jpg'), -ms-linear-gradient(top,  #c8d5de 0%,#c8d5de 4%,#bac8d6 4%,#e2dae5 17%,#f4edf7 30%,#dedcea 44%,#1b384f 62%,#040404 70%);
     background-image: url('../images/screenshots-bg.jpg'), linear-gradient(to bottom,  #c8d5de 0%,#c8d5de 4%,#bac8d6 4%,#e2dae5 17%,#f4edf7 30%,#dedcea 44%,#1b384f 62%,#040404 70%);
+}
+
+html.lt-ie9 .screenshots {
+    background-image: url('../images/screenshots-bg.jpg');
 }
 
 .screenshots .content {
@@ -242,6 +260,10 @@ a {
     height: 258px;
     top: 480px;
     left: 775px;
+}
+
+html.lt-ie8 .bubble {
+    display: none;
 }
 
 /* Information */
