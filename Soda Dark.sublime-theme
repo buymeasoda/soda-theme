@@ -195,7 +195,8 @@
         "fade": true,
         "fg": [170, 170, 170],
         "shadow_color": [25, 25, 25],
-        "shadow_offset": [0, -1]
+        "shadow_offset": [0, -1],
+        "font.italic": false
     },
     {
         "class": "tab_label",
@@ -208,6 +209,11 @@
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [230, 230, 230],
         "shadow_color": [35, 35, 35]
+    },
+    {
+        "class": "tab_label",
+        "attributes": ["transient"],
+        "font.italic": true
     },
 
 //
@@ -493,7 +499,9 @@
         "class": "sidebar_label",
         "color": [125, 125, 125],
         "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, -1]
+        "shadow_offset": [0, -1],
+        "font.bold": false,
+        "font.italic": false
     },
     // Sidebar folder entry
     {
@@ -519,6 +527,12 @@
         "color": [210, 210, 210],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1]
+    },
+    // Sidebar entry transient
+    {
+        "class": "sidebar_label",
+        "attributes": ["transient"],
+        "font.italic": true
     },
 
 //
@@ -819,6 +833,24 @@
         "class": "icon_button_control",
         "attributes": ["left", "right", "selected"],
         "layer0.texture": "Theme - Soda/Soda Dark/btn-small-on.png"
+    },
+    // Panel close button
+    {
+        "class": "panel_close_button",
+        "layer0.texture": "Theme - Soda/Soda Dark/panel-close.png",
+        "layer0.opacity": 0.85,
+        "content_margin": [8, 12]
+    },
+    {
+        "class": "panel_close_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Soda/Soda Dark/panel-close.png",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "panel_close_button",
+        "attributes": ["pressed"],
+        "layer0.texture": "Theme - Soda/Soda Dark/panel-close-pressed.png"
     },
 
 //
