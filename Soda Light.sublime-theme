@@ -498,7 +498,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [70, 86, 102]
+        "color": [0, 0, 0]
     },
     {
         "class": "sidebar_label",
@@ -522,8 +522,8 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 255, 255],
-        "shadow_color": [34, 94, 145],
+        "color": [0, 0, 0],
+        "shadow_color": [242, 242, 242],
         "shadow_offset": [0, 1]
     },
 
