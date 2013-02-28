@@ -110,7 +110,7 @@
 //
 // TAB BUTTONS
 //
-    
+
     // Tab close button
     {
         "class": "tab_close_button",
@@ -189,7 +189,7 @@
 //
 // TAB LABELS
 //
-    
+
     {
         "class": "tab_label",
         "fade": true,
@@ -461,7 +461,7 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 3],
+        "row_padding": [8, 3.5],
         "indent": 15,
         "indent_offset": 15,
         "indent_top_level": false,
