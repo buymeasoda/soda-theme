@@ -61,7 +61,7 @@
 //
 // TAB BUTTONS
 //
-    
+
     // Tab close button
     {
         "class": "tab_close_button",
@@ -140,7 +140,7 @@
 //
 // TAB LABELS
 //
-    
+
     {
         "class": "tab_label",
         "fade": true,
@@ -470,10 +470,20 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [80, 80, 80], 
+        "color": [80, 80, 80],
         "shadow_color": [255, 255, 255],
         "shadow_offset": [0, 1],
         "font.bold": false
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["phoenix_sidebar_font_large"],
+        "font.size": 12.0
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["phoenix_sidebar_font_xlarge"],
+        "font.size": 14.0
     },
     // Sidebar folder entry
     {
@@ -485,7 +495,7 @@
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
         "color": [60, 60, 60]
-    }, 
+    },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
@@ -1085,7 +1095,7 @@
     {
         "class": "sidebar_label",
         "settings": ["phoenix_color_darkblue"],
-        "color": [81, 93, 104], 
+        "color": [81, 93, 104],
         "shadow_color": [241, 244, 247],
         "shadow_offset": [0, 1],
         "font.bold": false
@@ -1102,7 +1112,7 @@
         "settings": ["phoenix_color_darkblue"],
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
         "color": [45, 56, 68]
-    }, 
+    },
     {
         "class": "sidebar_label",
         "settings": ["phoenix_color_darkblue"],
@@ -1261,7 +1271,7 @@
         "attributes": ["right", "selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/darkblue/btn-group-right-on.png"
     },
-    { 
+    {
         "class": "icon_button_control",
         "settings": ["phoenix_color_darkblue"],
         "attributes": ["left", "right", "selected"],
@@ -1317,7 +1327,7 @@
         "settings": ["phoenix_color_blue"],
         "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/tab-active.png"
-    }, 
+    },
     {
         "class": "tab_close_button",
         "settings": ["phoenix_color_blue"],
@@ -1370,7 +1380,7 @@
     {
         "class": "sidebar_label",
         "settings": ["phoenix_color_blue"],
-        "color": [81, 93, 104], 
+        "color": [81, 93, 104],
         "shadow_color": [241, 244, 247],
         "shadow_offset": [0, 1],
         "font.bold": false
@@ -1387,7 +1397,7 @@
         "settings": ["phoenix_color_blue"],
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
         "color": [45, 56, 68]
-    }, 
+    },
     {
         "class": "sidebar_label",
         "settings": ["phoenix_color_blue"],
@@ -1547,7 +1557,7 @@
         "attributes": ["right", "selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/btn-group-right-on.png"
     },
-    { 
+    {
         "class": "icon_button_control",
         "settings": ["phoenix_color_blue"],
         "attributes": ["left", "right", "selected"],

@@ -21,7 +21,7 @@
         "class": "tabset_control",
         "settings": ["mouse_wheel_switches_tabs"],
         "mouse_wheel_switch": true
-    },                        
+    },
     {
         "class": "tab_control",
         "content_margin": [12, 3, 12, 3],
@@ -92,7 +92,7 @@
 //
 // TAB BUTTONS
 //
-    
+
     // Tab close button
     {
         "class": "tab_close_button",
@@ -172,7 +172,7 @@
 //
 // TAB LABELS
 //
-    
+
     {
         "class": "tab_label",
         "fade": true,
@@ -502,6 +502,16 @@
         "color": [125, 125, 125],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, -1]
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["phoenix_sidebar_font_large"],
+        "font.size": 12.0
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["phoenix_sidebar_font_xlarge"],
+        "font.size": 14.0
     },
     // Sidebar folder entry
     {
@@ -1035,8 +1045,8 @@
 
 //
 // DIRTY TABS WITH BOTTOM BAR
-// 
-    
+//
+
     // DEFAULT
     {
         "class": "tab_control",
@@ -1361,14 +1371,14 @@
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-close-selected.png",
         "layer0.opacity": 1.0
-    }, 
+    },
     {
         "class": "tab_close_button",
         "settings": ["phoenix_color_green", "phoenix_solid_current_tab"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
         "layer0.opacity": 1.0
-    }, 
+    },
     // Tabs highlight
     {
         "class": "tab_close_button",
@@ -1511,7 +1521,7 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
         "layer0.opacity": 1.0
-    }, 
+    },
     // Tabs highlight
     {
         "class": "tab_close_button",
@@ -1654,7 +1664,7 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
         "layer0.opacity": 1.0
-    }, 
+    },
     // Tabs highlight
     {
         "class": "tab_close_button",
@@ -1797,7 +1807,7 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
         "layer0.opacity": 1.0
-    }, 
+    },
     // Tabs highlight
     {
         "class": "tab_close_button",
@@ -1940,7 +1950,7 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/file-dirty-selected.png",
         "layer0.opacity": 1.0
-    }, 
+    },
     // Tabs highlight
     {
         "class": "tab_close_button",
@@ -2064,7 +2074,7 @@
         "settings": ["phoenix_classic_tabs"],
         "content_margin": [3, 4, 3, 3],
         "tab_overlap": 24,
-        "tab_height": 31 
+        "tab_height": 31
     },
     // Tab element
     {
