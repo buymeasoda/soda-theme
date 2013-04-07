@@ -996,6 +996,31 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Dark/icon-highlight-on.png"
+    },
+
+//
+// PROGRESS BARS
+//
+    {
+        "class": "progress_bar_control",
+        "layer0.tint": [32, 32, 32],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "progress_gauge_control",
+        "layer0.tint": [43, 102, 201],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+
+//
+// DIALOG BOXES
+//
+
+    {
+        "class": "dialog",
+        "layer0.tint": [64, 64, 64],
+        "layer0.opacity": 1.0
     }
 
 ]
