@@ -604,6 +604,24 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Light/group-closed-selected.png"
     },
+    // Sidebar folder closed
+    {
+        "class": "disclosure_button_control",
+        "settings": ["soda_folder_icons"],
+        "layer0.texture": "Theme - Soda/Soda Light/folder-closed.png"
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["soda_folder_icons"],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": "Theme - Soda/Soda Light/folder-closed-hover.png"
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["soda_folder_icons"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Soda/Soda Light/folder-closed-selected.png"
+    },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
@@ -621,6 +639,27 @@
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Light/group-open-selected.png"
+    },
+    // Sidebar folder open
+    {
+        "class": "disclosure_button_control",
+        "settings": ["soda_folder_icons"],
+        "attributes": ["expanded"],
+        "layer0.texture": "Theme - Soda/Soda Light/folder-open.png"
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["soda_folder_icons"],
+        "attributes": ["expanded"],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": "Theme - Soda/Soda Light/folder-open-hover.png"
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["soda_folder_icons"],
+        "attributes": ["expanded"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Soda/Soda Light/folder-open-selected.png"
     },
 
 //
