@@ -59,6 +59,16 @@ By default, a square tab style is used. If you'd prefer to use the original curv
 
 ![Soda Tab Styles](http://buymeasoda.github.com/soda-theme/images/features/multiple-tab-styles.png)
 
+### Sidebar Folder Icons
+
+Soda Theme has the ability to use folder icons in the sidebar.
+
+If you'd like to use folder icons in the sidebar instead of the regular arrows, add the following custom setting to your `Settings - User` file:
+
+    "soda_folder_icons": true
+
+![Soda Folder Icons](http://buymeasoda.github.com/soda-theme/images/features/sidebar-folder-icons.png)
+
 ### Retina Resolution UI
 
 Soda Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Soda Light and Soda Dark support retina displays.
