@@ -159,7 +159,7 @@ You want your tabs with automatic width? there is a custom setting for this!
 #### Phoenix Dark
 **Phoenix Theme provide six custom color schemes** according to Phoenix Dark colors variations : `red`, `green`, `blue`, `orange`, `yellow` and `pink`.
 
-Each color scheme has a "Eighties" version with a slightly lighter background (recommend to activate the `phoenix_eighties`).
+Each color scheme has a "Eighties" version with a slightly lighter background (recommend to activate the [`phoenix_eighties`](#eighties-mode-for-selected-tab)).
 
 **You can see screenshots of these color schemes in the top page**
 
