@@ -77,7 +77,7 @@ To configure Sublime Text 2 to use the theme:
 
 ## Alternate Colors
 
-Phoenix Theme ships with 6 alternate color styles. To configure you favorite color:
+Phoenix Theme ships with 6 alternate color styles. To configure your favorite color:
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
 * Add (or update) the `phoenix_color_*` entry
