@@ -77,7 +77,7 @@ To configure Sublime Text 2 to use the theme:
 
 ## Alternate Colors
 
-Phoenix Theme ships with 6 alternate color styles. To configure you favorite color:
+Phoenix Theme ships with 6 alternate color styles. To configure your favorite color:
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
 * Add (or update) the `phoenix_color_*` entry
@@ -159,7 +159,7 @@ You want your tabs with automatic width? there is a custom setting for this!
 #### Phoenix Dark
 **Phoenix Theme provide six custom color schemes** according to Phoenix Dark colors variations : `red`, `green`, `blue`, `orange`, `yellow` and `pink`.
 
-Each color scheme has a "Eighties" version with a slightly lighter background (recommend to activate the `phoenix_eighties`).
+Each color scheme has a "Eighties" version with a slightly lighter background (recommend to activate the [`phoenix_eighties`](#eighties-mode-for-selected-tab)).
 
 **You can see screenshots of these color schemes in the top page**
 
