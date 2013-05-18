@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Soda Theme - Dark and light custom UI themes for Sublime Text 2</title>
+    <title>Soda Theme - Dark and light custom UI themes for Sublime Text</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600|Source+Code+Pro">
 </head>
@@ -17,7 +17,7 @@
     <div id="header">
         <div class="content">
             <h1>Soda Theme</h1>
-            <p class="blurb">Dark and light custom UI themes for Sublime Text 2</p>
+            <p class="blurb">Dark and light custom UI themes for Sublime Text</p>
             <p class="credits"><a href="http://buymeasoda.com/">Buymeasoda (Ian Hill)</a></p>
         </div>
     </div>
@@ -41,15 +41,15 @@
         <div class="content">
 
             <h1>Soda Theme</h1>
-            <p>Dark and light custom UI themes for Sublime Text 2</p>
+            <p>Dark and light custom UI themes for Sublime Text</p>
 
             <hr>
 
             <h2>Installation</h2>
 
-            <h3>Sublime Text 2 requirements</h3>
+            <h3>Sublime Text requirements</h3>
 
-            <p>Soda theme is designed to work with the latest <a href="http://www.sublimetext.com/dev">development build</a> of Sublime Text 2.</p>
+            <p>Soda theme is designed to work with the latest development builds of Sublime Text, including <a href="http://www.sublimetext.com/dev">Sublime Text 2</a> and <a href="http://www.sublimetext.com/3dev">Sublime Text 3</a>.</p>
 
             <h3>Install using Sublime Package Control</h3>
 
@@ -57,9 +57,9 @@
 
             <h3>Install using Git</h3>
 
-            <p>Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your <code>Packages</code> directory in the Sublime Text 2 application settings area.</p>
+            <p>Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your <code>Packages</code> directory in the Sublime Text application settings area.</p>
 
-            <p>You can locate your Sublime Text 2 <code>Packages</code> directory by using the menu item <code>Preferences -&gt; Browse Packages...</code>.</p>
+            <p>You can locate your Sublime Text <code>Packages</code> directory by using the menu item <code>Preferences -&gt; Browse Packages...</code>.</p>
 
             <p>While inside the <code>Packages</code> directory, clone the theme repository using the command below:</p>
 
@@ -73,12 +73,14 @@ git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
             <ul>
                 <li>Download the files using the GitHub .zip download option</li>
                 <li>Unzip the files and rename the folder to <code>Theme - Soda</code></li>
-                <li>Copy the folder to your Sublime Text 2 <code>Packages</code> directory</li>
+                <li>Copy the folder to your Sublime Text <code>Packages</code> directory</li>
             </ul>
 
             <hr>
 
             <h2>Activating the theme</h2>
+
+            <p>To configure Sublime Text to use the theme, follow the instructions below for your specific version.</p>
 
             <h3>Configure Sublime Text 2</h3>
 
@@ -87,11 +89,26 @@ git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
                 <li>Add (or update) your theme entry to be <code>"theme": "Soda Light.sublime-theme"</code> or <code>"theme": "Soda Dark.sublime-theme"</code></li>
             </ul>
 
-            <h3>Example user settings</h3>
+            <h3>Example Sublime Text 2 user settings</h3>
 
             <pre><code>
 {
     "theme": "Soda Light.sublime-theme"
+}
+            </code></pre>
+
+            <h3>Configure Sublime Text 3</h3>
+
+            <ul>
+                <li>Open your User Settings Preferences file <code>Sublime Text -&gt; Preferences -&gt; Settings - User</code></li>
+                <li>Add (or update) your theme entry to be <code>"theme": "Soda Light 3.sublime-theme"</code> or <code>"theme": "Soda Dark 3.sublime-theme"</code></li>
+            </ul>
+
+            <h3>Example Sublime Text 3 user settings</h3>
+
+            <pre><code>
+{
+    "theme": "Soda Light 3.sublime-theme"
 }
             </code></pre>
 
@@ -137,7 +154,7 @@ git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
 
             <h3>Theme customisation</h3>
 
-            <p>Sublime Text 2 provides an elegant way to tweak existing themes without having to duplicate or maintain a separate copy of the original theme. If there are aspects of Soda Theme that you would like to adjust, take a look at the <a href="https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation">theme customisation</a> wiki page.</p>
+            <p>Sublime Text provides an elegant way to tweak existing themes without having to duplicate or maintain a separate copy of the original theme. If there are aspects of Soda Theme that you would like to adjust, take a look at the <a href="https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation">theme customisation</a> wiki page.</p>
 
             <hr>
 
@@ -151,7 +168,7 @@ git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
 
             <ul>
                 <li>Download <a href="http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip">colour-schemes.zip</a></li>
-                <li>Unzip and place the extracted <code>tmtheme</code> files in the Sublime Text 2 <code>Packages/User</code> folder</li>
+                <li>Unzip and place the extracted <code>tmtheme</code> files in the Sublime Text <code>Packages/User</code> folder</li>
                 <li>Enable the colour scheme via <code>Preferences -&gt; Color Scheme -&gt; User</code></li>
             </ul>
 
