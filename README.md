@@ -32,7 +32,8 @@ While inside the `Packages` directory, clone the theme repository using the comm
 
 * Download the files using the GitHub .zip download option
 * Unzip the files and rename the folder to `Theme - Soda`
-* Copy the folder to your Sublime Text `Packages` directory
+* Find your `Packages` directory using the menu item  `Preferences -> Browse Packages...`
+* Copy the folder into your Sublime Text `Packages` directory
 
 ## Activating the theme
 
