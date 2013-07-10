@@ -742,6 +742,23 @@
         "content_margin": [3, 3]
     },
 
+    // Text input dropdown
+    {
+        "class": "dropdown_button_control",
+        "content_margin": [8, 8],
+        "layer0.texture": "Theme - Default/down_arrow_inv.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [4, 4],
+        "layer1.texture": "Theme - Default/down_arrow_inv_over.png",
+        "layer1.opacity": 0.0,
+        "layer1.inner_margin": [4, 4],
+    },
+    {
+        "class": "dropdown_button_control",
+        "attributes": ["hover"],
+        "layer1.opacity": 1.0
+    },
+
 //
 // PANEL BACKGROUNDS
 //
