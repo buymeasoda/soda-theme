@@ -10,12 +10,17 @@
         "layer0.texture": "Theme - Soda/Soda Light/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1.0,
-        "content_margin": [3, 0, 3, 3],
+        "content_margin": [-4, 0, -4, 3],
         "tab_overlap": 5,
         "tab_width": 180,
         "tab_min_width": 45,
         "tab_height": 25,
         "mouse_wheel_switch": false
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["enable_tab_scrolling"],
+        "content_margin": [3, 0, 3, 3]
     },
     {
         "class": "tabset_control",
