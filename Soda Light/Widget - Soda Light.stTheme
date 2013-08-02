@@ -21,8 +21,65 @@
 				<string>#000000</string>
 				<key>invisibles</key>
 				<string>#E0E0E0</string>
+				<key>lineHighlight</key>
+				<string>#2D89D825</string>
 				<key>selection</key>
 				<string>#b5d5ff</string>
+				<key>selectionBorder</key>
+				<string>#b5d5ff00</string>
+				<key>inactiveSelection</key>
+				<string>#EDEDED</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#0066FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword, storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4271AE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2C473E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1D577D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant.character.escape</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e47b18</string>
 			</dict>
 		</dict>
 	</array>
