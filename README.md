@@ -148,6 +148,14 @@ Prefer small tabs? No problem, there is a custom setting for this!
 
 For now, five height are available : `small`, `medium`, `normal` (by default), `large`, and `xlarge`
 
+## Adjust tab label font size
+
+You can adjust the font size of your tab labels via custom setting:
+
+    "phoenix_tabs_font_small": true
+
+For now, four sizes are available : `small`, `normal` (by default), `large`, and `xlarge`
+
 ## Automatic width tabs
 
 You want your tabs with automatic width? there is a custom setting for this!
