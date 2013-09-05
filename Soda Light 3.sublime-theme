@@ -120,7 +120,7 @@
 //
 // TAB BUTTONS
 //
-    
+
     // Tab close button
     {
         "class": "tab_close_button",
@@ -199,7 +199,7 @@
 //
 // TAB LABELS
 //
-    
+
     {
         "class": "tab_label",
         "fade": true,
@@ -415,7 +415,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [255, 255, 255],
+        "layer0.tint": [254, 249, 233],
         "layer0.opacity": 1.0
     },
 
@@ -582,9 +582,9 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [110, 126, 141],
+        "color": [141, 131, 110],
         "font.bold": true,
-        "shadow_color": [249, 250, 252],
+        "shadow_color": [255, 244, 231],
         "shadow_offset": [0, 1]
     },
     // Sidebar heading selected
@@ -598,7 +598,7 @@
     {
         "class": "sidebar_label",
         "color": [0, 0, 0],
-        "shadow_color": [241, 244, 247],
+        "shadow_color": [237, 231, 224],
         "shadow_offset": [0, 1],
         "font.bold": false,
         "font.italic": false
@@ -607,12 +607,12 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [70, 86, 102]
+        "color": [90, 80, 55]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "color": [45, 56, 68]
+        "color": [60, 50, 25]
     },
     {
         "class": "sidebar_label",
@@ -815,7 +815,7 @@
         "class": "dropdown_button_control",
         "attributes": ["hover"],
         "layer0.texture": "Theme - Soda/Soda Light/text-field-list-hover.png"
-    },    
+    },
 
 //
 // PANEL BACKGROUNDS
@@ -914,7 +914,7 @@
     {
         "class": "popup_control",
         "content_margin": [2, 2],
-        "layer0.tint": [255, 255, 255],
+        "layer0.tint": [255, 251, 236],
         "layer0.opacity": 1.0
     },
     {
