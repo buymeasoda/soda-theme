@@ -120,7 +120,7 @@
 //
 // TAB BUTTONS
 //
-    
+
     // Tab close button
     {
         "class": "tab_close_button",
@@ -199,7 +199,7 @@
 //
 // TAB LABELS
 //
-    
+
     {
         "class": "tab_label",
         "fade": true,
@@ -800,7 +800,7 @@
         "layer0.texture": "Theme - Soda/Soda Light/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 5, 4, 3],
-        "content_margin": [3, 3, 6, 3]
+        "content_margin": [3, 4, 6, 2]
     },
 
     // Text input dropdown
@@ -815,7 +815,7 @@
         "class": "dropdown_button_control",
         "attributes": ["hover"],
         "layer0.texture": "Theme - Soda/Soda Light/text-field-list-hover.png"
-    },    
+    },
 
 //
 // PANEL BACKGROUNDS
