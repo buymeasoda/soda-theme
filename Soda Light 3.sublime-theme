@@ -436,13 +436,20 @@
     {
         "class": "minimap_control",
         "settings": ["always_show_minimap_viewport"],
-        "viewport_color": [0, 0, 0, 35],
+        "viewport_color": [0, 0, 0, 10],
+        "viewport_opacity": 1.0
+    },
+    {
+        "class": "minimap_control",
+        "attributes": ["hover"],
+        "settings": ["always_show_minimap_viewport"],
+        "viewport_color": [0, 0, 0, 25],
         "viewport_opacity": 1.0
     },
     {
         "class": "minimap_control",
         "settings": ["!always_show_minimap_viewport"],
-        "viewport_color": [0, 0, 0, 35],
+        "viewport_color": [0, 0, 0, 25],
         "viewport_opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
@@ -800,7 +807,7 @@
         "layer0.texture": "Theme - Soda/Soda Light/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 5, 4, 3],
-        "content_margin": [3, 3, 6, 3]
+        "content_margin": [3, 4, 6, 3]
     },
 
     // Text input dropdown
