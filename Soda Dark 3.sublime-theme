@@ -204,7 +204,7 @@
         "class": "tab_label",
         "fade": true,
         "fg": [62, 146, 167],
-        "shadow_color": [25, 25, 25],
+        "shadow_color": [15, 15, 15],
         "shadow_offset": [0, -1],
         "font.italic": false
     },
@@ -212,13 +212,13 @@
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "fg": [112, 166, 187],
-        "shadow_color": [30, 30, 30]
+        "shadow_color": [20, 20, 20]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [142, 196, 217],
-        "shadow_color": [35, 35, 35]
+        "shadow_color": [25, 25, 25]
     },
     {
         "class": "tab_label",
