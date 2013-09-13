@@ -492,20 +492,20 @@
     // General labels
     {
         "class": "label_control",
-        "color": [142, 206, 227]
+        "color": [82, 166, 187]
     },
     // Text field labels
     {
         "class": "label_control",
         "parents": [{"class": "panel_control"}],
-        "shadow_color": [50, 50, 50],
+        "shadow_color": [0, 0, 0],
         "shadow_offset": [0, -1]
     },
     // Button labels
     {
         "class": "label_control",
         "parents": [{"class": "button_control"}],
-        "shadow_color": [55, 55, 55],
+        "shadow_color": [0, 0, 0],
         "shadow_offset": [0, -1]
     },
 
@@ -800,7 +800,7 @@
         "layer0.texture": "Theme - Soda/Soda Dark/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 5, 4, 3],
-        "content_margin": [3, 3, 6, 3]
+        "content_margin": [3, 4, 6, 3]
     },
 
     // Text input dropdown
@@ -888,8 +888,8 @@
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [126, 199, 239, 255],
-        "selected_fg": [166, 229, 255, 255]
+        "fg": [186, 6, 105, 255],
+        "selected_fg": [211, 26, 130, 255]
     },
 
 //
