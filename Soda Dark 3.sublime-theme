@@ -436,7 +436,14 @@
     {
         "class": "minimap_control",
         "settings": ["always_show_minimap_viewport"],
-        "viewport_color": [255, 255, 255, 35],
+        "viewport_color": [255, 255, 255, 15],
+        "viewport_opacity": 1.0
+    },
+    {
+        "class": "minimap_control",
+        "attributes": ["hover"],
+        "settings": ["always_show_minimap_viewport"],
+        "viewport_color": [255, 255, 255, 25],
         "viewport_opacity": 1.0
     },
     {
@@ -458,7 +465,7 @@
 
     {
         "class": "dialog",
-        "layer0.tint": [67, 67, 67],
+        "layer0.tint": [52, 116, 137],
         "layer0.opacity": 1.0
     },
 
@@ -468,12 +475,12 @@
 
     {
         "class": "progress_bar_control",
-        "layer0.tint": [30, 30, 30],
+        "layer0.tint": [22, 76, 97],
         "layer0.opacity": 1.0
     },
     {
         "class": "progress_gauge_control",
-        "layer0.tint": [144, 144, 144],
+        "layer0.tint": [112, 166, 187],
         "layer0.opacity": 1.0,
         "content_margin": [0, 6]
     },
@@ -485,7 +492,7 @@
     // General labels
     {
         "class": "label_control",
-        "color": [204, 204, 204]
+        "color": [142, 206, 227]
     },
     // Text field labels
     {
@@ -541,7 +548,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [150, 150, 150],
+        "color": [102, 156, 177],
         "shadow_color": [25, 25, 25],
         "shadow_offset": [0, -1]
     },
@@ -583,7 +590,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [210, 210, 210],
+        "color": [62, 146, 167],
         "font.bold": true,
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, -1]
@@ -597,7 +604,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [125, 125, 125],
+        "color": [52, 106, 127],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, -1],
         "font.bold": false,
@@ -607,12 +614,12 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [190, 190, 190]
+        "color": [112, 166, 187]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "color": [235, 235, 235]
+        "color": [142, 196, 217]
     },
     {
         "class": "sidebar_label",
@@ -624,7 +631,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [210, 210, 210],
+        "color": [172, 226, 247],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1]
     },
@@ -908,7 +915,7 @@
     {
         "class": "popup_control",
         "content_margin": [2, 2],
-        "layer0.tint": [30, 30, 30],
+        "layer0.tint": [0, 28, 39],
         "layer0.opacity": 1.0
     },
     {
