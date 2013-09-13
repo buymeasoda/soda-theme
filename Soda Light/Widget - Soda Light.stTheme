@@ -26,7 +26,7 @@
 				<key>selection</key>
 				<string>#b5d5ff</string>
 				<key>selectionBorder</key>
-				<string>#b5d5ff00</string>
+				<string>#b5d5ff</string>
 				<key>inactiveSelection</key>
 				<string>#EDEDED</string>
 			</dict>
