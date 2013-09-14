@@ -1,22 +1,22 @@
-# Soda Theme
+# Sodarized Theme
 
-Dark and light custom UI themes for Sublime Text 2 and Sublime Text 3.
+Dark and light custom UI themes for ~~Sublime Text 2 and~~<sup>)1</sup> Sublime Text 3 (modified to match [Solarized](http://ethanschoonover.com/solarized) color scheme).
 
-Project site: [http://buymeasoda.github.com/soda-theme/](http://buymeasoda.github.com/soda-theme/)
+Project site: [https://github.com/jrolfs/soda-theme/tree/sodarized](https://github.com/jrolfs/soda-theme/tree/sodarized)
 
 ## Design
 
-![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-2-light-theme.png?v=4)
+![Sodarized Light Theme](http://i.imgur.com/63YdQbp.png)
 
-![Soda Dark Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-2-dark-theme.png?v=2)
+![Sodarized Dark Theme](http://i.imgur.com/fGDj7TL.png)
 
 ## Installation
 
-Soda theme is designed to work with the latest development builds of Sublime Text, including [Sublime Text 2](http://www.sublimetext.com/dev) and [Sublime Text 3](http://www.sublimetext.com/3dev).
+Sodarized theme is designed to work with the latest development builds of Sublime Text, including [Sublime Text 2](http://www.sublimetext.com/dev) and [Sublime Text 3](http://www.sublimetext.com/3dev).
 
 ### Using Sublime Package Control
 
-If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Soda Theme via the `Package Control: Install Package` menu item. The Soda Theme package is listed as `Theme - Soda` in the packages list.
+If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Sodarized Theme via the `Package Control: Install Package` menu item. The Sodarized Theme package is listed as `Theme - Sodarized` in the packages list.
 
 ### Using Git
 
@@ -26,12 +26,12 @@ You can locate your Sublime Text `Packages` directory by using the menu item `Pr
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-    git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
+    git clone -b sodarized https://github.com/jrolfs/soda-theme.git "Theme - Sodarized"
 
 ### Download Manually
 
 * Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - Soda`
+* Unzip the files and rename the folder to `Theme - Sodarized`
 * Find your `Packages` directory using the menu item  `Preferences -> Browse Packages...`
 * Copy the folder into your Sublime Text `Packages` directory
 
@@ -39,7 +39,7 @@ While inside the `Packages` directory, clone the theme repository using the comm
 
 To configure Sublime Text to use the theme, follow the instructions below for your specific version.
 
-### Sublime Text 2
+### ~~Sublime Text 2~~<sup>)(</sup>
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
 * Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
@@ -71,7 +71,9 @@ By default, a square tab style is used. If you'd prefer to use the original curv
 
     "soda_classic_tabs": true
 
-![Soda Tab Styles](http://buymeasoda.github.com/soda-theme/images/features/multiple-tab-styles.png)
+![Soda Tab Styles](http://i.imgur.com/k4kCl51.png)
+
+![Soda Tab Styles](http://i.imgur.com/it5DyH1.png)
 
 ### Sidebar Folder Icons
 
@@ -81,11 +83,11 @@ If you'd like to use folder icons in the sidebar instead of the regular arrows, 
 
     "soda_folder_icons": true
 
-![Soda Folder Icons](http://buymeasoda.github.com/soda-theme/images/features/sidebar-folder-icons.png)
+![Soda Folder Icons](http://i.imgur.com/3yg2l8I.png)
 
 ### Retina Resolution UI
 
-Soda Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Soda Light and Soda Dark support retina displays.
+Soda Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Soda Light and Soda Dark support retina displays.<sup>2</sup>
 
 ![Soda Retina](http://buymeasoda.github.com/soda-theme/images/features/soda-retina.png)
 
@@ -95,19 +97,19 @@ Sublime Text provides an elegant way to tweak existing themes without having to 
 
 ## Bonus Options
 
-### Syntax Highlighting Colour Schemes
+### Syntax Highlighting Color Schemes
 
-The Soda Light screenshot uses a modified version of Espresso Tutti Colori and the Soda Dark screenshot uses a modified version of Monokai.
+Both screenshots use a modified version of [Solarized](https://github.com/jrolfs/Solarized).
 
-If you'd like to use the syntax highlighting schemes shown in the screenshots: 
+If you'd like to use the syntax highlighting schemes shown in the screenshots:
 
-* Download [colour-schemes.zip](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip)
+* Download [color-schemes.zip](http://d.pr/f/zGyo)
 * Unzip and place the extracted `tmtheme` files in the Sublime Text `Packages/User` folder
 * Enable the colour scheme via `Preferences -> Color Scheme -> User`
 
 ### Code Font
 
-The code font shown in the screenshot is Menlo.
+The code font shown in the screenshot is [Inconsolata](http://levien.com/type/myfonts/inconsolata.html).
 
 ## Development
 
@@ -124,3 +126,10 @@ The following details apply to the Creative Commons license "author specified" c
 * Attribution example: Based on Soda Theme by Ian Hill (http://buymeasoda.com/)
 
 * Naming guidelines: If you create and distribute a derivative theme, please give your theme a unique and original name that does not directly include "Soda Theme" (or a close variant) in the main project title, repo name or Package Control name.
+
+
+## Todo
+
+<sup>1</sup> Sublime Text 2 support is currently incomplete
+
+<sup>2</sup> Retina Display support is untested as I don't have a Retina display to test with :'(
