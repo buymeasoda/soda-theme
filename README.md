@@ -14,7 +14,7 @@ Project site: [https://github.com/jrolfs/soda-theme/tree/sodarized](https://gith
 
 Sodarized theme is designed to work with the latest development builds of Sublime Text, including [Sublime Text 2](http://www.sublimetext.com/dev) and [Sublime Text 3](http://www.sublimetext.com/3dev).
 
-### Using Sublime Package Control
+### ~~Using Sublime Package Control~~<sup>2</sup>
 
 If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Sodarized Theme via the `Package Control: Install Package` menu item. The Sodarized Theme package is listed as `Theme - Sodarized` in the packages list.
 
@@ -87,7 +87,7 @@ If you'd like to use folder icons in the sidebar instead of the regular arrows, 
 
 ### Retina Resolution UI
 
-Soda Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Soda Light and Soda Dark support retina displays.<sup>2</sup>
+Soda Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Soda Light and Soda Dark support retina displays.<sup>3</sup>
 
 ![Soda Retina](http://buymeasoda.github.com/soda-theme/images/features/soda-retina.png)
 
@@ -132,4 +132,6 @@ The following details apply to the Creative Commons license "author specified" c
 
 <sup>1</sup> Sublime Text 2 support is currently incomplete
 
-<sup>2</sup> Retina Display support is untested as I don't have a Retina display to test with :'(
+<sup>2</sup> Not yet submitted to Package Control
+
+<sup>3</sup> Retina Display support is untested as I don't have a Retina display to test with :'(
