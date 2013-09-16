@@ -1,6 +1,6 @@
 # Sodarized Theme
 
-Dark and light custom UI themes for ~~Sublime Text 2 and~~<sup>)1</sup> Sublime Text 3 (modified to match [Solarized](http://ethanschoonover.com/solarized) color scheme).
+Dark and light custom UI themes for ~~Sublime Text 2 and~~<sup>1</sup> Sublime Text 3 (modified to match [Solarized](http://ethanschoonover.com/solarized) color scheme).
 
 Project site: [https://github.com/jrolfs/soda-theme/tree/sodarized](https://github.com/jrolfs/soda-theme/tree/sodarized)
 
@@ -39,7 +39,7 @@ While inside the `Packages` directory, clone the theme repository using the comm
 
 To configure Sublime Text to use the theme, follow the instructions below for your specific version.
 
-### ~~Sublime Text 2~~<sup>)(</sup>
+### ~~Sublime Text 2~~<sup>1</sup>
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
 * Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
