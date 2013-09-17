@@ -103,7 +103,7 @@ Both screenshots use a modified version of [Solarized](https://github.com/jrolfs
 
 If you'd like to use the syntax highlighting schemes shown in the screenshots:
 
-* Download [color-schemes.zip](http://d.pr/f/zGyo)
+* Download [color-schemes.zip](http://d.pr/f/7o1H)
 * Unzip and place the extracted `tmtheme` files in the Sublime Text `Packages/User` folder
 * Enable the colour scheme via `Preferences -> Color Scheme -> User`
 
