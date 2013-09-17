@@ -1,8 +1,8 @@
 # Sodarized
 
-Dark and light custom UI themes for ~~Sublime Text 2 and~~<sup>1</sup> Sublime Text 3 (modified to match [Solarized](http://ethanschoonover.com/solarized) color scheme).
+Dark and light custom UI themes for Sublime Text 2 and Sublime Text 3 (modified to match [Solarized](http://ethanschoonover.com/solarized) color scheme).
 
-Project site: [https://github.com/jrolfs/soda-theme/tree/sodarized](https://github.com/jrolfs/soda-theme/tree/sodarized)
+Project site: [https://github.com/jrolfs/sodarized](https://github.com/jrolfs/sodarized)
 
 ## Design
 
@@ -14,7 +14,7 @@ Project site: [https://github.com/jrolfs/soda-theme/tree/sodarized](https://gith
 
 Sodarized theme is designed to work with the latest development builds of Sublime Text, including [Sublime Text 2](http://www.sublimetext.com/dev) and [Sublime Text 3](http://www.sublimetext.com/3dev).
 
-### ~~Using Sublime Package Control~~<sup>2</sup>
+### Using Sublime Package Control
 
 If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Sodarized via the `Package Control: Install Package` menu item. The Sodarized package is listed as `Theme - Sodarized` in the packages list.
 
@@ -26,7 +26,7 @@ You can locate your Sublime Text `Packages` directory by using the menu item `Pr
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-    git clone -b sodarized https://github.com/jrolfs/soda-theme.git "Theme - Sodarized"
+    git clone https://github.com/jrolfs/Sodarized.git "Theme - Sodarized"
 
 ### Download Manually
 
@@ -39,7 +39,7 @@ While inside the `Packages` directory, clone the theme repository using the comm
 
 To configure Sublime Text to use the theme, follow the instructions below for your specific version.
 
-### ~~Sublime Text 2~~<sup>1</sup>
+### Sublime Text 2
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
 * Add (or update) your theme entry to be `"theme": "Sodarized Light.sublime-theme"` or `"theme": "Sodarized Dark.sublime-theme"`
@@ -87,7 +87,7 @@ If you'd like to use folder icons in the sidebar instead of the regular arrows, 
 
 ### Retina Resolution UI
 
-Sodarized has been designed to take advantage of retina resolution (high-dpi) displays. Both Sodarized Light and Sodarized Dark support retina displays.<sup>3</sup>
+Sodarized has been designed to take advantage of retina resolution (high-dpi) displays. Both Sodarized Light and Sodarized Dark support retina displays.<sup>1</sup>
 
 ![Sodarized Retina](http://buymeasoda.github.com/soda-theme/images/features/soda-retina.png)
 
@@ -130,8 +130,4 @@ The following details apply to the Creative Commons license "author specified" c
 
 ## Todo
 
-<sup>1</sup> Sublime Text 2 support is currently incomplete
-
-<sup>2</sup> Not yet submitted to Package Control
-
-<sup>3</sup> Retina Display support is untested as I don't have a Retina display to test with :'(
+<sup>1</sup> Retina Display support is untested as I don't have a Retina display to test with :'(
