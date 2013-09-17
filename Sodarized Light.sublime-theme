@@ -375,7 +375,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [0, 0, 0, 10],
+        "viewport_color": [0, 0, 0, 10]
     },
 
 //
@@ -499,7 +499,7 @@
         "class": "sidebar_label",
         "color": [0, 0, 0],
         "shadow_color": [237, 231, 224],
-        "shadow_offset": [0, 1],
+        "shadow_offset": [0, 1]
     },
     // Sidebar folder entry
     {
