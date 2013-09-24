@@ -20,7 +20,7 @@
 				<key>foreground</key>
 				<string>#F8F8F8</string>
 				<key>invisibles</key>
-				<string>#3B3B3B</string>
+				<string>#002b34</string>
 				<key>lineHighlight</key>
 				<string>#333333</string>
 				<key>selection</key>
