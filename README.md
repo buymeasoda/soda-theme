@@ -24,7 +24,7 @@ You can locate your Sublime Text `Packages` directory by using the menu item `Pr
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-    git clone https://github.com/electricgraffitti/soda-solarized-dark-theme "Theme - Soda SolarizedDark"
+    git clone https://github.com/electricgraffitti/soda-solarized-dark-theme "Theme - Soda SolarizedDark SolarizedDark"
 
 
 ## Activating the theme
@@ -62,7 +62,7 @@ Thanks to Ian Hill for his excellent Soda Theme to build from
 
 ## License
 
-Soda Theme is licensed under the [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/). You are free to share and remix the theme, however please abide by the license terms when doing so. 
+Soda Theme is licensed under the [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/). You are free to share and remix the theme, however please abide by the license terms when doing so.
 
 The following details apply to the Creative Commons license "author specified" components:
 
