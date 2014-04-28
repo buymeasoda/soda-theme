@@ -176,7 +176,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - SolarizedDark/Soda SolarizedDark/tab-close.png",
+        "layer0.texture": "Theme - Soda SolarizedDark/Soda SolarizedDark/tab-close.png",
         "layer0.opacity": 1.0
     },
     // Tab dirty button
