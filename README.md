@@ -6,7 +6,7 @@ Project site: [https://github.com/electricgraffitti/soda-solarized-dark-theme](h
 
 ## Design
 
-![Soda Dark Theme](https://dl.dropboxusercontent.com/u/3105141/C2CDN/Soda-SolarizedDark-theme.png)
+![Soda SolarizedDark Theme](https://dl.dropboxusercontent.com/u/3105141/C2CDN/Soda-SolarizedDark-theme.png)
 
 ## Installation
 
