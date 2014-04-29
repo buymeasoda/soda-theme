@@ -938,9 +938,9 @@
     },
     {
         "class": "quick_panel_row",
-        "layer0.tint": [0, 43, 54],
-        "layer1.tint": [0, 43, 54],
-        "layer2.tint": [0, 43, 54],
+        "layer0.tint": [4, 27, 34],
+        "layer1.tint": [4, 27, 34],
+        "layer2.tint": [4, 27, 34],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
@@ -948,9 +948,9 @@
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint": [0, 43, 54],
-        "layer1.tint": [0, 43, 54],
-        "layer2.tint": [0, 43, 54],
+        "layer0.tint": [133, 153, 0],
+        "layer1.tint": [133, 153, 0],
+        "layer2.tint": [133, 153, 0],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
