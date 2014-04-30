@@ -874,7 +874,6 @@
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
-        "fg": [42, 161, 152],
         "layer0.inner_margin": [4, 5, 4, 3],
         "content_margin": [3, 3, 6, 3]
     },
