@@ -120,7 +120,7 @@
 //
 // TAB BUTTONS
 //
-    
+
     // Tab close button
     {
         "class": "tab_close_button",
@@ -199,7 +199,7 @@
 //
 // TAB LABELS
 //
-    
+
     {
         "class": "tab_label",
         "fade": true,
@@ -771,6 +771,54 @@
     },
 
 //
+// SIDEBAR - FILE AND FOLDER ICONS
+//
+
+    // file and folder icons
+    {
+        "class": "icon_file_type",
+        // layer0.texture is filled in by code with the relevant icon name
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Theme - Soda/icons/folder.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_folder",
+        "parents":
+        [
+            { "class": "tree_row", "attributes": ["expanded"] }
+        ],
+        "layer0.texture": "Theme - Soda/icons/folder_open.png",
+    },
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - Soda/icons/spinner7.png",
+                "Theme - Soda/icons/spinner6.png",
+                "Theme - Soda/icons/spinner5.png",
+                "Theme - Soda/icons/spinner4.png",
+                "Theme - Soda/icons/spinner3.png",
+                "Theme - Soda/icons/spinner2.png",
+                "Theme - Soda/icons/spinner1.png",
+                "Theme - Soda/icons/spinner.png",
+            ],
+            "loop": true,
+            "frame_time": 0.075,
+        },
+
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+
+//
 // STANDARD TEXT BUTTONS
 //
 
@@ -815,7 +863,7 @@
         "class": "dropdown_button_control",
         "attributes": ["hover"],
         "layer0.texture": "Theme - Soda/Soda Light/text-field-list-hover.png"
-    },    
+    },
 
 //
 // PANEL BACKGROUNDS
