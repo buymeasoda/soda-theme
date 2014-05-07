@@ -120,7 +120,7 @@
 //
 // TAB BUTTONS
 //
-    
+
     // Tab close button
     {
         "class": "tab_close_button",
@@ -199,7 +199,7 @@
 //
 // TAB LABELS
 //
-    
+
     {
         "class": "tab_label",
         "fade": true,
@@ -712,24 +712,6 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Light/group-closed-selected.png"
     },
-    // Sidebar folder closed
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "layer0.texture": "Theme - Soda/Soda Light/folder-closed.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Soda/Soda Light/folder-closed-hover.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda/Soda Light/folder-closed-selected.png"
-    },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
@@ -748,26 +730,67 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Soda/Soda Light/group-open-selected.png"
     },
+    // Sidebar folder closed
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Theme - Soda/Soda Light/folder-closed.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": "Theme - Soda/Soda Light/folder-closed-hover.png"
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Soda/Soda Light/folder-closed-selected.png"
+    },
     // Sidebar folder open
     {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Theme - Soda/Soda Light/folder-open.png"
     },
     {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
         "layer0.texture": "Theme - Soda/Soda Light/folder-open-hover.png"
     },
     {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["expanded", "selected"]}],
         "layer0.texture": "Theme - Soda/Soda Light/folder-open-selected.png"
+    },
+    // Sidebar folder loading
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - Soda/Soda Light/spinner/spinner7.png",
+                "Theme - Soda/Soda Light/spinner/spinner6.png",
+                "Theme - Soda/Soda Light/spinner/spinner5.png",
+                "Theme - Soda/Soda Light/spinner/spinner4.png",
+                "Theme - Soda/Soda Light/spinner/spinner3.png",
+                "Theme - Soda/Soda Light/spinner/spinner2.png",
+                "Theme - Soda/Soda Light/spinner/spinner1.png",
+                "Theme - Soda/Soda Light/spinner/spinner.png"
+            ],
+            "loop": true,
+            "frame_time": 0.075,
+        },
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    // Sidebar file icons
+    {
+        "class": "icon_file_type",
+        // layer0.texture is filled in by code with the relevant icon name
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
     },
 
 //
@@ -815,7 +838,7 @@
         "class": "dropdown_button_control",
         "attributes": ["hover"],
         "layer0.texture": "Theme - Soda/Soda Light/text-field-list-hover.png"
-    },    
+    },
 
 //
 // PANEL BACKGROUNDS
