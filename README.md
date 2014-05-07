@@ -75,9 +75,9 @@ By default, a square tab style is used. If you'd prefer to use the original curv
 
 ### Sidebar Folder Icons
 
-Soda Theme has the ability to use folder icons in the sidebar.
+Soda Theme has folder icons by default with Sublime Text 3.
 
-If you'd like to use folder icons in the sidebar instead of the regular arrows, add the following custom setting to your `Settings - User` file:
+If you'd like to use folder icons in the Sublime Text 2 sidebar instead of the regular arrows, add the following custom setting to your `Settings - User` file:
 
     "soda_folder_icons": true
 
@@ -99,7 +99,7 @@ Sublime Text provides an elegant way to tweak existing themes without having to 
 
 The Soda Light screenshot uses a modified version of Espresso Tutti Colori and the Soda Dark screenshot uses a modified version of Monokai.
 
-If you'd like to use the syntax highlighting schemes shown in the screenshots: 
+If you'd like to use the syntax highlighting schemes shown in the screenshots:
 
 * Download [colour-schemes.zip](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip)
 * Unzip and place the extracted `tmtheme` files in the Sublime Text `Packages/User` folder
@@ -117,7 +117,7 @@ While developing the theme, I have documented some [theme challenges and ideas](
 
 ## License
 
-Soda Theme is licensed under the [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/). You are free to share and remix the theme, however please abide by the license terms when doing so. 
+Soda Theme is licensed under the [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/). You are free to share and remix the theme, however please abide by the license terms when doing so.
 
 The following details apply to the Creative Commons license "author specified" components:
 
