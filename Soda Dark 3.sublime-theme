@@ -561,7 +561,7 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 3],
+        "row_padding": [0, 3],
         "indent": 15,
         "indent_offset": 15,
         "indent_top_level": false,
@@ -690,7 +690,7 @@
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
-        "content_margin": [8, 8],
+        "content_margin": [0, 8],
         "layer0.texture": "Theme - Soda/Soda Dark/group-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
@@ -783,7 +783,7 @@
         "class": "icon_file_type",
         // layer0.texture is filled in by code with the relevant icon name
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [0, 8]
     },
 
 //
