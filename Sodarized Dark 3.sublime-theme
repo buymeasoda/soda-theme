@@ -845,7 +845,7 @@
     {
         "class": "overlay_control",
         "settings": ["soda_retina_fix"],
-        "layer0.tint": [67, 67, 67],
+        "layer0.tint": [0, 28, 39],
         "layer0.opacity": 1.0,
         "content_margin": [6, 8, 6, 6]
     },
@@ -857,7 +857,7 @@
     {
         "class": "quick_panel",
         "row_padding": [5, 2],
-        "layer0.tint": [33, 33, 33],
+        "layer0.tint": [0, 28, 39],
         "layer0.opacity": 1.0,
         "dark_content": true
     },
