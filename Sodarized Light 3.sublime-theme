@@ -807,7 +807,7 @@
         "layer0.texture": "Theme - Sodarized/Soda Light/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 5, 4, 3],
-        "content_margin": [3, 4, 6, 3]
+        "content_margin": [3, 4, 6, 2]
     },
 
     // Text input dropdown
