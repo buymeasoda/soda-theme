@@ -2161,6 +2161,19 @@
         "settings": ["phoenix_classic_tabs", "phoenix_eighties"],
         "attributes": ["selected"],
         "layer0.texture": "Theme - Phoenix/Phoenix Dark/classic/tab-active.eighties.png"
-    }
+    },
+    // FIX FOR ICONS
+    {
+        "class": "icon_file_type",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "content_margin": [0,0]
+    },
 
 ]
