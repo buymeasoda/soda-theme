@@ -1586,6 +1586,20 @@
         "class": "table_row",
         "settings": ["phoenix_color_blue"],
         "layer0.texture": "Theme - Phoenix/Phoenix Light/colors/blue/autocomplete-row-selected.png"
-    }
+    },
+
+    // FIX FOR DUPLICATE SIDEBAR ICONS
+    {
+        "class": "icon_file_type",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "content_margin": [0,0]
+    },
 
 ]
