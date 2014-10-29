@@ -8,7 +8,7 @@ Dark & Light custom UI themes with colors variations for Sublime Text 2
 ![Phoenix Light Theme](http://ballejaune.net/phoenix/Phoenix-Light.png?v=5)
 
 ##### Light Blue
-![Phoenix Light Blue Theme](http://ballejaune.net/phoenix/Phoenix-Light-Blue.png?v=5)
+![Phoenix Light Blue Theme](https://www.dropbox.com/s/ihf3xqryhp5r5e3/Phoenix-Light-Blue.png?dl=1)
 
 ##### Light Dark Blue
 ![Phoenix Light Dark Blue Theme](http://ballejaune.net/phoenix/Phoenix-Light-DarkBlue.png?v=2)
