@@ -5,34 +5,34 @@ Dark & Light custom UI themes with colors variations for Sublime Text 2
 ## Design & Colors
 
 ### Light Theme
-![Phoenix Light Theme](http://ballejaune.net/phoenix/Phoenix-Light.png?v=5)
+![Phoenix Light Theme](https://www.dropbox.com/s/cgg8zg4r5abybf5/Phoenix-Light.png?dl=1)
 
 ##### Light Blue
-![Phoenix Light Blue Theme](https://www.dropbox.com/s/ihf3xqryhp5r5e3/Phoenix-Light-Blue.png?dl=1)
+![Phoenix Light Blue Theme](https://www.dropbox.com/s/td4bae0nd0aop2z/Phoenix-Light-Blue.png?dl=1)
 
 ##### Light Dark Blue
-![Phoenix Light Dark Blue Theme](http://ballejaune.net/phoenix/Phoenix-Light-DarkBlue.png?v=2)
+![Phoenix Light Dark Blue Theme](https://www.dropbox.com/s/t64a18yj9vz77jn/Phoenix-Light-DarkBlue.png?dl=1)
 
 ### Dark Theme
-![Phoenix Dark Theme](http://ballejaune.net/phoenix/Phoenix-Dark.png?v=6)
+![Phoenix Dark Theme](https://www.dropbox.com/s/quie907jiksh3ww/Phoenix-Dark.png?dl=1)
 
 ##### Dark Green
-![Phoenix Dark Green Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Green.png?v=4)
+![Phoenix Dark Green Theme](https://www.dropbox.com/s/iy2v2guv2l0h6vm/Phoenix-Dark-Green.png?dl=1)
 
 ##### Dark Blue
-![Phoenix Dark Blue Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Blue.png?v=4)
+![Phoenix Dark Blue Theme](https://www.dropbox.com/s/g0wj453ommvwrwz/Phoenix-Dark-Blue.png?dl=1)
 
 ##### Dark Red
-![Phoenix Dark Red Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Red.png?v=4)
+![Phoenix Dark Red Theme](https://www.dropbox.com/s/jb8e5tv853pbty4/Phoenix-Dark-Red.png?dl=1)
 
 ##### Dark Pink
-![Phoenix Dark Pink Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Pink.png?v=4)
+![Phoenix Dark Pink Theme](https://www.dropbox.com/s/evbjor5ivj0ks57/Phoenix-Dark-Pink.png?dl=1)
 
 ##### Dark Orange
-![Phoenix Dark Orange Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Orange.png?v=6)
+![Phoenix Dark Orange Theme](https://www.dropbox.com/s/d9dp4xgrzn600kk/Phoenix-Dark-Orange.png?dl=1)
 
 ##### Dark Yellow
-![Phoenix Dark Yellow Theme](http://ballejaune.net/phoenix/Phoenix-Dark-Yellow.png?v=4)
+![Phoenix Dark Yellow Theme](https://www.dropbox.com/s/07n441u6e12n7g8/Phoenix-Dark-Yellow.png?dl=1)
 
 ## Todo's
 
@@ -94,7 +94,7 @@ You can hightlight or not the text label (filename) of the selected tab :
 
     "phoenix_highlight_current_tab": true    
 
-![Phoenix Dark Highlight Current Tab](http://ballejaune.net/phoenix/Phoenix-Highlight-Current-Tab.png?v=2)
+![Phoenix Dark Highlight Current Tab](https://www.dropbox.com/s/9fvu5arfn6gx3ju/Phoenix-Highlight-Current-Tab.png?dl=1)
 
 ## Eighties mode for selected tab
 
@@ -102,7 +102,7 @@ If you use Phoenix Dark Eighties or Tomorrow Night Eighties color scheme, you wi
 
     "phoenix_eighties": true    
 
-![Phoenix Dark Eighties Current Tab](http://ballejaune.net/phoenix/Phoenix-Dark-Eighties.png?v=1)
+![Phoenix Dark Eighties Current Tab](https://www.dropbox.com/s/sybtg5vsbw4026n/Phoenix-Dark-Eighties.png?dl=1)
 
 ## Solid selected tabs
 
@@ -110,7 +110,7 @@ Enable this setting to get **solid** background color on the selected tab :
 
     "phoenix_solid_current_tab": true
 
-![Phoenix Dark Solid Current Tab](http://ballejaune.net/phoenix/Phoenix-Solid-Current-Tab.png?v=2)
+![Phoenix Dark Solid Current Tab](https://www.dropbox.com/s/q7nbyo1bzijmmwt/Phoenix-Solid-Current-Tab.png?dl=1)
 
 ## Alternate dirty state for inactive tabs
 
@@ -122,7 +122,7 @@ Also, you can choose the color of the bottom bar (default is white, colors avail
 
     "phoenix_dirty_bottom_bar_red": true
 
-![Phoenix Dark Dirty State](http://ballejaune.net/phoenix/Phoenix-Dirty-State.png?v=2)
+![Phoenix Dark Dirty State](https://www.dropbox.com/s/p2hjsaird41wmva/Phoenix-Dirty-State.png?dl=1)
 
 ## Adjust row's height on sidebar tree
 
@@ -132,7 +132,7 @@ Example for large sidebar tree :
 
 For now, five additionnal height are available : `xsmall`, `small`, `medium`, `large`, and `xlarge`
 
-![Phoenix Sidebar Tree](http://ballejaune.net/phoenix/Phoenix-Sidebar-Tree.png?v=1)
+![Phoenix Sidebar Tree](https://www.dropbox.com/s/tn474da08mn86ws/Phoenix-Sidebar-Tree.png?dl=1)
 
 ## Colorize opened folders on Dark Theme
 
@@ -175,11 +175,11 @@ Also, Phoenix Theme provide two slightly modified color scheme to magnify the in
 
 #### Clouds Midnight
 Original theme : (http://fredhq.com/projects/clouds)
-![Phoenix Dark Clouds Midnight](http://ballejaune.net/phoenix/Phoenix-CloudsMidnightScheme.png?v=2)
+![Phoenix Dark Clouds Midnight](https://www.dropbox.com/s/zhkhzlz0ojn7f89/Phoenix-CloudsMidnightScheme.png?dl=1)
 
 #### Tomorrow Night
 Original theme : (https://github.com/chriskempson/Tomorrow-Theme)
-![Phoenix Dark Tomorrow Night](http://ballejaune.net/phoenix/Phoenix-TomorrowScheme.png?v=2)
+![Phoenix Dark Tomorrow Night](https://www.dropbox.com/s/tocgeisfsi9ttoe/Phoenix-TomorrowScheme.png?dl=1)
 
 ### Retina Resolution UI
 
