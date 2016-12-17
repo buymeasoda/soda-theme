@@ -209,7 +209,12 @@
         "fg": [0, 0, 0],
         "shadow_color": [255, 255, 255]
     },
-
+    // Grid
+    {
+        "class": "grid_layout_control",
+        "border_size": 3,
+        "border_color": [230, 230, 230]
+    },
 //
 // FOLD BUTTONS
 //
