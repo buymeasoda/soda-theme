@@ -24,7 +24,7 @@
     },
     {
         "class": "tabset_control",
-        "settings": ["mouse_wheel_switches_tabs"],
+        "settings": ["mouse_wheel_switches_tabs", "!enable_tab_scrolling"],
         "mouse_wheel_switch": true
     },
     // Tab element
