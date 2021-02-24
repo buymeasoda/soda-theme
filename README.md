@@ -16,7 +16,7 @@ Soda theme is designed to work with the latest development builds of Sublime Tex
 
 ### Using Sublime Package Control
 
-If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Soda Theme via the `Package Control: Install Package` menu item. The Soda Theme package is listed as `Theme - Soda` in the packages list.
+If you are using Will Bond's excellent [Sublime Package Control](https://packagecontrol.io/), you can easily install Soda Theme via the `Package Control: Install Package` menu item. The Soda Theme package is listed as `Theme - Soda` in the packages list.
 
 ### Using Git
 
@@ -101,7 +101,7 @@ The Soda Light screenshot uses a modified version of Espresso Tutti Colori and t
 
 If you'd like to use the syntax highlighting schemes shown in the screenshots:
 
-* Download [colour-schemes.zip](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip)
+* Download [colour-schemes.zip](https://buymeasoda.github.io/soda-theme/extras/colour-schemes.zip)
 * Unzip and place the extracted `tmtheme` files in the Sublime Text `Packages/User` folder
 * Enable the colour scheme via `Preferences -> Color Scheme -> User`
 
