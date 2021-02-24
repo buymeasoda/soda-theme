@@ -2,13 +2,13 @@
 
 Dark and light custom UI themes for Sublime Text 2 and Sublime Text 3.
 
-Project site: [http://buymeasoda.github.com/soda-theme/](http://buymeasoda.github.com/soda-theme/)
+Project site: [https://buymeasoda.github.io/soda-theme/](https://buymeasoda.github.io/soda-theme/)
 
 ## Design
 
-![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-2-light-theme.png?v=4)
+![Soda Light Theme](https://buymeasoda.github.io/soda-theme/images/screenshots/soda-2-light-theme.png?v=4)
 
-![Soda Dark Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-2-dark-theme.png?v=2)
+![Soda Dark Theme](https://buymeasoda.github.io/soda-theme/images/screenshots/soda-2-dark-theme.png?v=2)
 
 ## Installation
 
@@ -71,7 +71,7 @@ By default, a square tab style is used. If you'd prefer to use the original curv
 
     "soda_classic_tabs": true
 
-![Soda Tab Styles](http://buymeasoda.github.com/soda-theme/images/features/multiple-tab-styles.png)
+![Soda Tab Styles](https://buymeasoda.github.io/soda-theme/images/features/multiple-tab-styles.png)
 
 ### Sidebar Folder Icons
 
@@ -81,13 +81,13 @@ If you'd like to use folder icons in the Sublime Text 2 sidebar instead of the r
 
     "soda_folder_icons": true
 
-![Soda Folder Icons](http://buymeasoda.github.com/soda-theme/images/features/sidebar-folder-icons.png)
+![Soda Folder Icons](https://buymeasoda.github.io/soda-theme/images/features/sidebar-folder-icons.png)
 
 ### Retina Resolution UI
 
 Soda Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Soda Light and Soda Dark support retina displays.
 
-![Soda Retina](http://buymeasoda.github.com/soda-theme/images/features/soda-retina.png)
+![Soda Retina](https://buymeasoda.github.io/soda-theme/images/features/soda-retina.png)
 
 ### Theme Customisation
 
